@@ -1,0 +1,3 @@
+Original SLiPP training data and CC0 license from https://github.com/dassamalab/SLiPP_2024 at commit 944b3700ace6921629e1c3a2d9fd2cb44f98f5ed.
+
+The repository ships training data and a default RandomForestClassifier training recipe, not pretrained weights. Studio refits that recipe with sklearn 1.8.0, n_estimators=100, max_features=sqrt and random_state=2026. It retains the exact 17 selected features in upstream order. The fixed seed is an explicit reproducibility addition; scores are not claimed bit-identical to upstream's unseeded sklearn 0.23.2 runs. Prediction is binary lipid-binding propensity, not lipid-class identification or calibrated experimental probability.

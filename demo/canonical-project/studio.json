@@ -1,0 +1,8218 @@
+{
+  "schemaVersion": 1,
+  "id": "1atp-reference",
+  "name": "Protein kinase A",
+  "description": "ATP-bound catalytic subunit \u00b7 1ATP",
+  "structure": {
+    "id": "1ATP",
+    "path": "structure.pdb",
+    "format": "pdb",
+    "source": "RCSB PDB \u00b7 1ATP"
+  },
+  "model": {
+    "name": "SLiPP++",
+    "version": null,
+    "classes": [
+      "ADN",
+      "B12",
+      "BGC",
+      "CLR",
+      "COA",
+      "MYR",
+      "OLA",
+      "PLM",
+      "PP",
+      "STE"
+    ],
+    "calibration": "Not supplied"
+  },
+  "provenance": "Geometry and descriptors: Discngine/fpocket reference output, commit 4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066. This structural reference has no matched SLiPP++ predictions.",
+  "pockets": [
+    {
+      "id": "pocket-01",
+      "rank": 1,
+      "center": [
+        10.403509433962263,
+        9.528330188679245,
+        2.0060283018867926
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 52,
+          "name": "GLY",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 51,
+          "name": "THR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 72,
+          "name": "LYS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 184,
+          "name": "ASP",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 168,
+          "name": "LYS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 20,
+          "name": "ASN",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 19,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 18,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 170,
+          "name": "GLU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 53,
+          "name": "SER",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 21,
+          "name": "ALA",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 173,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 49,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 57,
+          "name": "VAL",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 123,
+          "name": "VAL",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 327,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 50,
+          "name": "GLY",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 122,
+          "name": "TYR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 127,
+          "name": "GLU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 54,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 55,
+          "name": "GLY",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 70,
+          "name": "ALA",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 121,
+          "name": "GLU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 120,
+          "name": "MET",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 183,
+          "name": "THR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 104,
+          "name": "VAL",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 171,
+          "name": "ASN",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": 0.977,
+        "Druggability Score": 0.959,
+        "Number of Alpha Spheres": 106.0,
+        "Total SASA": 8.888,
+        "Polar SASA": 6.473,
+        "Apolar SASA": 2.415,
+        "Volume": 590.402,
+        "Mean local hydrophobic density": 38.95,
+        "Mean alpha sphere radius": 3.904,
+        "Mean alp. sph. solvent access": 0.457,
+        "Apolar alpha sphere proportion": 0.377,
+        "Hydrophobicity score": 21.63,
+        "Volume score": 4.0,
+        "Polarity score": 14.0,
+        "Charge score": 0.0,
+        "Proportion of polar atoms": 43.636,
+        "Alpha sphere density": 5.607,
+        "Cent. of mass - Alpha Sphere max dist": 14.18,
+        "Flexibility": 0.089
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": 0.977,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.959,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 106.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 8.888,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 6.473,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 2.415,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 590.402,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 38.95,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 3.904,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.457,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.377,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 21.63,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 4.0,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 14.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 43.636,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 5.607,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 14.18,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.089,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              12.696,
+              10.125,
+              0.572
+            ],
+            "radius": 4.14
+          },
+          {
+            "center": [
+              12.658,
+              10.336,
+              0.615
+            ],
+            "radius": 4.11
+          },
+          {
+            "center": [
+              15.748,
+              7.295,
+              2.281
+            ],
+            "radius": 3.68
+          },
+          {
+            "center": [
+              15.893,
+              7.629,
+              1.836
+            ],
+            "radius": 3.66
+          },
+          {
+            "center": [
+              15.737,
+              7.221,
+              2.651
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              15.587,
+              7.185,
+              2.383
+            ],
+            "radius": 3.71
+          },
+          {
+            "center": [
+              15.56,
+              7.162,
+              2.428
+            ],
+            "radius": 3.71
+          },
+          {
+            "center": [
+              15.411,
+              6.698,
+              2.817
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              16.502,
+              8.143,
+              -0.698
+            ],
+            "radius": 3.61
+          },
+          {
+            "center": [
+              16.245,
+              8.195,
+              -0.256
+            ],
+            "radius": 3.63
+          },
+          {
+            "center": [
+              16.747,
+              8.027,
+              0.402
+            ],
+            "radius": 3.47
+          },
+          {
+            "center": [
+              8.391,
+              9.917,
+              4.429
+            ],
+            "radius": 4.28
+          },
+          {
+            "center": [
+              4.608,
+              9.454,
+              4.528
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              12.16,
+              9.989,
+              0.796
+            ],
+            "radius": 4.32
+          },
+          {
+            "center": [
+              8.419,
+              9.736,
+              3.826
+            ],
+            "radius": 4.26
+          },
+          {
+            "center": [
+              11.311,
+              9.97,
+              2.834
+            ],
+            "radius": 3.98
+          },
+          {
+            "center": [
+              10.943,
+              9.949,
+              3.228
+            ],
+            "radius": 3.99
+          },
+          {
+            "center": [
+              3.964,
+              10.063,
+              4.903
+            ],
+            "radius": 3.4
+          },
+          {
+            "center": [
+              4.493,
+              9.803,
+              4.348
+            ],
+            "radius": 3.8
+          },
+          {
+            "center": [
+              8.901,
+              9.248,
+              5.088
+            ],
+            "radius": 4.03
+          },
+          {
+            "center": [
+              7.945,
+              9.977,
+              4.425
+            ],
+            "radius": 4.13
+          },
+          {
+            "center": [
+              5.641,
+              10.208,
+              4.133
+            ],
+            "radius": 4.05
+          },
+          {
+            "center": [
+              5.137,
+              9.948,
+              4.335
+            ],
+            "radius": 3.86
+          },
+          {
+            "center": [
+              5.973,
+              10.461,
+              4.44
+            ],
+            "radius": 3.84
+          },
+          {
+            "center": [
+              5.539,
+              10.237,
+              4.137
+            ],
+            "radius": 4.07
+          },
+          {
+            "center": [
+              5.166,
+              10.162,
+              4.234
+            ],
+            "radius": 4.02
+          },
+          {
+            "center": [
+              4.419,
+              10.241,
+              4.427
+            ],
+            "radius": 3.84
+          },
+          {
+            "center": [
+              4.642,
+              10.149,
+              4.193
+            ],
+            "radius": 4.03
+          },
+          {
+            "center": [
+              15.028,
+              10.431,
+              -1.579
+            ],
+            "radius": 3.7
+          },
+          {
+            "center": [
+              15.448,
+              9.997,
+              -1.468
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              11.92,
+              10.913,
+              2.425
+            ],
+            "radius": 3.54
+          },
+          {
+            "center": [
+              12.555,
+              10.431,
+              0.673
+            ],
+            "radius": 4.12
+          },
+          {
+            "center": [
+              12.398,
+              10.456,
+              0.747
+            ],
+            "radius": 4.16
+          },
+          {
+            "center": [
+              12.462,
+              10.651,
+              0.708
+            ],
+            "radius": 4.1
+          },
+          {
+            "center": [
+              13.408,
+              11.474,
+              -0.038
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              12.575,
+              11.875,
+              1.278
+            ],
+            "radius": 3.48
+          },
+          {
+            "center": [
+              12.622,
+              11.44,
+              0.498
+            ],
+            "radius": 3.84
+          },
+          {
+            "center": [
+              12.543,
+              11.701,
+              0.36
+            ],
+            "radius": 3.7
+          },
+          {
+            "center": [
+              10.964,
+              9.954,
+              3.31
+            ],
+            "radius": 3.93
+          },
+          {
+            "center": [
+              10.084,
+              9.342,
+              3.463
+            ],
+            "radius": 4.37
+          },
+          {
+            "center": [
+              10.913,
+              9.938,
+              3.249
+            ],
+            "radius": 3.99
+          },
+          {
+            "center": [
+              8.417,
+              9.911,
+              4.438
+            ],
+            "radius": 4.29
+          },
+          {
+            "center": [
+              8.933,
+              9.304,
+              4.971
+            ],
+            "radius": 4.09
+          },
+          {
+            "center": [
+              9.3,
+              9.308,
+              3.778
+            ],
+            "radius": 4.49
+          },
+          {
+            "center": [
+              8.797,
+              9.677,
+              4.062
+            ],
+            "radius": 4.37
+          },
+          {
+            "center": [
+              8.647,
+              9.616,
+              4.763
+            ],
+            "radius": 4.15
+          },
+          {
+            "center": [
+              8.438,
+              9.899,
+              4.628
+            ],
+            "radius": 4.19
+          },
+          {
+            "center": [
+              8.422,
+              9.882,
+              4.527
+            ],
+            "radius": 4.26
+          },
+          {
+            "center": [
+              8.477,
+              10.165,
+              4.509
+            ],
+            "radius": 4.09
+          },
+          {
+            "center": [
+              8.499,
+              10.142,
+              4.794
+            ],
+            "radius": 3.94
+          },
+          {
+            "center": [
+              8.496,
+              10.107,
+              4.758
+            ],
+            "radius": 3.98
+          },
+          {
+            "center": [
+              16.898,
+              7.905,
+              0.868
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              16.869,
+              7.884,
+              0.943
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              4.361,
+              10.4,
+              4.2
+            ],
+            "radius": 3.83
+          },
+          {
+            "center": [
+              3.879,
+              9.828,
+              2.663
+            ],
+            "radius": 3.61
+          },
+          {
+            "center": [
+              5.222,
+              10.328,
+              3.927
+            ],
+            "radius": 4.06
+          },
+          {
+            "center": [
+              4.638,
+              10.187,
+              4.121
+            ],
+            "radius": 4.04
+          },
+          {
+            "center": [
+              16.512,
+              8.151,
+              -0.73
+            ],
+            "radius": 3.61
+          },
+          {
+            "center": [
+              16.501,
+              8.709,
+              -1.584
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              16.508,
+              8.126,
+              -0.728
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              7.098,
+              10.54,
+              1.083
+            ],
+            "radius": 3.54
+          },
+          {
+            "center": [
+              5.77,
+              10.197,
+              1.723
+            ],
+            "radius": 3.89
+          },
+          {
+            "center": [
+              5.664,
+              10.226,
+              1.757
+            ],
+            "radius": 3.89
+          },
+          {
+            "center": [
+              4.772,
+              9.928,
+              1.248
+            ],
+            "radius": 3.76
+          },
+          {
+            "center": [
+              11.132,
+              9.536,
+              0.429
+            ],
+            "radius": 4.22
+          },
+          {
+            "center": [
+              10.011,
+              9.555,
+              -0.632
+            ],
+            "radius": 3.74
+          },
+          {
+            "center": [
+              11.311,
+              9.372,
+              -0.515
+            ],
+            "radius": 3.48
+          },
+          {
+            "center": [
+              14.016,
+              11.694,
+              -0.593
+            ],
+            "radius": 3.44
+          },
+          {
+            "center": [
+              9.627,
+              10.169,
+              -0.589
+            ],
+            "radius": 3.72
+          },
+          {
+            "center": [
+              8.473,
+              10.88,
+              -0.785
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              4.769,
+              9.927,
+              1.247
+            ],
+            "radius": 3.76
+          },
+          {
+            "center": [
+              4.412,
+              9.621,
+              0.996
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              4.769,
+              9.927,
+              1.247
+            ],
+            "radius": 3.76
+          },
+          {
+            "center": [
+              4.289,
+              9.742,
+              1.121
+            ],
+            "radius": 3.73
+          },
+          {
+            "center": [
+              4.327,
+              9.797,
+              1.169
+            ],
+            "radius": 3.75
+          },
+          {
+            "center": [
+              15.472,
+              10.546,
+              -1.499
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              15.057,
+              10.749,
+              -1.594
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              14.976,
+              11.017,
+              -1.509
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              15.047,
+              11.161,
+              -1.927
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              9.031,
+              8.924,
+              6.153
+            ],
+            "radius": 3.46
+          },
+          {
+            "center": [
+              14.459,
+              6.786,
+              2.374
+            ],
+            "radius": 3.55
+          },
+          {
+            "center": [
+              14.767,
+              7.308,
+              1.99
+            ],
+            "radius": 3.77
+          },
+          {
+            "center": [
+              11.581,
+              9.247,
+              1.361
+            ],
+            "radius": 4.54
+          },
+          {
+            "center": [
+              11.373,
+              9.098,
+              1.697
+            ],
+            "radius": 4.57
+          },
+          {
+            "center": [
+              14.886,
+              7.436,
+              1.738
+            ],
+            "radius": 3.79
+          },
+          {
+            "center": [
+              14.831,
+              7.84,
+              1.22
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              14.929,
+              7.783,
+              1.201
+            ],
+            "radius": 3.83
+          },
+          {
+            "center": [
+              14.927,
+              7.767,
+              1.259
+            ],
+            "radius": 3.84
+          },
+          {
+            "center": [
+              8.772,
+              8.499,
+              5.722
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              10.096,
+              9.193,
+              3.267
+            ],
+            "radius": 4.42
+          },
+          {
+            "center": [
+              11.325,
+              9.075,
+              1.723
+            ],
+            "radius": 4.57
+          },
+          {
+            "center": [
+              11.202,
+              9.037,
+              1.672
+            ],
+            "radius": 4.55
+          },
+          {
+            "center": [
+              11.147,
+              9.165,
+              1.033
+            ],
+            "radius": 4.44
+          },
+          {
+            "center": [
+              11.183,
+              9.143,
+              1.108
+            ],
+            "radius": 4.47
+          },
+          {
+            "center": [
+              11.164,
+              9.093,
+              1.052
+            ],
+            "radius": 4.42
+          },
+          {
+            "center": [
+              10.152,
+              9.628,
+              -0.115
+            ],
+            "radius": 4.02
+          },
+          {
+            "center": [
+              10.159,
+              9.604,
+              -0.14
+            ],
+            "radius": 4.01
+          },
+          {
+            "center": [
+              10.214,
+              9.605,
+              -0.074
+            ],
+            "radius": 4.04
+          },
+          {
+            "center": [
+              9.953,
+              9.182,
+              -0.393
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              6.802,
+              9.905,
+              1.993
+            ],
+            "radius": 3.86
+          },
+          {
+            "center": [
+              7.362,
+              10.012,
+              1.775
+            ],
+            "radius": 3.78
+          },
+          {
+            "center": [
+              7.845,
+              9.601,
+              3.1
+            ],
+            "radius": 4.13
+          },
+          {
+            "center": [
+              8.025,
+              9.593,
+              3.157
+            ],
+            "radius": 4.18
+          },
+          {
+            "center": [
+              9.377,
+              9.17,
+              3.567
+            ],
+            "radius": 4.51
+          },
+          {
+            "center": [
+              9.399,
+              8.934,
+              3.561
+            ],
+            "radius": 4.38
+          },
+          {
+            "center": [
+              9.649,
+              9.131,
+              3.392
+            ],
+            "radius": 4.48
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-02",
+      "rank": 2,
+      "center": [
+        4.987388888888889,
+        -2.4955,
+        10.681333333333335
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 128,
+          "name": "MET",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 146,
+          "name": "TYR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 138,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 131,
+          "name": "HIS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 314,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 135,
+          "name": "ILE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 174,
+          "name": "ILE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 142,
+          "name": "HIS",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": 0.127,
+        "Druggability Score": 0.006,
+        "Number of Alpha Spheres": 18.0,
+        "Total SASA": 13.148,
+        "Polar SASA": 1.071,
+        "Apolar SASA": 12.076,
+        "Volume": 78.453,
+        "Mean local hydrophobic density": 17.0,
+        "Mean alpha sphere radius": 3.543,
+        "Mean alp. sph. solvent access": 0.402,
+        "Apolar alpha sphere proportion": 1.0,
+        "Hydrophobicity score": 68.875,
+        "Volume score": 5.25,
+        "Polarity score": 3.0,
+        "Charge score": 2.0,
+        "Proportion of polar atoms": 7.143,
+        "Alpha sphere density": 1.532,
+        "Cent. of mass - Alpha Sphere max dist": 3.109,
+        "Flexibility": 0.273
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": 0.127,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.006,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 18.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 13.148,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 1.071,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 12.076,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 78.453,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 17.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 3.543,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.402,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 68.875,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 5.25,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 3.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 2.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 7.143,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 1.532,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 3.109,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.273,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              5.666,
+              -2.347,
+              9.65
+            ],
+            "radius": 3.64
+          },
+          {
+            "center": [
+              5.663,
+              -2.342,
+              9.659
+            ],
+            "radius": 3.64
+          },
+          {
+            "center": [
+              4.857,
+              -3.237,
+              11.687
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              4.909,
+              -3.421,
+              12.179
+            ],
+            "radius": 3.52
+          },
+          {
+            "center": [
+              4.463,
+              -1.923,
+              10.602
+            ],
+            "radius": 3.52
+          },
+          {
+            "center": [
+              4.751,
+              -3.64,
+              11.929
+            ],
+            "radius": 3.49
+          },
+          {
+            "center": [
+              4.816,
+              -3.657,
+              12.202
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              5.643,
+              -2.334,
+              9.598
+            ],
+            "radius": 3.62
+          },
+          {
+            "center": [
+              5.573,
+              -2.273,
+              9.693
+            ],
+            "radius": 3.63
+          },
+          {
+            "center": [
+              5.625,
+              -2.3,
+              9.658
+            ],
+            "radius": 3.64
+          },
+          {
+            "center": [
+              5.618,
+              -2.25,
+              9.664
+            ],
+            "radius": 3.62
+          },
+          {
+            "center": [
+              4.669,
+              -1.977,
+              10.488
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              4.819,
+              -1.86,
+              10.403
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              4.472,
+              -1.924,
+              10.605
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              4.423,
+              -1.75,
+              10.637
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              4.474,
+              -1.928,
+              10.609
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              4.552,
+              -2.069,
+              10.74
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              4.78,
+              -3.687,
+              12.261
+            ],
+            "radius": 3.48
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-03",
+      "rank": 3,
+      "center": [
+        11.372432432432431,
+        6.546297297297297,
+        11.206513513513514
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 330,
+          "name": "TYR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 328,
+          "name": "ASP",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 49,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 127,
+          "name": "GLU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 18,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 129,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 130,
+          "name": "SER",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 327,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 326,
+          "name": "ASN",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 133,
+          "name": "ARG",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": 0.12,
+        "Druggability Score": 0.001,
+        "Number of Alpha Spheres": 37.0,
+        "Total SASA": 72.975,
+        "Polar SASA": 34.331,
+        "Apolar SASA": 38.644,
+        "Volume": 245.352,
+        "Mean local hydrophobic density": 7.0,
+        "Mean alpha sphere radius": 3.703,
+        "Mean alp. sph. solvent access": 0.441,
+        "Apolar alpha sphere proportion": 0.216,
+        "Hydrophobicity score": 21.3,
+        "Volume score": 5.0,
+        "Polarity score": 7.0,
+        "Charge score": 0.0,
+        "Proportion of polar atoms": 50.0,
+        "Alpha sphere density": 3.103,
+        "Cent. of mass - Alpha Sphere max dist": 8.153,
+        "Flexibility": 0.149
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": 0.12,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.001,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 37.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 72.975,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 34.331,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 38.644,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 245.352,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 7.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 3.703,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.441,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.216,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 21.3,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 5.0,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 7.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 50.0,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 3.103,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 8.153,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.149,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              10.707,
+              8.465,
+              9.562
+            ],
+            "radius": 3.56
+          },
+          {
+            "center": [
+              11.897,
+              7.6,
+              10.387
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              11.713,
+              7.651,
+              10.429
+            ],
+            "radius": 3.61
+          },
+          {
+            "center": [
+              11.722,
+              7.673,
+              10.44
+            ],
+            "radius": 3.59
+          },
+          {
+            "center": [
+              11.706,
+              7.635,
+              10.442
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              13.057,
+              5.577,
+              11.209
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              13.599,
+              4.782,
+              12.622
+            ],
+            "radius": 3.56
+          },
+          {
+            "center": [
+              12.926,
+              5.521,
+              11.298
+            ],
+            "radius": 3.49
+          },
+          {
+            "center": [
+              11.593,
+              6.62,
+              11.138
+            ],
+            "radius": 3.56
+          },
+          {
+            "center": [
+              11.15,
+              6.837,
+              11.229
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              11.203,
+              6.847,
+              11.061
+            ],
+            "radius": 3.66
+          },
+          {
+            "center": [
+              10.1,
+              6.854,
+              10.639
+            ],
+            "radius": 3.72
+          },
+          {
+            "center": [
+              10.043,
+              6.829,
+              10.609
+            ],
+            "radius": 3.72
+          },
+          {
+            "center": [
+              10.008,
+              6.832,
+              11.002
+            ],
+            "radius": 3.55
+          },
+          {
+            "center": [
+              9.996,
+              6.814,
+              10.721
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              14.136,
+              3.921,
+              15.176
+            ],
+            "radius": 4.64
+          },
+          {
+            "center": [
+              13.45,
+              4.065,
+              15.198
+            ],
+            "radius": 4.27
+          },
+          {
+            "center": [
+              14.349,
+              4.009,
+              14.805
+            ],
+            "radius": 4.61
+          },
+          {
+            "center": [
+              13.844,
+              4.358,
+              14.153
+            ],
+            "radius": 4.07
+          },
+          {
+            "center": [
+              14.4,
+              4.002,
+              14.664
+            ],
+            "radius": 4.57
+          },
+          {
+            "center": [
+              13.873,
+              4.433,
+              13.491
+            ],
+            "radius": 3.88
+          },
+          {
+            "center": [
+              13.578,
+              4.355,
+              12.749
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              9.524,
+              6.563,
+              10.325
+            ],
+            "radius": 3.47
+          },
+          {
+            "center": [
+              9.327,
+              7.05,
+              10.077
+            ],
+            "radius": 3.46
+          },
+          {
+            "center": [
+              10.903,
+              8.245,
+              9.723
+            ],
+            "radius": 3.55
+          },
+          {
+            "center": [
+              11.424,
+              7.798,
+              10.169
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              10.102,
+              6.908,
+              10.584
+            ],
+            "radius": 3.71
+          },
+          {
+            "center": [
+              10.425,
+              8.337,
+              9.557
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              10.324,
+              8.322,
+              9.469
+            ],
+            "radius": 3.54
+          },
+          {
+            "center": [
+              10.351,
+              8.314,
+              9.56
+            ],
+            "radius": 3.59
+          },
+          {
+            "center": [
+              10.082,
+              7.855,
+              9.856
+            ],
+            "radius": 3.56
+          },
+          {
+            "center": [
+              9.763,
+              7.428,
+              9.952
+            ],
+            "radius": 3.52
+          },
+          {
+            "center": [
+              9.808,
+              6.869,
+              10.405
+            ],
+            "radius": 3.64
+          },
+          {
+            "center": [
+              10.016,
+              6.824,
+              10.586
+            ],
+            "radius": 3.71
+          },
+          {
+            "center": [
+              9.96,
+              6.815,
+              10.553
+            ],
+            "radius": 3.7
+          },
+          {
+            "center": [
+              9.895,
+              6.462,
+              10.35
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              9.826,
+              6.743,
+              10.451
+            ],
+            "radius": 3.64
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-04",
+      "rank": 4,
+      "center": [
+        16.1615,
+        19.84559090909091,
+        0.6525
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 52,
+          "name": "GLY",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 55,
+          "name": "GLY",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 51,
+          "name": "THR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 78,
+          "name": "LYS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 335,
+          "name": "ILE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 115,
+          "name": "ASN",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 73,
+          "name": "ILE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 336,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 56,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 334,
+          "name": "GLU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 333,
+          "name": "GLU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 54,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 75,
+          "name": "ASP",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": 0.109,
+        "Druggability Score": 0.001,
+        "Number of Alpha Spheres": 22.0,
+        "Total SASA": 68.866,
+        "Polar SASA": 30.222,
+        "Apolar SASA": 38.644,
+        "Volume": 348.112,
+        "Mean local hydrophobic density": 5.0,
+        "Mean alpha sphere radius": 4.052,
+        "Mean alp. sph. solvent access": 0.605,
+        "Apolar alpha sphere proportion": 0.273,
+        "Hydrophobicity score": 8.846,
+        "Volume score": 4.231,
+        "Polarity score": 8.0,
+        "Charge score": 0.0,
+        "Proportion of polar atoms": 57.692,
+        "Alpha sphere density": 3.539,
+        "Cent. of mass - Alpha Sphere max dist": 9.04,
+        "Flexibility": 0.444
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": 0.109,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.001,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 22.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 68.866,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 30.222,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 38.644,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 348.112,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 5.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 4.052,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.605,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.273,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 8.846,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 4.231,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 8.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 57.692,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 3.539,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 9.04,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.444,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              17.904,
+              16.846,
+              2.034
+            ],
+            "radius": 4.0
+          },
+          {
+            "center": [
+              13.212,
+              24.01,
+              -0.223
+            ],
+            "radius": 3.56
+          },
+          {
+            "center": [
+              13.59,
+              24.333,
+              -0.124
+            ],
+            "radius": 3.66
+          },
+          {
+            "center": [
+              16.89,
+              22.935,
+              1.418
+            ],
+            "radius": 4.64
+          },
+          {
+            "center": [
+              16.767,
+              18.684,
+              1.078
+            ],
+            "radius": 4.22
+          },
+          {
+            "center": [
+              16.715,
+              18.704,
+              1.057
+            ],
+            "radius": 4.2
+          },
+          {
+            "center": [
+              17.342,
+              17.855,
+              1.83
+            ],
+            "radius": 4.24
+          },
+          {
+            "center": [
+              17.041,
+              17.846,
+              1.98
+            ],
+            "radius": 4.08
+          },
+          {
+            "center": [
+              16.58,
+              19.06,
+              0.747
+            ],
+            "radius": 4.27
+          },
+          {
+            "center": [
+              17.635,
+              17.024,
+              1.403
+            ],
+            "radius": 3.8
+          },
+          {
+            "center": [
+              17.395,
+              17.419,
+              1.401
+            ],
+            "radius": 3.89
+          },
+          {
+            "center": [
+              16.9,
+              18.376,
+              1.091
+            ],
+            "radius": 4.07
+          },
+          {
+            "center": [
+              17.782,
+              16.444,
+              1.256
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              14.632,
+              22.244,
+              -1.461
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              14.379,
+              23.675,
+              -0.187
+            ],
+            "radius": 4.18
+          },
+          {
+            "center": [
+              16.642,
+              20.313,
+              0.285
+            ],
+            "radius": 4.56
+          },
+          {
+            "center": [
+              15.401,
+              22.803,
+              0.789
+            ],
+            "radius": 4.49
+          },
+          {
+            "center": [
+              14.95,
+              20.959,
+              -0.498
+            ],
+            "radius": 4.03
+          },
+          {
+            "center": [
+              16.062,
+              19.544,
+              -0.072
+            ],
+            "radius": 4.25
+          },
+          {
+            "center": [
+              16.188,
+              19.842,
+              -0.177
+            ],
+            "radius": 4.42
+          },
+          {
+            "center": [
+              16.044,
+              18.633,
+              0.739
+            ],
+            "radius": 3.73
+          },
+          {
+            "center": [
+              15.502,
+              19.054,
+              -0.011
+            ],
+            "radius": 3.68
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-05",
+      "rank": 5,
+      "center": [
+        -2.240727272727273,
+        7.040272727272727,
+        -7.725
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 98,
+          "name": "VAL",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 106,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 96,
+          "name": "GLN",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 99,
+          "name": "ASN",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 105,
+          "name": "LYS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 104,
+          "name": "VAL",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 103,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 100,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 95,
+          "name": "LEU",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": 0.099,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 22.0,
+        "Total SASA": 49.935,
+        "Polar SASA": 36.651,
+        "Apolar SASA": 13.284,
+        "Volume": 191.749,
+        "Mean local hydrophobic density": 0.0,
+        "Mean alpha sphere radius": 3.8,
+        "Mean alp. sph. solvent access": 0.414,
+        "Apolar alpha sphere proportion": 0.045,
+        "Hydrophobicity score": 53.556,
+        "Volume score": 4.667,
+        "Polarity score": 3.0,
+        "Charge score": 1.0,
+        "Proportion of polar atoms": 66.667,
+        "Alpha sphere density": 2.63,
+        "Cent. of mass - Alpha Sphere max dist": 5.374,
+        "Flexibility": 0.199
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": 0.099,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 22.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 49.935,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 36.651,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 13.284,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 191.749,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 3.8,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.414,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.045,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 53.556,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 4.667,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 3.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 66.667,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 2.63,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 5.374,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.199,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              -3.903,
+              9.091,
+              -8.804
+            ],
+            "radius": 4.57
+          },
+          {
+            "center": [
+              -3.754,
+              8.992,
+              -8.593
+            ],
+            "radius": 4.51
+          },
+          {
+            "center": [
+              -2.044,
+              6.009,
+              -7.092
+            ],
+            "radius": 3.61
+          },
+          {
+            "center": [
+              -2.612,
+              5.104,
+              -6.282
+            ],
+            "radius": 3.41
+          },
+          {
+            "center": [
+              -2.076,
+              5.517,
+              -6.742
+            ],
+            "radius": 3.61
+          },
+          {
+            "center": [
+              -1.785,
+              5.216,
+              -7.035
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              -3.701,
+              8.983,
+              -8.573
+            ],
+            "radius": 4.49
+          },
+          {
+            "center": [
+              -3.246,
+              8.932,
+              -8.467
+            ],
+            "radius": 4.3
+          },
+          {
+            "center": [
+              -1.423,
+              9.628,
+              -8.928
+            ],
+            "radius": 3.47
+          },
+          {
+            "center": [
+              -2.819,
+              9.025,
+              -8.67
+            ],
+            "radius": 4.13
+          },
+          {
+            "center": [
+              -1.924,
+              8.885,
+              -8.753
+            ],
+            "radius": 3.78
+          },
+          {
+            "center": [
+              -1.997,
+              4.98,
+              -6.859
+            ],
+            "radius": 3.52
+          },
+          {
+            "center": [
+              -1.773,
+              5.141,
+              -7.052
+            ],
+            "radius": 3.64
+          },
+          {
+            "center": [
+              -1.816,
+              5.091,
+              -7.152
+            ],
+            "radius": 3.55
+          },
+          {
+            "center": [
+              -1.491,
+              5.021,
+              -7.121
+            ],
+            "radius": 3.59
+          },
+          {
+            "center": [
+              -1.417,
+              4.986,
+              -7.145
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              -1.425,
+              4.982,
+              -7.131
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              -2.908,
+              8.645,
+              -8.261
+            ],
+            "radius": 4.08
+          },
+          {
+            "center": [
+              -1.967,
+              6.532,
+              -7.237
+            ],
+            "radius": 3.55
+          },
+          {
+            "center": [
+              -2.911,
+              8.402,
+              -8.137
+            ],
+            "radius": 3.98
+          },
+          {
+            "center": [
+              -1.038,
+              7.72,
+              -7.892
+            ],
+            "radius": 3.49
+          },
+          {
+            "center": [
+              -1.266,
+              8.004,
+              -8.024
+            ],
+            "radius": 3.55
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-06",
+      "rank": 6,
+      "center": [
+        17.152588235294118,
+        -2.5401764705882353,
+        -6.187058823529412
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 165,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 219,
+          "name": "VAL",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 209,
+          "name": "ILE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 220,
+          "name": "ASP",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 223,
+          "name": "ALA",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 205,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 199,
+          "name": "CYS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 204,
+          "name": "TYR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 201,
+          "name": "THR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 200,
+          "name": "GLY",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 167,
+          "name": "LEU",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": 0.082,
+        "Druggability Score": 0.001,
+        "Number of Alpha Spheres": 17.0,
+        "Total SASA": 33.55,
+        "Polar SASA": 21.473,
+        "Apolar SASA": 12.076,
+        "Volume": 113.865,
+        "Mean local hydrophobic density": 4.0,
+        "Mean alpha sphere radius": 3.603,
+        "Mean alp. sph. solvent access": 0.4,
+        "Apolar alpha sphere proportion": 0.294,
+        "Hydrophobicity score": 42.364,
+        "Volume score": 4.091,
+        "Polarity score": 4.0,
+        "Charge score": 0.0,
+        "Proportion of polar atoms": 43.75,
+        "Alpha sphere density": 1.98,
+        "Cent. of mass - Alpha Sphere max dist": 3.596,
+        "Flexibility": 0.0
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": 0.082,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.001,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 17.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 33.55,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 21.473,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 12.076,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 113.865,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 4.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 3.603,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.4,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.294,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 42.364,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 4.091,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 4.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 43.75,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 1.98,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 3.596,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.0,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              17.284,
+              -3.003,
+              -7.392
+            ],
+            "radius": 3.79
+          },
+          {
+            "center": [
+              17.14,
+              -3.037,
+              -7.495
+            ],
+            "radius": 3.7
+          },
+          {
+            "center": [
+              17.287,
+              -2.942,
+              -7.558
+            ],
+            "radius": 3.71
+          },
+          {
+            "center": [
+              15.862,
+              -3.114,
+              -6.582
+            ],
+            "radius": 3.49
+          },
+          {
+            "center": [
+              18.41,
+              -1.869,
+              -6.831
+            ],
+            "radius": 3.46
+          },
+          {
+            "center": [
+              18.093,
+              -1.568,
+              -4.665
+            ],
+            "radius": 3.47
+          },
+          {
+            "center": [
+              18.176,
+              -2.391,
+              -6.545
+            ],
+            "radius": 3.68
+          },
+          {
+            "center": [
+              18.178,
+              -1.26,
+              -4.556
+            ],
+            "radius": 3.4
+          },
+          {
+            "center": [
+              18.146,
+              -1.324,
+              -4.503
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              17.446,
+              -3.009,
+              -6.936
+            ],
+            "radius": 3.9
+          },
+          {
+            "center": [
+              17.338,
+              -2.967,
+              -7.164
+            ],
+            "radius": 3.86
+          },
+          {
+            "center": [
+              16.971,
+              -3.071,
+              -6.456
+            ],
+            "radius": 3.78
+          },
+          {
+            "center": [
+              16.372,
+              -3.033,
+              -6.54
+            ],
+            "radius": 3.63
+          },
+          {
+            "center": [
+              16.616,
+              -2.342,
+              -4.591
+            ],
+            "radius": 3.5
+          },
+          {
+            "center": [
+              16.735,
+              -2.388,
+              -4.679
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              16.003,
+              -2.925,
+              -6.361
+            ],
+            "radius": 3.5
+          },
+          {
+            "center": [
+              15.537,
+              -2.94,
+              -6.326
+            ],
+            "radius": 3.41
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-07",
+      "rank": 7,
+      "center": [
+        15.348933333333333,
+        11.3632,
+        -6.958200000000001
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 54,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 84,
+          "name": "GLN",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 91,
+          "name": "GLU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 72,
+          "name": "LYS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 186,
+          "name": "GLY",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 184,
+          "name": "ASP",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 88,
+          "name": "THR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 74,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 87,
+          "name": "HIS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 187,
+          "name": "PHE",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": 0.08,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 15.0,
+        "Total SASA": 24.543,
+        "Polar SASA": 6.429,
+        "Apolar SASA": 18.114,
+        "Volume": 111.778,
+        "Mean local hydrophobic density": 1.0,
+        "Mean alpha sphere radius": 3.63,
+        "Mean alp. sph. solvent access": 0.358,
+        "Apolar alpha sphere proportion": 0.133,
+        "Hydrophobicity score": 19.9,
+        "Volume score": 4.2,
+        "Polarity score": 6.0,
+        "Charge score": 0.0,
+        "Proportion of polar atoms": 42.857,
+        "Alpha sphere density": 1.666,
+        "Cent. of mass - Alpha Sphere max dist": 3.746,
+        "Flexibility": 0.029
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": 0.08,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 15.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 24.543,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 6.429,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 18.114,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 111.778,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 3.63,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.358,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.133,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 19.9,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 4.2,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 6.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 42.857,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 1.666,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 3.746,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.029,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              15.64,
+              11.395,
+              -7.384
+            ],
+            "radius": 3.87
+          },
+          {
+            "center": [
+              14.547,
+              11.507,
+              -5.506
+            ],
+            "radius": 3.47
+          },
+          {
+            "center": [
+              15.133,
+              11.716,
+              -6.441
+            ],
+            "radius": 3.54
+          },
+          {
+            "center": [
+              14.464,
+              10.763,
+              -5.571
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              14.467,
+              10.37,
+              -5.296
+            ],
+            "radius": 3.44
+          },
+          {
+            "center": [
+              14.848,
+              13.223,
+              -6.639
+            ],
+            "radius": 3.5
+          },
+          {
+            "center": [
+              15.418,
+              12.203,
+              -7.05
+            ],
+            "radius": 3.68
+          },
+          {
+            "center": [
+              15.66,
+              11.576,
+              -7.445
+            ],
+            "radius": 3.87
+          },
+          {
+            "center": [
+              16.047,
+              11.948,
+              -7.515
+            ],
+            "radius": 3.67
+          },
+          {
+            "center": [
+              15.521,
+              11.388,
+              -7.841
+            ],
+            "radius": 3.75
+          },
+          {
+            "center": [
+              15.57,
+              11.317,
+              -8.748
+            ],
+            "radius": 3.41
+          },
+          {
+            "center": [
+              15.604,
+              11.206,
+              -7.376
+            ],
+            "radius": 3.86
+          },
+          {
+            "center": [
+              15.544,
+              11.122,
+              -7.297
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              15.979,
+              10.444,
+              -7.233
+            ],
+            "radius": 3.55
+          },
+          {
+            "center": [
+              15.792,
+              10.27,
+              -7.031
+            ],
+            "radius": 3.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-08",
+      "rank": 8,
+      "center": [
+        5.665363636363637,
+        25.358545454545457,
+        2.046409090909091
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 40,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 41,
+          "name": "ASP",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 60,
+          "name": "VAL",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 45,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 71,
+          "name": "MET",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 58,
+          "name": "MET",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 335,
+          "name": "ILE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 43,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 73,
+          "name": "ILE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 117,
+          "name": "TYR",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": 0.043,
+        "Druggability Score": 0.009,
+        "Number of Alpha Spheres": 22.0,
+        "Total SASA": 81.162,
+        "Polar SASA": 10.803,
+        "Apolar SASA": 70.359,
+        "Volume": 254.082,
+        "Mean local hydrophobic density": 15.0,
+        "Mean alpha sphere radius": 3.719,
+        "Mean alp. sph. solvent access": 0.435,
+        "Apolar alpha sphere proportion": 0.727,
+        "Hydrophobicity score": 61.3,
+        "Volume score": 5.2,
+        "Polarity score": 3.0,
+        "Charge score": 0.0,
+        "Proportion of polar atoms": 26.316,
+        "Alpha sphere density": 3.36,
+        "Cent. of mass - Alpha Sphere max dist": 6.916,
+        "Flexibility": 0.282
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": 0.043,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.009,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 22.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 81.162,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 10.803,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 70.359,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 254.082,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 15.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 3.719,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.435,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.727,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 61.3,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 5.2,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 3.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 26.316,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 3.36,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 6.916,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.282,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              3.602,
+              29.013,
+              1.016
+            ],
+            "radius": 3.55
+          },
+          {
+            "center": [
+              5.556,
+              23.79,
+              2.238
+            ],
+            "radius": 3.66
+          },
+          {
+            "center": [
+              4.374,
+              24.558,
+              2.469
+            ],
+            "radius": 3.55
+          },
+          {
+            "center": [
+              6.248,
+              22.839,
+              2.662
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              6.687,
+              23.325,
+              2.417
+            ],
+            "radius": 3.8
+          },
+          {
+            "center": [
+              3.605,
+              28.995,
+              0.988
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              6.666,
+              23.871,
+              2.16
+            ],
+            "radius": 3.91
+          },
+          {
+            "center": [
+              6.778,
+              23.571,
+              2.298
+            ],
+            "radius": 3.87
+          },
+          {
+            "center": [
+              6.777,
+              25.942,
+              2.51
+            ],
+            "radius": 3.88
+          },
+          {
+            "center": [
+              3.851,
+              24.675,
+              2.332
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              3.757,
+              24.628,
+              2.235
+            ],
+            "radius": 3.46
+          },
+          {
+            "center": [
+              3.932,
+              27.786,
+              1.618
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              4.637,
+              26.459,
+              2.777
+            ],
+            "radius": 3.76
+          },
+          {
+            "center": [
+              4.889,
+              27.18,
+              2.881
+            ],
+            "radius": 4.07
+          },
+          {
+            "center": [
+              3.599,
+              29.091,
+              1.545
+            ],
+            "radius": 3.89
+          },
+          {
+            "center": [
+              7.492,
+              23.806,
+              0.509
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              7.257,
+              23.839,
+              1.162
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              7.637,
+              23.976,
+              0.562
+            ],
+            "radius": 3.48
+          },
+          {
+            "center": [
+              6.839,
+              23.523,
+              2.245
+            ],
+            "radius": 3.83
+          },
+          {
+            "center": [
+              6.757,
+              23.101,
+              2.378
+            ],
+            "radius": 3.69
+          },
+          {
+            "center": [
+              6.868,
+              27.794,
+              3.414
+            ],
+            "radius": 4.36
+          },
+          {
+            "center": [
+              6.83,
+              26.126,
+              2.605
+            ],
+            "radius": 3.89
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-09",
+      "rank": 9,
+      "center": [
+        -5.1385000000000005,
+        12.7835625,
+        6.8214999999999995
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 68,
+          "name": "HIS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 66,
+          "name": "GLY",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 67,
+          "name": "ASN",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 321,
+          "name": "PRO",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 322,
+          "name": "GLY",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 122,
+          "name": "TYR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 318,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 121,
+          "name": "GLU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 176,
+          "name": "GLN",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 124,
+          "name": "ALA",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": 0.04,
+        "Druggability Score": 0.001,
+        "Number of Alpha Spheres": 16.0,
+        "Total SASA": 74.931,
+        "Polar SASA": 39.91,
+        "Apolar SASA": 35.021,
+        "Volume": 265.169,
+        "Mean local hydrophobic density": 6.0,
+        "Mean alpha sphere radius": 3.866,
+        "Mean alp. sph. solvent access": 0.612,
+        "Apolar alpha sphere proportion": 0.438,
+        "Hydrophobicity score": 9.7,
+        "Volume score": 3.5,
+        "Polarity score": 5.0,
+        "Charge score": 0.0,
+        "Proportion of polar atoms": 42.105,
+        "Alpha sphere density": 3.366,
+        "Cent. of mass - Alpha Sphere max dist": 6.92,
+        "Flexibility": 0.332
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": 0.04,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.001,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 16.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 74.931,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 39.91,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 35.021,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 265.169,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 6.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 3.866,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.612,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.438,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 9.7,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 3.5,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 5.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 42.105,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 3.366,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 6.92,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.332,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              -7.764,
+              15.242,
+              7.103
+            ],
+            "radius": 3.96
+          },
+          {
+            "center": [
+              -5.783,
+              13.019,
+              6.568
+            ],
+            "radius": 4.49
+          },
+          {
+            "center": [
+              -5.788,
+              12.752,
+              6.449
+            ],
+            "radius": 4.69
+          },
+          {
+            "center": [
+              -7.309,
+              14.474,
+              6.726
+            ],
+            "radius": 4.12
+          },
+          {
+            "center": [
+              -7.432,
+              15.466,
+              6.755
+            ],
+            "radius": 3.7
+          },
+          {
+            "center": [
+              -7.395,
+              15.658,
+              6.56
+            ],
+            "radius": 3.5
+          },
+          {
+            "center": [
+              -4.485,
+              12.252,
+              8.033
+            ],
+            "radius": 3.97
+          },
+          {
+            "center": [
+              -4.567,
+              13.02,
+              7.587
+            ],
+            "radius": 3.99
+          },
+          {
+            "center": [
+              -4.565,
+              12.978,
+              7.571
+            ],
+            "radius": 4.02
+          },
+          {
+            "center": [
+              -4.654,
+              11.597,
+              3.673
+            ],
+            "radius": 3.94
+          },
+          {
+            "center": [
+              -3.791,
+              12.064,
+              4.278
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              -4.242,
+              12.235,
+              5.61
+            ],
+            "radius": 3.94
+          },
+          {
+            "center": [
+              -3.273,
+              10.191,
+              7.558
+            ],
+            "radius": 3.44
+          },
+          {
+            "center": [
+              -4.073,
+              12.143,
+              8.369
+            ],
+            "radius": 3.67
+          },
+          {
+            "center": [
+              -3.693,
+              10.881,
+              8.123
+            ],
+            "radius": 3.54
+          },
+          {
+            "center": [
+              -3.402,
+              10.565,
+              8.181
+            ],
+            "radius": 3.46
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-10",
+      "rank": 10,
+      "center": [
+        17.605687500000002,
+        28.8045625,
+        -4.3244375
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 337,
+          "name": "VAL",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 338,
+          "name": "SEP",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 336,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 77,
+          "name": "GLN",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 342,
+          "name": "LYS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 114,
+          "name": "SER",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 75,
+          "name": "ASP",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": 0.033,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 16.0,
+        "Total SASA": 59.946,
+        "Polar SASA": 41.831,
+        "Apolar SASA": 18.114,
+        "Volume": 184.388,
+        "Mean local hydrophobic density": 0.0,
+        "Mean alpha sphere radius": 3.746,
+        "Mean alp. sph. solvent access": 0.505,
+        "Apolar alpha sphere proportion": 0.062,
+        "Hydrophobicity score": -5.143,
+        "Volume score": 4.0,
+        "Polarity score": 6.0,
+        "Charge score": 1.0,
+        "Proportion of polar atoms": 60.0,
+        "Alpha sphere density": 2.65,
+        "Cent. of mass - Alpha Sphere max dist": 6.451,
+        "Flexibility": 0.408
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": 0.033,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 16.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 59.946,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 41.831,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 18.114,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 184.388,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 3.746,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.505,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.062,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": -5.143,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 4.0,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 6.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 60.0,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 2.65,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 6.451,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.408,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              16.399,
+              30.997,
+              -2.408
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              16.378,
+              31.564,
+              -2.092
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              16.438,
+              31.064,
+              -2.387
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              17.895,
+              28.085,
+              -5.613
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              18.864,
+              28.71,
+              -3.265
+            ],
+            "radius": 4.57
+          },
+          {
+            "center": [
+              17.852,
+              28.163,
+              -5.642
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              17.748,
+              28.256,
+              -3.638
+            ],
+            "radius": 3.99
+          },
+          {
+            "center": [
+              18.34,
+              28.694,
+              -3.618
+            ],
+            "radius": 4.44
+          },
+          {
+            "center": [
+              17.987,
+              28.173,
+              -5.18
+            ],
+            "radius": 3.72
+          },
+          {
+            "center": [
+              18.227,
+              28.38,
+              -4.224
+            ],
+            "radius": 4.14
+          },
+          {
+            "center": [
+              18.119,
+              28.193,
+              -4.507
+            ],
+            "radius": 3.99
+          },
+          {
+            "center": [
+              16.692,
+              30.26,
+              -3.367
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              17.772,
+              29.567,
+              -4.909
+            ],
+            "radius": 3.47
+          },
+          {
+            "center": [
+              17.71,
+              27.065,
+              -6.133
+            ],
+            "radius": 3.5
+          },
+          {
+            "center": [
+              17.725,
+              26.987,
+              -6.025
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              17.545,
+              26.715,
+              -6.183
+            ],
+            "radius": 3.43
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-11",
+      "rank": 11,
+      "center": [
+        -2.978939393939394,
+        -14.272848484848485,
+        4.987484848484848
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 300,
+          "name": "THR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 299,
+          "name": "THR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 311,
+          "name": "GLU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 310,
+          "name": "VAL",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 301,
+          "name": "ASP",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 304,
+          "name": "ALA",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 309,
+          "name": "LYS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 305,
+          "name": "ILE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 144,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 145,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 141,
+          "name": "PRO",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": 0.028,
+        "Druggability Score": 0.004,
+        "Number of Alpha Spheres": 33.0,
+        "Total SASA": 107.153,
+        "Polar SASA": 31.072,
+        "Apolar SASA": 76.081,
+        "Volume": 425.611,
+        "Mean local hydrophobic density": 14.75,
+        "Mean alpha sphere radius": 4.088,
+        "Mean alp. sph. solvent access": 0.593,
+        "Apolar alpha sphere proportion": 0.485,
+        "Hydrophobicity score": 15.727,
+        "Volume score": 4.182,
+        "Polarity score": 6.0,
+        "Charge score": 0.0,
+        "Proportion of polar atoms": 40.0,
+        "Alpha sphere density": 3.609,
+        "Cent. of mass - Alpha Sphere max dist": 10.761,
+        "Flexibility": 0.37
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": 0.028,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.004,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 33.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 107.153,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 31.072,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 76.081,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 425.611,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 14.75,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 4.088,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.593,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.485,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 15.727,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 4.182,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 6.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 40.0,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 3.609,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 10.761,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.37,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              -1.389,
+              -15.808,
+              4.608
+            ],
+            "radius": 3.81
+          },
+          {
+            "center": [
+              -2.806,
+              -16.644,
+              5.884
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              -1.682,
+              -16.022,
+              4.59
+            ],
+            "radius": 3.66
+          },
+          {
+            "center": [
+              -1.648,
+              -15.823,
+              4.692
+            ],
+            "radius": 3.85
+          },
+          {
+            "center": [
+              -5.623,
+              -13.895,
+              2.816
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              -7.247,
+              -14.004,
+              3.331
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              -8.747,
+              -13.072,
+              4.181
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              -3.506,
+              -14.247,
+              3.643
+            ],
+            "radius": 3.79
+          },
+          {
+            "center": [
+              -3.65,
+              -14.469,
+              3.805
+            ],
+            "radius": 3.84
+          },
+          {
+            "center": [
+              -5.817,
+              -14.938,
+              3.693
+            ],
+            "radius": 3.87
+          },
+          {
+            "center": [
+              -2.262,
+              -14.253,
+              4.649
+            ],
+            "radius": 4.35
+          },
+          {
+            "center": [
+              -10.162,
+              -12.809,
+              7.673
+            ],
+            "radius": 4.49
+          },
+          {
+            "center": [
+              -8.823,
+              -12.829,
+              5.969
+            ],
+            "radius": 3.78
+          },
+          {
+            "center": [
+              -8.681,
+              -12.9,
+              4.221
+            ],
+            "radius": 3.68
+          },
+          {
+            "center": [
+              -1.409,
+              -15.542,
+              5.914
+            ],
+            "radius": 4.33
+          },
+          {
+            "center": [
+              -1.417,
+              -15.715,
+              4.699
+            ],
+            "radius": 3.91
+          },
+          {
+            "center": [
+              -1.682,
+              -15.399,
+              5.074
+            ],
+            "radius": 4.31
+          },
+          {
+            "center": [
+              -1.56,
+              -13.587,
+              5.226
+            ],
+            "radius": 4.51
+          },
+          {
+            "center": [
+              -1.567,
+              -13.472,
+              5.345
+            ],
+            "radius": 4.45
+          },
+          {
+            "center": [
+              -1.18,
+              -15.075,
+              6.105
+            ],
+            "radius": 4.34
+          },
+          {
+            "center": [
+              -1.076,
+              -15.289,
+              7.116
+            ],
+            "radius": 4.14
+          },
+          {
+            "center": [
+              -1.505,
+              -13.532,
+              5.394
+            ],
+            "radius": 4.46
+          },
+          {
+            "center": [
+              -0.289,
+              -13.357,
+              5.212
+            ],
+            "radius": 3.55
+          },
+          {
+            "center": [
+              -0.289,
+              -13.067,
+              3.4
+            ],
+            "radius": 3.46
+          },
+          {
+            "center": [
+              -1.253,
+              -14.77,
+              5.826
+            ],
+            "radius": 4.37
+          },
+          {
+            "center": [
+              -1.525,
+              -13.665,
+              5.202
+            ],
+            "radius": 4.54
+          },
+          {
+            "center": [
+              -1.488,
+              -13.667,
+              5.27
+            ],
+            "radius": 4.52
+          },
+          {
+            "center": [
+              -1.739,
+              -14.231,
+              4.832
+            ],
+            "radius": 4.53
+          },
+          {
+            "center": [
+              -1.647,
+              -14.742,
+              4.977
+            ],
+            "radius": 4.44
+          },
+          {
+            "center": [
+              -1.682,
+              -14.732,
+              5.03
+            ],
+            "radius": 4.49
+          },
+          {
+            "center": [
+              -1.616,
+              -13.199,
+              5.185
+            ],
+            "radius": 4.27
+          },
+          {
+            "center": [
+              -1.612,
+              -13.209,
+              5.227
+            ],
+            "radius": 4.28
+          },
+          {
+            "center": [
+              -1.726,
+              -13.041,
+              5.798
+            ],
+            "radius": 4.17
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-12",
+      "rank": 12,
+      "center": [
+        6.6098,
+        4.43064,
+        16.25228
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 134,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 130,
+          "name": "SER",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 328,
+          "name": "ASP",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 327,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 326,
+          "name": "ASN",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 325,
+          "name": "SER",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 131,
+          "name": "HIS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 314,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 317,
+          "name": "LYS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 316,
+          "name": "PRO",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": 0.023,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 25.0,
+        "Total SASA": 95.745,
+        "Polar SASA": 55.893,
+        "Apolar SASA": 39.852,
+        "Volume": 417.352,
+        "Mean local hydrophobic density": 1.0,
+        "Mean alpha sphere radius": 4.066,
+        "Mean alp. sph. solvent access": 0.569,
+        "Apolar alpha sphere proportion": 0.08,
+        "Hydrophobicity score": 3.2,
+        "Volume score": 4.2,
+        "Polarity score": 7.0,
+        "Charge score": 2.0,
+        "Proportion of polar atoms": 50.0,
+        "Alpha sphere density": 3.596,
+        "Cent. of mass - Alpha Sphere max dist": 9.1,
+        "Flexibility": 0.243
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": 0.023,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 25.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 95.745,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 55.893,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 39.852,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 417.352,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 4.066,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.569,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.08,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 3.2,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 4.2,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 7.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 2.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 50.0,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 3.596,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 9.1,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.243,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              10.769,
+              4.6,
+              17.144
+            ],
+            "radius": 4.66
+          },
+          {
+            "center": [
+              8.918,
+              7.04,
+              15.105
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              8.811,
+              6.91,
+              15.467
+            ],
+            "radius": 3.75
+          },
+          {
+            "center": [
+              8.654,
+              7.049,
+              15.351
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              7.009,
+              4.684,
+              15.839
+            ],
+            "radius": 4.13
+          },
+          {
+            "center": [
+              10.267,
+              4.709,
+              16.884
+            ],
+            "radius": 4.61
+          },
+          {
+            "center": [
+              9.09,
+              4.045,
+              16.233
+            ],
+            "radius": 4.02
+          },
+          {
+            "center": [
+              8.866,
+              5.705,
+              16.024
+            ],
+            "radius": 4.41
+          },
+          {
+            "center": [
+              8.485,
+              4.984,
+              16.506
+            ],
+            "radius": 4.67
+          },
+          {
+            "center": [
+              7.933,
+              4.703,
+              15.769
+            ],
+            "radius": 4.23
+          },
+          {
+            "center": [
+              8.124,
+              4.913,
+              16.122
+            ],
+            "radius": 4.48
+          },
+          {
+            "center": [
+              5.406,
+              4.327,
+              17.67
+            ],
+            "radius": 4.5
+          },
+          {
+            "center": [
+              6.841,
+              4.575,
+              15.663
+            ],
+            "radius": 4.04
+          },
+          {
+            "center": [
+              6.255,
+              4.603,
+              14.86
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              5.811,
+              4.553,
+              15.542
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              6.32,
+              4.537,
+              16.081
+            ],
+            "radius": 4.07
+          },
+          {
+            "center": [
+              5.988,
+              4.465,
+              16.323
+            ],
+            "radius": 4.09
+          },
+          {
+            "center": [
+              6.008,
+              4.524,
+              16.167
+            ],
+            "radius": 4.03
+          },
+          {
+            "center": [
+              7.257,
+              4.342,
+              15.204
+            ],
+            "radius": 3.86
+          },
+          {
+            "center": [
+              4.688,
+              3.338,
+              16.867
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              4.288,
+              3.032,
+              16.894
+            ],
+            "radius": 3.79
+          },
+          {
+            "center": [
+              2.992,
+              2.18,
+              16.473
+            ],
+            "radius": 3.71
+          },
+          {
+            "center": [
+              2.016,
+              2.191,
+              16.513
+            ],
+            "radius": 3.71
+          },
+          {
+            "center": [
+              2.23,
+              2.17,
+              17.329
+            ],
+            "radius": 4.23
+          },
+          {
+            "center": [
+              2.219,
+              2.587,
+              18.277
+            ],
+            "radius": 4.7
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-13",
+      "rank": 13,
+      "center": [
+        6.23492,
+        -9.986839999999999,
+        -14.637080000000001
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 288,
+          "name": "VAL",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 155,
+          "name": "GLU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 16,
+          "name": "LYS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 159,
+          "name": "SER",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 19,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 158,
+          "name": "HIS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 282,
+          "name": "GLY",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 221,
+          "name": "TRP",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 217,
+          "name": "LYS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 218,
+          "name": "ALA",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 283,
+          "name": "ASN",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": 0.014,
+        "Druggability Score": 0.006,
+        "Number of Alpha Spheres": 25.0,
+        "Total SASA": 93.954,
+        "Polar SASA": 32.365,
+        "Apolar SASA": 61.589,
+        "Volume": 369.771,
+        "Mean local hydrophobic density": 11.0,
+        "Mean alpha sphere radius": 4.069,
+        "Mean alp. sph. solvent access": 0.617,
+        "Apolar alpha sphere proportion": 0.48,
+        "Hydrophobicity score": 19.0,
+        "Volume score": 4.091,
+        "Polarity score": 7.0,
+        "Charge score": 2.0,
+        "Proportion of polar atoms": 41.667,
+        "Alpha sphere density": 3.378,
+        "Cent. of mass - Alpha Sphere max dist": 9.735,
+        "Flexibility": 0.248
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": 0.014,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.006,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 25.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 93.954,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 32.365,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 61.589,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 369.771,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 11.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 4.069,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.617,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.48,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 19.0,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 4.091,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 7.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 2.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 41.667,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 3.378,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 9.735,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.248,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              2.506,
+              -11.531,
+              -14.753
+            ],
+            "radius": 3.67
+          },
+          {
+            "center": [
+              3.068,
+              -10.223,
+              -15.746
+            ],
+            "radius": 4.35
+          },
+          {
+            "center": [
+              2.399,
+              -9.985,
+              -15.545
+            ],
+            "radius": 4.02
+          },
+          {
+            "center": [
+              2.404,
+              -9.971,
+              -15.57
+            ],
+            "radius": 4.02
+          },
+          {
+            "center": [
+              5.125,
+              -10.22,
+              -14.88
+            ],
+            "radius": 4.59
+          },
+          {
+            "center": [
+              6.885,
+              -10.576,
+              -13.808
+            ],
+            "radius": 4.29
+          },
+          {
+            "center": [
+              5.976,
+              -10.559,
+              -14.49
+            ],
+            "radius": 4.5
+          },
+          {
+            "center": [
+              6.965,
+              -10.686,
+              -13.636
+            ],
+            "radius": 4.15
+          },
+          {
+            "center": [
+              6.745,
+              -10.296,
+              -13.292
+            ],
+            "radius": 4.06
+          },
+          {
+            "center": [
+              6.779,
+              -10.238,
+              -13.247
+            ],
+            "radius": 4.0
+          },
+          {
+            "center": [
+              6.903,
+              -10.566,
+              -13.771
+            ],
+            "radius": 4.28
+          },
+          {
+            "center": [
+              7.436,
+              -10.329,
+              -13.922
+            ],
+            "radius": 4.04
+          },
+          {
+            "center": [
+              5.178,
+              -9.99,
+              -14.394
+            ],
+            "radius": 4.28
+          },
+          {
+            "center": [
+              6.257,
+              -9.98,
+              -12.969
+            ],
+            "radius": 3.9
+          },
+          {
+            "center": [
+              5.645,
+              -10.172,
+              -13.886
+            ],
+            "radius": 4.19
+          },
+          {
+            "center": [
+              5.308,
+              -10.126,
+              -14.302
+            ],
+            "radius": 4.32
+          },
+          {
+            "center": [
+              6.375,
+              -9.34,
+              -12.443
+            ],
+            "radius": 3.44
+          },
+          {
+            "center": [
+              8.583,
+              -7.677,
+              -16.792
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              9.881,
+              -9.702,
+              -14.137
+            ],
+            "radius": 3.47
+          },
+          {
+            "center": [
+              8.914,
+              -9.764,
+              -16.244
+            ],
+            "radius": 4.57
+          },
+          {
+            "center": [
+              9.059,
+              -9.645,
+              -15.171
+            ],
+            "radius": 4.05
+          },
+          {
+            "center": [
+              12.065,
+              -10.289,
+              -14.422
+            ],
+            "radius": 3.41
+          },
+          {
+            "center": [
+              5.61,
+              -9.461,
+              -16.514
+            ],
+            "radius": 4.49
+          },
+          {
+            "center": [
+              5.607,
+              -9.484,
+              -16.523
+            ],
+            "radius": 4.51
+          },
+          {
+            "center": [
+              4.2,
+              -8.861,
+              -15.47
+            ],
+            "radius": 3.55
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-14",
+      "rank": 14,
+      "center": [
+        17.24596551724138,
+        -12.502344827586207,
+        16.31744827586207
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 235,
+          "name": "TYR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 6,
+          "name": "THR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 7,
+          "name": "TYR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 5,
+          "name": "THR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 260,
+          "name": "HIS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 137,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 136,
+          "name": "GLY",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 258,
+          "name": "PRO",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 259,
+          "name": "SER",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 135,
+          "name": "ILE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 233,
+          "name": "ALA",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": 0.006,
+        "Druggability Score": 0.009,
+        "Number of Alpha Spheres": 29.0,
+        "Total SASA": 113.512,
+        "Polar SASA": 38.639,
+        "Apolar SASA": 74.873,
+        "Volume": 419.488,
+        "Mean local hydrophobic density": 15.0,
+        "Mean alpha sphere radius": 4.236,
+        "Mean alp. sph. solvent access": 0.683,
+        "Apolar alpha sphere proportion": 0.552,
+        "Hydrophobicity score": 21.364,
+        "Volume score": 4.0,
+        "Polarity score": 7.0,
+        "Charge score": 2.0,
+        "Proportion of polar atoms": 37.037,
+        "Alpha sphere density": 4.007,
+        "Cent. of mass - Alpha Sphere max dist": 10.728,
+        "Flexibility": 0.262
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": 0.006,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.009,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 29.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 113.512,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 38.639,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 74.873,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 419.488,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 15.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 4.236,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.683,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.552,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 21.364,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 4.0,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 7.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 2.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 37.037,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 4.007,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 10.728,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.262,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              20.762,
+              -15.016,
+              15.628
+            ],
+            "radius": 4.47
+          },
+          {
+            "center": [
+              20.093,
+              -13.782,
+              15.16
+            ],
+            "radius": 3.81
+          },
+          {
+            "center": [
+              21.482,
+              -16.11,
+              15.016
+            ],
+            "radius": 4.5
+          },
+          {
+            "center": [
+              21.091,
+              -14.702,
+              15.246
+            ],
+            "radius": 4.03
+          },
+          {
+            "center": [
+              18.817,
+              -14.364,
+              15.54
+            ],
+            "radius": 4.62
+          },
+          {
+            "center": [
+              15.023,
+              -10.073,
+              17.441
+            ],
+            "radius": 4.26
+          },
+          {
+            "center": [
+              15.741,
+              -10.998,
+              17.957
+            ],
+            "radius": 4.63
+          },
+          {
+            "center": [
+              20.585,
+              -16.489,
+              14.223
+            ],
+            "radius": 4.09
+          },
+          {
+            "center": [
+              19.415,
+              -15.607,
+              15.364
+            ],
+            "radius": 4.66
+          },
+          {
+            "center": [
+              15.015,
+              -10.071,
+              17.451
+            ],
+            "radius": 4.26
+          },
+          {
+            "center": [
+              14.777,
+              -10.089,
+              16.406
+            ],
+            "radius": 3.47
+          },
+          {
+            "center": [
+              14.855,
+              -10.051,
+              17.251
+            ],
+            "radius": 4.06
+          },
+          {
+            "center": [
+              13.277,
+              -9.665,
+              17.514
+            ],
+            "radius": 3.56
+          },
+          {
+            "center": [
+              14.805,
+              -10.108,
+              17.922
+            ],
+            "radius": 4.49
+          },
+          {
+            "center": [
+              18.495,
+              -14.244,
+              14.923
+            ],
+            "radius": 4.22
+          },
+          {
+            "center": [
+              18.48,
+              -14.689,
+              14.307
+            ],
+            "radius": 3.84
+          },
+          {
+            "center": [
+              18.27,
+              -13.858,
+              15.512
+            ],
+            "radius": 4.47
+          },
+          {
+            "center": [
+              15.741,
+              -10.998,
+              17.957
+            ],
+            "radius": 4.63
+          },
+          {
+            "center": [
+              15.742,
+              -10.997,
+              17.953
+            ],
+            "radius": 4.62
+          },
+          {
+            "center": [
+              15.76,
+              -10.982,
+              17.951
+            ],
+            "radius": 4.6
+          },
+          {
+            "center": [
+              16.138,
+              -10.636,
+              17.83
+            ],
+            "radius": 4.1
+          },
+          {
+            "center": [
+              16.014,
+              -10.748,
+              17.869
+            ],
+            "radius": 4.26
+          },
+          {
+            "center": [
+              17.979,
+              -13.868,
+              13.441
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              18.105,
+              -13.657,
+              15.491
+            ],
+            "radius": 4.41
+          },
+          {
+            "center": [
+              17.165,
+              -13.262,
+              16.453
+            ],
+            "radius": 4.67
+          },
+          {
+            "center": [
+              15.637,
+              -10.294,
+              15.93
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              16.936,
+              -12.523,
+              16.56
+            ],
+            "radius": 4.44
+          },
+          {
+            "center": [
+              17.083,
+              -12.356,
+              16.365
+            ],
+            "radius": 4.23
+          },
+          {
+            "center": [
+              16.85,
+              -12.331,
+              16.545
+            ],
+            "radius": 4.35
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-15",
+      "rank": 15,
+      "center": [
+        -4.8602105263157895,
+        -8.719868421052633,
+        -9.05978947368421
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 100,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 155,
+          "name": "GLU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 152,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 306,
+          "name": "TYR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 15,
+          "name": "VAL",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 19,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 302,
+          "name": "TRP",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 292,
+          "name": "LYS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 18,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 156,
+          "name": "TYR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 303,
+          "name": "ILE",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": 0.005,
+        "Druggability Score": 0.526,
+        "Number of Alpha Spheres": 38.0,
+        "Total SASA": 113.179,
+        "Polar SASA": 12.946,
+        "Apolar SASA": 100.233,
+        "Volume": 359.526,
+        "Mean local hydrophobic density": 35.838,
+        "Mean alpha sphere radius": 3.829,
+        "Mean alp. sph. solvent access": 0.472,
+        "Apolar alpha sphere proportion": 0.974,
+        "Hydrophobicity score": 67.091,
+        "Volume score": 5.727,
+        "Polarity score": 5.0,
+        "Charge score": 0.0,
+        "Proportion of polar atoms": 16.667,
+        "Alpha sphere density": 3.42,
+        "Cent. of mass - Alpha Sphere max dist": 7.998,
+        "Flexibility": 0.314
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": 0.005,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.526,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 38.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 113.179,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 12.946,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 100.233,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 359.526,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 35.838,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 3.829,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.472,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.974,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 67.091,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 5.727,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 5.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 16.667,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 3.42,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 7.998,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.314,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              -3.012,
+              -8.1,
+              -8.76
+            ],
+            "radius": 3.99
+          },
+          {
+            "center": [
+              -3.458,
+              -8.552,
+              -8.865
+            ],
+            "radius": 4.13
+          },
+          {
+            "center": [
+              -2.959,
+              -8.581,
+              -10.924
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              -3.348,
+              -12.034,
+              -7.768
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              -4.265,
+              -11.238,
+              -7.349
+            ],
+            "radius": 3.85
+          },
+          {
+            "center": [
+              -3.688,
+              -6.964,
+              -9.269
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              -2.701,
+              -7.221,
+              -10.008
+            ],
+            "radius": 3.68
+          },
+          {
+            "center": [
+              -5.618,
+              -8.473,
+              -9.251
+            ],
+            "radius": 4.02
+          },
+          {
+            "center": [
+              -3.297,
+              -7.983,
+              -9.3
+            ],
+            "radius": 4.15
+          },
+          {
+            "center": [
+              -3.48,
+              -8.204,
+              -9.3
+            ],
+            "radius": 4.19
+          },
+          {
+            "center": [
+              -2.711,
+              -7.55,
+              -9.906
+            ],
+            "radius": 3.88
+          },
+          {
+            "center": [
+              -3.13,
+              -8.353,
+              -10.547
+            ],
+            "radius": 3.78
+          },
+          {
+            "center": [
+              -6.416,
+              -7.59,
+              -9.212
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              -6.562,
+              -8.616,
+              -9.387
+            ],
+            "radius": 4.21
+          },
+          {
+            "center": [
+              -3.584,
+              -8.558,
+              -11.489
+            ],
+            "radius": 3.41
+          },
+          {
+            "center": [
+              -2.19,
+              -7.904,
+              -8.566
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              -2.781,
+              -7.847,
+              -8.009
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              -4.48,
+              -10.505,
+              -7.436
+            ],
+            "radius": 3.94
+          },
+          {
+            "center": [
+              -4.026,
+              -9.106,
+              -8.251
+            ],
+            "radius": 4.0
+          },
+          {
+            "center": [
+              -4.477,
+              -9.071,
+              -8.355
+            ],
+            "radius": 3.93
+          },
+          {
+            "center": [
+              -6.605,
+              -8.625,
+              -9.403
+            ],
+            "radius": 4.22
+          },
+          {
+            "center": [
+              -7.298,
+              -9.85,
+              -11.196
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              -6.455,
+              -7.572,
+              -9.223
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              -6.421,
+              -7.573,
+              -9.212
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              -6.417,
+              -7.568,
+              -9.212
+            ],
+            "radius": 3.64
+          },
+          {
+            "center": [
+              -1.367,
+              -6.997,
+              -10.176
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              -1.239,
+              -6.77,
+              -10.255
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              -4.616,
+              -11.435,
+              -7.345
+            ],
+            "radius": 3.83
+          },
+          {
+            "center": [
+              -4.811,
+              -11.636,
+              -7.371
+            ],
+            "radius": 3.8
+          },
+          {
+            "center": [
+              -4.913,
+              -11.381,
+              -7.364
+            ],
+            "radius": 3.83
+          },
+          {
+            "center": [
+              -6.933,
+              -9.877,
+              -8.296
+            ],
+            "radius": 4.23
+          },
+          {
+            "center": [
+              -6.95,
+              -9.879,
+              -8.185
+            ],
+            "radius": 4.17
+          },
+          {
+            "center": [
+              -7.173,
+              -9.977,
+              -7.342
+            ],
+            "radius": 3.67
+          },
+          {
+            "center": [
+              -9.158,
+              -7.838,
+              -9.913
+            ],
+            "radius": 4.26
+          },
+          {
+            "center": [
+              -6.96,
+              -7.202,
+              -9.484
+            ],
+            "radius": 3.47
+          },
+          {
+            "center": [
+              -6.846,
+              -7.861,
+              -9.393
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              -7.673,
+              -8.31,
+              -9.533
+            ],
+            "radius": 4.1
+          },
+          {
+            "center": [
+              -6.67,
+              -8.554,
+              -9.417
+            ],
+            "radius": 4.18
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-16",
+      "rank": 16,
+      "center": [
+        22.866529411764706,
+        5.0569411764705885,
+        7.4338235294117645
+      ],
+      "residues": [
+        {
+          "chain": "I",
+          "seq": 18,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 20,
+          "name": "ASN",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 17,
+          "name": "GLY",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 14,
+          "name": "GLY",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 15,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 51,
+          "name": "THR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 19,
+          "name": "ARG",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": -0.011,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 17.0,
+        "Total SASA": 78.643,
+        "Polar SASA": 50.868,
+        "Apolar SASA": 27.775,
+        "Volume": 268.902,
+        "Mean local hydrophobic density": 0.0,
+        "Mean alpha sphere radius": 3.747,
+        "Mean alp. sph. solvent access": 0.563,
+        "Apolar alpha sphere proportion": 0.059,
+        "Hydrophobicity score": -8.143,
+        "Volume score": 4.143,
+        "Polarity score": 5.0,
+        "Charge score": 3.0,
+        "Proportion of polar atoms": 50.0,
+        "Alpha sphere density": 2.899,
+        "Cent. of mass - Alpha Sphere max dist": 7.698,
+        "Flexibility": 0.135
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": -0.011,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 17.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 78.643,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 50.868,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 27.775,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 268.902,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 3.747,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.563,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.059,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": -8.143,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 4.143,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 5.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 3.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 50.0,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 2.899,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 7.698,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.135,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              21.605,
+              9.274,
+              6.445
+            ],
+            "radius": 3.95
+          },
+          {
+            "center": [
+              23.052,
+              4.027,
+              8.218
+            ],
+            "radius": 3.68
+          },
+          {
+            "center": [
+              20.037,
+              10.202,
+              7.733
+            ],
+            "radius": 4.6
+          },
+          {
+            "center": [
+              22.942,
+              3.882,
+              8.664
+            ],
+            "radius": 3.49
+          },
+          {
+            "center": [
+              22.985,
+              4.91,
+              9.082
+            ],
+            "radius": 3.75
+          },
+          {
+            "center": [
+              22.778,
+              4.706,
+              8.98
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              22.932,
+              4.338,
+              8.689
+            ],
+            "radius": 3.66
+          },
+          {
+            "center": [
+              22.819,
+              4.391,
+              8.749
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              22.943,
+              3.58,
+              7.482
+            ],
+            "radius": 3.63
+          },
+          {
+            "center": [
+              22.8,
+              7.841,
+              5.222
+            ],
+            "radius": 3.89
+          },
+          {
+            "center": [
+              23.308,
+              3.741,
+              7.149
+            ],
+            "radius": 3.81
+          },
+          {
+            "center": [
+              23.14,
+              5.515,
+              5.119
+            ],
+            "radius": 3.59
+          },
+          {
+            "center": [
+              22.972,
+              4.082,
+              6.11
+            ],
+            "radius": 3.44
+          },
+          {
+            "center": [
+              23.254,
+              3.825,
+              6.901
+            ],
+            "radius": 3.72
+          },
+          {
+            "center": [
+              23.595,
+              4.08,
+              7.336
+            ],
+            "radius": 3.93
+          },
+          {
+            "center": [
+              24.143,
+              3.706,
+              7.296
+            ],
+            "radius": 3.56
+          },
+          {
+            "center": [
+              23.426,
+              3.868,
+              7.2
+            ],
+            "radius": 3.86
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-17",
+      "rank": 17,
+      "center": [
+        21.247,
+        -18.91676470588235,
+        -0.9970000000000001
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 270,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 273,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 269,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 255,
+          "name": "VAL",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 253,
+          "name": "GLY",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 257,
+          "name": "PHE",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": -0.021,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 17.0,
+        "Total SASA": 55.726,
+        "Polar SASA": 37.612,
+        "Apolar SASA": 18.114,
+        "Volume": 171.872,
+        "Mean local hydrophobic density": 10.0,
+        "Mean alpha sphere radius": 3.984,
+        "Mean alp. sph. solvent access": 0.501,
+        "Apolar alpha sphere proportion": 0.647,
+        "Hydrophobicity score": 59.333,
+        "Volume score": 4.667,
+        "Polarity score": 1.0,
+        "Charge score": 1.0,
+        "Proportion of polar atoms": 50.0,
+        "Alpha sphere density": 1.832,
+        "Cent. of mass - Alpha Sphere max dist": 3.476,
+        "Flexibility": 0.257
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": -0.021,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 17.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 55.726,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 37.612,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 18.114,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 171.872,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 10.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 3.984,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.501,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.647,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 59.333,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 4.667,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 50.0,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 1.832,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 3.476,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.257,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              20.079,
+              -17.759,
+              -0.802
+            ],
+            "radius": 3.67
+          },
+          {
+            "center": [
+              21.058,
+              -19.186,
+              -2.154
+            ],
+            "radius": 3.88
+          },
+          {
+            "center": [
+              22.47,
+              -19.926,
+              -1.235
+            ],
+            "radius": 4.53
+          },
+          {
+            "center": [
+              22.448,
+              -20.166,
+              -0.692
+            ],
+            "radius": 4.42
+          },
+          {
+            "center": [
+              21.929,
+              -20.012,
+              -0.119
+            ],
+            "radius": 4.06
+          },
+          {
+            "center": [
+              21.994,
+              -20.327,
+              0.005
+            ],
+            "radius": 4.04
+          },
+          {
+            "center": [
+              22.152,
+              -19.454,
+              -1.681
+            ],
+            "radius": 4.5
+          },
+          {
+            "center": [
+              22.11,
+              -19.403,
+              -1.774
+            ],
+            "radius": 4.5
+          },
+          {
+            "center": [
+              20.135,
+              -17.782,
+              -0.862
+            ],
+            "radius": 3.68
+          },
+          {
+            "center": [
+              20.333,
+              -17.868,
+              -1.159
+            ],
+            "radius": 3.71
+          },
+          {
+            "center": [
+              22.73,
+              -19.052,
+              -1.278
+            ],
+            "radius": 3.92
+          },
+          {
+            "center": [
+              21.017,
+              -18.682,
+              -1.343
+            ],
+            "radius": 4.01
+          },
+          {
+            "center": [
+              21.042,
+              -18.693,
+              -1.38
+            ],
+            "radius": 4.03
+          },
+          {
+            "center": [
+              20.54,
+              -18.564,
+              -0.766
+            ],
+            "radius": 3.77
+          },
+          {
+            "center": [
+              21.084,
+              -19.267,
+              -0.227
+            ],
+            "radius": 3.7
+          },
+          {
+            "center": [
+              20.059,
+              -17.765,
+              -0.768
+            ],
+            "radius": 3.67
+          },
+          {
+            "center": [
+              20.019,
+              -17.679,
+              -0.714
+            ],
+            "radius": 3.63
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-18",
+      "rank": 18,
+      "center": [
+        20.0100625,
+        -9.20975,
+        -17.6204375
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 194,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 277,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 216,
+          "name": "ASN",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 215,
+          "name": "TYR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 214,
+          "name": "GLY",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 213,
+          "name": "LYS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 208,
+          "name": "GLU",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": -0.072,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 16.0,
+        "Total SASA": 61.067,
+        "Polar SASA": 15.177,
+        "Apolar SASA": 45.89,
+        "Volume": 164.296,
+        "Mean local hydrophobic density": 5.0,
+        "Mean alpha sphere radius": 3.903,
+        "Mean alp. sph. solvent access": 0.516,
+        "Apolar alpha sphere proportion": 0.375,
+        "Hydrophobicity score": 9.143,
+        "Volume score": 4.714,
+        "Polarity score": 5.0,
+        "Charge score": 1.0,
+        "Proportion of polar atoms": 30.769,
+        "Alpha sphere density": 1.575,
+        "Cent. of mass - Alpha Sphere max dist": 3.52,
+        "Flexibility": 0.419
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": -0.072,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 16.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 61.067,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 15.177,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 45.89,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 164.296,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 5.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 3.903,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.516,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.375,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 9.143,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 4.714,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 5.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 30.769,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 1.575,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 3.52,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.419,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              19.731,
+              -9.845,
+              -19.131
+            ],
+            "radius": 4.43
+          },
+          {
+            "center": [
+              19.569,
+              -9.317,
+              -17.533
+            ],
+            "radius": 3.79
+          },
+          {
+            "center": [
+              19.614,
+              -8.814,
+              -18.207
+            ],
+            "radius": 3.99
+          },
+          {
+            "center": [
+              20.232,
+              -9.555,
+              -18.715
+            ],
+            "radius": 4.37
+          },
+          {
+            "center": [
+              19.894,
+              -9.36,
+              -18.454
+            ],
+            "radius": 4.3
+          },
+          {
+            "center": [
+              19.659,
+              -8.864,
+              -18.207
+            ],
+            "radius": 4.03
+          },
+          {
+            "center": [
+              22.012,
+              -10.24,
+              -17.683
+            ],
+            "radius": 3.97
+          },
+          {
+            "center": [
+              19.763,
+              -9.2,
+              -17.763
+            ],
+            "radius": 4.01
+          },
+          {
+            "center": [
+              19.665,
+              -8.895,
+              -18.122
+            ],
+            "radius": 4.01
+          },
+          {
+            "center": [
+              19.761,
+              -9.178,
+              -17.61
+            ],
+            "radius": 3.96
+          },
+          {
+            "center": [
+              19.722,
+              -9.037,
+              -17.573
+            ],
+            "radius": 3.88
+          },
+          {
+            "center": [
+              20.063,
+              -9.001,
+              -15.994
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              21.17,
+              -9.679,
+              -16.504
+            ],
+            "radius": 3.47
+          },
+          {
+            "center": [
+              20.051,
+              -9.115,
+              -16.218
+            ],
+            "radius": 3.59
+          },
+          {
+            "center": [
+              20.074,
+              -9.041,
+              -16.005
+            ],
+            "radius": 3.55
+          },
+          {
+            "center": [
+              19.181,
+              -8.215,
+              -18.208
+            ],
+            "radius": 3.57
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-19",
+      "rank": 19,
+      "center": [
+        23.481,
+        -15.186333333333334,
+        9.50252380952381
+      ],
+      "residues": [
+        {
+          "chain": "E",
+          "seq": 256,
+          "name": "ARG",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 257,
+          "name": "PHE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 6,
+          "name": "THR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 229,
+          "name": "TYR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 235,
+          "name": "TYR",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 258,
+          "name": "PRO",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 237,
+          "name": "PRO",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 239,
+          "name": "PHE",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": -0.086,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 21.0,
+        "Total SASA": 91.415,
+        "Polar SASA": 51.563,
+        "Apolar SASA": 39.852,
+        "Volume": 208.742,
+        "Mean local hydrophobic density": 2.0,
+        "Mean alpha sphere radius": 3.84,
+        "Mean alp. sph. solvent access": 0.453,
+        "Apolar alpha sphere proportion": 0.143,
+        "Hydrophobicity score": 29.125,
+        "Volume score": 5.25,
+        "Polarity score": 4.0,
+        "Charge score": 1.0,
+        "Proportion of polar atoms": 53.333,
+        "Alpha sphere density": 2.483,
+        "Cent. of mass - Alpha Sphere max dist": 6.556,
+        "Flexibility": 0.24
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": -0.086,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 21.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 91.415,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 51.563,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 39.852,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 208.742,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 2.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 3.84,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.453,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.143,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 29.125,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 5.25,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 4.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 53.333,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 2.483,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 6.556,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.24,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              23.996,
+              -17.991,
+              11.091
+            ],
+            "radius": 4.35
+          },
+          {
+            "center": [
+              24.96,
+              -14.038,
+              8.738
+            ],
+            "radius": 3.95
+          },
+          {
+            "center": [
+              22.931,
+              -16.813,
+              10.494
+            ],
+            "radius": 3.98
+          },
+          {
+            "center": [
+              23.73,
+              -14.416,
+              9.05
+            ],
+            "radius": 3.79
+          },
+          {
+            "center": [
+              23.534,
+              -14.64,
+              9.195
+            ],
+            "radius": 3.74
+          },
+          {
+            "center": [
+              23.541,
+              -14.438,
+              9.194
+            ],
+            "radius": 3.71
+          },
+          {
+            "center": [
+              23.319,
+              -13.996,
+              9.166
+            ],
+            "radius": 3.47
+          },
+          {
+            "center": [
+              23.506,
+              -14.658,
+              9.215
+            ],
+            "radius": 3.73
+          },
+          {
+            "center": [
+              22.772,
+              -16.806,
+              10.68
+            ],
+            "radius": 3.95
+          },
+          {
+            "center": [
+              23.478,
+              -14.756,
+              9.266
+            ],
+            "radius": 3.71
+          },
+          {
+            "center": [
+              22.867,
+              -16.689,
+              10.427
+            ],
+            "radius": 3.96
+          },
+          {
+            "center": [
+              22.668,
+              -16.487,
+              10.105
+            ],
+            "radius": 3.79
+          },
+          {
+            "center": [
+              22.623,
+              -16.471,
+              10.089
+            ],
+            "radius": 3.76
+          },
+          {
+            "center": [
+              22.761,
+              -16.808,
+              10.687
+            ],
+            "radius": 3.94
+          },
+          {
+            "center": [
+              24.04,
+              -13.911,
+              7.306
+            ],
+            "radius": 3.54
+          },
+          {
+            "center": [
+              24.558,
+              -13.61,
+              8.244
+            ],
+            "radius": 4.08
+          },
+          {
+            "center": [
+              24.402,
+              -13.618,
+              8.24
+            ],
+            "radius": 4.06
+          },
+          {
+            "center": [
+              23.982,
+              -13.022,
+              8.288
+            ],
+            "radius": 3.77
+          },
+          {
+            "center": [
+              24.023,
+              -12.02,
+              8.383
+            ],
+            "radius": 3.5
+          },
+          {
+            "center": [
+              22.709,
+              -16.865,
+              10.854
+            ],
+            "radius": 3.94
+          },
+          {
+            "center": [
+              22.701,
+              -16.86,
+              10.841
+            ],
+            "radius": 3.93
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-20",
+      "rank": 20,
+      "center": [
+        24.302904761904763,
+        8.109714285714286,
+        -11.122809523809524
+      ],
+      "residues": [
+        {
+          "chain": "I",
+          "seq": 24,
+          "name": "ASP",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 83,
+          "name": "LYS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 84,
+          "name": "GLN",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 198,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 23,
+          "name": "HIS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "I",
+          "seq": 22,
+          "name": "ILE",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 199,
+          "name": "CYS",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 82,
+          "name": "LEU",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 197,
+          "name": "TPO",
+          "insertionCode": ""
+        },
+        {
+          "chain": "E",
+          "seq": 87,
+          "name": "HIS",
+          "insertionCode": ""
+        }
+      ],
+      "fpocket": {
+        "Score": -0.094,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 21.0,
+        "Total SASA": 94.09,
+        "Polar SASA": 32.343,
+        "Apolar SASA": 61.747,
+        "Volume": 269.433,
+        "Mean local hydrophobic density": 0.0,
+        "Mean alpha sphere radius": 4.009,
+        "Mean alp. sph. solvent access": 0.541,
+        "Apolar alpha sphere proportion": 0.048,
+        "Hydrophobicity score": 33.3,
+        "Volume score": 4.6,
+        "Polarity score": 6.0,
+        "Charge score": 2.0,
+        "Proportion of polar atoms": 45.0,
+        "Alpha sphere density": 2.5,
+        "Cent. of mass - Alpha Sphere max dist": 5.626,
+        "Flexibility": 0.352
+      },
+      "prediction": null,
+      "features": [
+        {
+          "name": "Score",
+          "value": -0.094,
+          "unit": null
+        },
+        {
+          "name": "Druggability Score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Number of Alpha Spheres",
+          "value": 21.0,
+          "unit": null
+        },
+        {
+          "name": "Total SASA",
+          "value": 94.09,
+          "unit": null
+        },
+        {
+          "name": "Polar SASA",
+          "value": 32.343,
+          "unit": null
+        },
+        {
+          "name": "Apolar SASA",
+          "value": 61.747,
+          "unit": null
+        },
+        {
+          "name": "Volume",
+          "value": 269.433,
+          "unit": "\u00c5\u00b3"
+        },
+        {
+          "name": "Mean local hydrophobic density",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "Mean alpha sphere radius",
+          "value": 4.009,
+          "unit": "\u00c5"
+        },
+        {
+          "name": "Mean alp. sph. solvent access",
+          "value": 0.541,
+          "unit": null
+        },
+        {
+          "name": "Apolar alpha sphere proportion",
+          "value": 0.048,
+          "unit": null
+        },
+        {
+          "name": "Hydrophobicity score",
+          "value": 33.3,
+          "unit": null
+        },
+        {
+          "name": "Volume score",
+          "value": 4.6,
+          "unit": null
+        },
+        {
+          "name": "Polarity score",
+          "value": 6.0,
+          "unit": null
+        },
+        {
+          "name": "Charge score",
+          "value": 2.0,
+          "unit": null
+        },
+        {
+          "name": "Proportion of polar atoms",
+          "value": 45.0,
+          "unit": null
+        },
+        {
+          "name": "Alpha sphere density",
+          "value": 2.5,
+          "unit": null
+        },
+        {
+          "name": "Cent. of mass - Alpha Sphere max dist",
+          "value": 5.626,
+          "unit": null
+        },
+        {
+          "name": "Flexibility",
+          "value": 0.352,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              25.04,
+              9.651,
+              -11.168
+            ],
+            "radius": 3.75
+          },
+          {
+            "center": [
+              25.268,
+              9.534,
+              -10.955
+            ],
+            "radius": 3.5
+          },
+          {
+            "center": [
+              23.29,
+              7.625,
+              -10.006
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              21.998,
+              7.158,
+              -8.997
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              21.767,
+              7.08,
+              -9.018
+            ],
+            "radius": 3.44
+          },
+          {
+            "center": [
+              24.354,
+              9.432,
+              -11.111
+            ],
+            "radius": 3.89
+          },
+          {
+            "center": [
+              24.924,
+              10.086,
+              -10.852
+            ],
+            "radius": 3.5
+          },
+          {
+            "center": [
+              25.153,
+              7.836,
+              -11.282
+            ],
+            "radius": 4.23
+          },
+          {
+            "center": [
+              24.124,
+              8.241,
+              -11.073
+            ],
+            "radius": 4.17
+          },
+          {
+            "center": [
+              23.599,
+              7.744,
+              -10.504
+            ],
+            "radius": 3.89
+          },
+          {
+            "center": [
+              25.034,
+              7.815,
+              -11.334
+            ],
+            "radius": 4.3
+          },
+          {
+            "center": [
+              24.595,
+              7.493,
+              -10.91
+            ],
+            "radius": 4.0
+          },
+          {
+            "center": [
+              24.583,
+              8.688,
+              -11.745
+            ],
+            "radius": 4.51
+          },
+          {
+            "center": [
+              24.433,
+              8.715,
+              -11.668
+            ],
+            "radius": 4.47
+          },
+          {
+            "center": [
+              24.019,
+              8.832,
+              -11.95
+            ],
+            "radius": 4.3
+          },
+          {
+            "center": [
+              22.801,
+              8.729,
+              -12.139
+            ],
+            "radius": 3.77
+          },
+          {
+            "center": [
+              22.207,
+              7.26,
+              -10.194
+            ],
+            "radius": 3.5
+          },
+          {
+            "center": [
+              24.752,
+              8.793,
+              -13.468
+            ],
+            "radius": 4.56
+          },
+          {
+            "center": [
+              26.139,
+              6.551,
+              -11.712
+            ],
+            "radius": 4.46
+          },
+          {
+            "center": [
+              26.177,
+              6.535,
+              -11.779
+            ],
+            "radius": 4.47
+          },
+          {
+            "center": [
+              26.104,
+              6.506,
+              -11.714
+            ],
+            "radius": 4.41
+          }
+        ]
+      }
+    }
+  ]
+}

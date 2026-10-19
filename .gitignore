@@ -1,0 +1,36 @@
+node_modules/
+dist/
+src-tauri/target/
+.DS_Store
+*.log
+
+.venv-docking/
+__pycache__/
+
+# Local runs, generated schemas, and credentials.
+/tmp/
+/src-tauri/gen/
+.env
+.env.*
+!.env.example
+
+# Research manuscripts, recovery archives, and local experiments stay local.
+/docs/fpocket-recovery/
+/docs/paper/
+/docs/paper-evidence/
+/scripts/recover-model-evidence.py
+/scripts/verify-paper-evidence.py
+/scripts/build-paper-latex.py
+/scripts/build-paper-figures.py
+/scripts/compare-bstb.py
+/scripts/audit-bstb-training.py
+/scripts/dock-bstb-sterol.py
+/SLIPP_STUDIO_AGENT_BUILD_BRIEF.md
+/docs/implementation-log.md
+/docs/performance-investigation.md
+/output/*
+!/output/pdf/
+/output/pdf/*
+!/output/pdf/SLiPP-Studio-software-paper.pdf
+/docs/media/workspace-light.png
+/docs/media/docking-comparison.jpg

@@ -1,0 +1,181 @@
+{
+  "receptor": "1ATP protein only, pocket-01",
+  "engine": "Vina 1.2.7",
+  "date": "2026-09-18",
+  "runs": [
+    {
+      "ligand": "caffeine",
+      "exhaustiveness": 8,
+      "cpu": 4,
+      "medianWallSeconds": 1.31,
+      "runs": [
+        {
+          "seed": 2026,
+          "wallSeconds": 1.431,
+          "searchSeconds": 0.941,
+          "bestScore": -6.813,
+          "poseCount": 10
+        },
+        {
+          "seed": 2027,
+          "wallSeconds": 1.31,
+          "searchSeconds": 0.836,
+          "bestScore": -6.799,
+          "poseCount": 10
+        },
+        {
+          "seed": 2028,
+          "wallSeconds": 1.269,
+          "searchSeconds": 0.829,
+          "bestScore": -6.813,
+          "poseCount": 10
+        }
+      ]
+    },
+    {
+      "ligand": "caffeine",
+      "exhaustiveness": 32,
+      "cpu": 4,
+      "medianWallSeconds": 2.424,
+      "runs": [
+        {
+          "seed": 2026,
+          "wallSeconds": 2.522,
+          "searchSeconds": 2.077,
+          "bestScore": -6.828,
+          "poseCount": 10
+        },
+        {
+          "seed": 2027,
+          "wallSeconds": 2.403,
+          "searchSeconds": 1.975,
+          "bestScore": -6.852,
+          "poseCount": 10
+        },
+        {
+          "seed": 2028,
+          "wallSeconds": 2.424,
+          "searchSeconds": 1.981,
+          "bestScore": -6.84,
+          "poseCount": 10
+        }
+      ]
+    },
+    {
+      "ligand": "caffeine",
+      "exhaustiveness": 96,
+      "cpu": 4,
+      "medianWallSeconds": 6.013,
+      "runs": [
+        {
+          "seed": 2026,
+          "wallSeconds": 5.753,
+          "searchSeconds": 5.303,
+          "bestScore": -6.828,
+          "poseCount": 10
+        },
+        {
+          "seed": 2027,
+          "wallSeconds": 6.013,
+          "searchSeconds": 5.577,
+          "bestScore": -6.852,
+          "poseCount": 10
+        },
+        {
+          "seed": 2028,
+          "wallSeconds": 6.194,
+          "searchSeconds": 5.737,
+          "bestScore": -6.84,
+          "poseCount": 10
+        }
+      ]
+    },
+    {
+      "ligand": "palmitic_acid",
+      "exhaustiveness": 8,
+      "cpu": 4,
+      "medianWallSeconds": 7.103,
+      "runs": [
+        {
+          "seed": 2026,
+          "wallSeconds": 6.874,
+          "searchSeconds": 6.427,
+          "bestScore": -6.518,
+          "poseCount": 10
+        },
+        {
+          "seed": 2027,
+          "wallSeconds": 7.737,
+          "searchSeconds": 7.275,
+          "bestScore": -6.493,
+          "poseCount": 10
+        },
+        {
+          "seed": 2028,
+          "wallSeconds": 7.103,
+          "searchSeconds": 6.64,
+          "bestScore": -6.492,
+          "poseCount": 10
+        }
+      ]
+    },
+    {
+      "ligand": "palmitic_acid",
+      "exhaustiveness": 32,
+      "cpu": 4,
+      "medianWallSeconds": 33.805,
+      "runs": [
+        {
+          "seed": 2026,
+          "wallSeconds": 33.805,
+          "searchSeconds": 33.294,
+          "bestScore": -6.518,
+          "poseCount": 10
+        },
+        {
+          "seed": 2027,
+          "wallSeconds": 38.306,
+          "searchSeconds": 37.229,
+          "bestScore": -6.73,
+          "poseCount": 10
+        },
+        {
+          "seed": 2028,
+          "wallSeconds": 28.86,
+          "searchSeconds": 28.31,
+          "bestScore": -6.449,
+          "poseCount": 10
+        }
+      ]
+    },
+    {
+      "ligand": "palmitic_acid",
+      "exhaustiveness": 96,
+      "cpu": 4,
+      "medianWallSeconds": 106.48,
+      "runs": [
+        {
+          "seed": 2026,
+          "wallSeconds": 100.582,
+          "searchSeconds": 100.029,
+          "bestScore": -6.518,
+          "poseCount": 10
+        },
+        {
+          "seed": 2027,
+          "wallSeconds": 106.48,
+          "searchSeconds": 105.9,
+          "bestScore": -6.596,
+          "poseCount": 10
+        },
+        {
+          "seed": 2028,
+          "wallSeconds": 122.386,
+          "searchSeconds": 121.708,
+          "bestScore": -6.556,
+          "poseCount": 10
+        }
+      ]
+    }
+  ]
+}

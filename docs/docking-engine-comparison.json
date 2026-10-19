@@ -1,0 +1,150 @@
+{
+  "hardware": "Apple M4",
+  "method": "Identical prepared inputs, exhaustiveness 8, interleaved engine runs; no reduced search settings",
+  "runs": [
+    {
+      "ligand": "caffeine",
+      "seed": 2026,
+      "engine": "official-4",
+      "cpu": 4,
+      "seconds": 0.769,
+      "bestScore": -6.837
+    },
+    {
+      "ligand": "caffeine",
+      "seed": 2026,
+      "engine": "m4-4",
+      "cpu": 4,
+      "seconds": 0.688,
+      "bestScore": -6.837
+    },
+    {
+      "ligand": "caffeine",
+      "seed": 2026,
+      "engine": "m4-8",
+      "cpu": 8,
+      "seconds": 0.61,
+      "bestScore": -6.837
+    },
+    {
+      "ligand": "caffeine",
+      "seed": 2027,
+      "engine": "official-4",
+      "cpu": 4,
+      "seconds": 0.72,
+      "bestScore": -6.845
+    },
+    {
+      "ligand": "caffeine",
+      "seed": 2027,
+      "engine": "m4-4",
+      "cpu": 4,
+      "seconds": 0.703,
+      "bestScore": -6.845
+    },
+    {
+      "ligand": "caffeine",
+      "seed": 2027,
+      "engine": "m4-8",
+      "cpu": 8,
+      "seconds": 0.609,
+      "bestScore": -6.845
+    },
+    {
+      "ligand": "caffeine",
+      "seed": 2028,
+      "engine": "official-4",
+      "cpu": 4,
+      "seconds": 0.754,
+      "bestScore": -6.826
+    },
+    {
+      "ligand": "caffeine",
+      "seed": 2028,
+      "engine": "m4-4",
+      "cpu": 4,
+      "seconds": 0.705,
+      "bestScore": -6.826
+    },
+    {
+      "ligand": "caffeine",
+      "seed": 2028,
+      "engine": "m4-8",
+      "cpu": 8,
+      "seconds": 0.608,
+      "bestScore": -6.826
+    },
+    {
+      "ligand": "palmitic_acid",
+      "seed": 2026,
+      "engine": "official-4",
+      "cpu": 4,
+      "seconds": 6.804,
+      "bestScore": -6.341
+    },
+    {
+      "ligand": "palmitic_acid",
+      "seed": 2026,
+      "engine": "m4-4",
+      "cpu": 4,
+      "seconds": 6.336,
+      "bestScore": -6.341
+    },
+    {
+      "ligand": "palmitic_acid",
+      "seed": 2026,
+      "engine": "m4-8",
+      "cpu": 8,
+      "seconds": 4.492,
+      "bestScore": -6.341
+    },
+    {
+      "ligand": "palmitic_acid",
+      "seed": 2027,
+      "engine": "official-4",
+      "cpu": 4,
+      "seconds": 7.547,
+      "bestScore": -6.448
+    },
+    {
+      "ligand": "palmitic_acid",
+      "seed": 2027,
+      "engine": "m4-4",
+      "cpu": 4,
+      "seconds": 7.384,
+      "bestScore": -6.448
+    },
+    {
+      "ligand": "palmitic_acid",
+      "seed": 2027,
+      "engine": "m4-8",
+      "cpu": 8,
+      "seconds": 5.542,
+      "bestScore": -6.448
+    },
+    {
+      "ligand": "palmitic_acid",
+      "seed": 2028,
+      "engine": "official-4",
+      "cpu": 4,
+      "seconds": 9.538,
+      "bestScore": -6.588
+    },
+    {
+      "ligand": "palmitic_acid",
+      "seed": 2028,
+      "engine": "m4-4",
+      "cpu": 4,
+      "seconds": 7.36,
+      "bestScore": -6.588
+    },
+    {
+      "ligand": "palmitic_acid",
+      "seed": 2028,
+      "engine": "m4-8",
+      "cpu": 8,
+      "seconds": 4.901,
+      "bestScore": -6.588
+    }
+  ]
+}

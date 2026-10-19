@@ -1,0 +1,7 @@
+rdkit==2026.3.6
+meeko==0.8.0
+gemmi==0.7.5
+numpy==2.5.3
+scipy==1.18.1
+
+scikit-learn==1.8.0

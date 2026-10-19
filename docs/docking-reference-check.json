@@ -1,0 +1,112 @@
+{
+  "control": "1IEP imatinib, upstream prepared inputs",
+  "sourceCommit": "8eb40404f4f45608acb3b01427587ac049f27c1f",
+  "engine": "AutoDock Vina 1.2.7",
+  "exhaustiveness": 32,
+  "cpu": 4,
+  "metric": "Symmetry-corrected heavy-atom RMSD without alignment, relative to crystallographic ligand",
+  "runs": [
+    {
+      "seed": 2026,
+      "seconds": 56.544,
+      "topScore": -13.235,
+      "topPoseRmsd": 0.373,
+      "bestSampledRmsd": 0.373,
+      "poses": [
+        {
+          "rank": 1,
+          "score": -13.235,
+          "rmsd": 0.373
+        },
+        {
+          "rank": 2,
+          "score": -11.295,
+          "rmsd": 12.286
+        },
+        {
+          "rank": 3,
+          "score": -11.19,
+          "rmsd": 1.424
+        },
+        {
+          "rank": 4,
+          "score": -11.156,
+          "rmsd": 11.979
+        },
+        {
+          "rank": 5,
+          "score": -11.086,
+          "rmsd": 12.18
+        }
+      ]
+    },
+    {
+      "seed": 2027,
+      "seconds": 85.732,
+      "topScore": -13.23,
+      "topPoseRmsd": 0.385,
+      "bestSampledRmsd": 0.385,
+      "poses": [
+        {
+          "rank": 1,
+          "score": -13.23,
+          "rmsd": 0.385
+        },
+        {
+          "rank": 2,
+          "score": -11.253,
+          "rmsd": 12.293
+        },
+        {
+          "rank": 3,
+          "score": -10.968,
+          "rmsd": 12.15
+        },
+        {
+          "rank": 4,
+          "score": -10.795,
+          "rmsd": 1.588
+        },
+        {
+          "rank": 5,
+          "score": -10.616,
+          "rmsd": 12.519
+        },
+        {
+          "rank": 6,
+          "score": -10.247,
+          "rmsd": 13.432
+        }
+      ]
+    },
+    {
+      "seed": 2028,
+      "seconds": 69.832,
+      "topScore": -13.249,
+      "topPoseRmsd": 0.367,
+      "bestSampledRmsd": 0.367,
+      "poses": [
+        {
+          "rank": 1,
+          "score": -13.249,
+          "rmsd": 0.367
+        },
+        {
+          "rank": 2,
+          "score": -11.274,
+          "rmsd": 12.286
+        },
+        {
+          "rank": 3,
+          "score": -11.141,
+          "rmsd": 12.124
+        },
+        {
+          "rank": 4,
+          "score": -11.048,
+          "rmsd": 12.175
+        }
+      ]
+    }
+  ]
+}

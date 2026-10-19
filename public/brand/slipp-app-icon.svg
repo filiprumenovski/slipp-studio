@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <title>SLiPP Studio — pocket and ligand</title>
+  <defs>
+    <linearGradient id="tile" x1="190" y1="80" x2="810" y2="950" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#254F69"/>
+      <stop offset="1" stop-color="#102637"/>
+    </linearGradient>
+    <linearGradient id="ligand" x1="400" y1="235" x2="650" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A8E7DA"/>
+      <stop offset="1" stop-color="#69BDAE"/>
+    </linearGradient>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="208" fill="url(#tile)"/>
+  <rect x="66" y="66" width="892" height="892" rx="206" stroke="#FFFFFF" stroke-opacity=".1" stroke-width="4"/>
+  <!-- Open pocket envelope, matching the in-app mark. -->
+  <path d="M224 416 176 512 344 800H680L848 512 800 416"
+        stroke="#EDF4F6" stroke-width="64" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Fitted cyclic ligand and its exposed tail. -->
+  <path d="M416 272H608L704 440 608 608H416L320 440Z M608 272 704 200"
+        stroke="url(#ligand)" stroke-width="56" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

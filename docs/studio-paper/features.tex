@@ -1,0 +1,54 @@
+\clearpage
+\onecolumn
+\section*{Appendix A\quad Implemented feature inventory}
+\noindent This inventory records user-facing capabilities present in Studio 0.1. Native scientific operations require the separately installed runtime. Source inspection establishes implementation coverage; it does not mean that every feature has been revalidated experimentally or tested on every platform. The accompanying feature checklist maps each entry to its implementation.
+
+\subsection*{Structure management and molecular inspection}
+\begingroup
+\small
+\setlength{\tabcolsep}{7pt}
+\renewcommand{\arraystretch}{1.18}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{1.23in}>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Feature group} & \textbf{Implemented behavior and scope}\\\midrule
+A01\quad Home & Interactive apo FABP4 reference; file and folder entry points; PDB/workspace import dialog; searchable, paginated saved analyses with pocket and run counts; resume analysis; return Home without deleting results.\\\addlinespace
+A02\quad Structure input & Open PDB/ENT, CIF/mmCIF, or a standardized Studio JSON project; retrieve a four-character PDB ID or supported HTTPS RCSB/PDBe link; optionally detect and rank pockets after download. Raw imports may be inspected before inference.\\\addlinespace
+A03\quad Folder library & Recursive folder browsing, filename filtering, arrow-key and Home/End navigation, on-selection coordinate loading, virtualized rows, and previews of visited structures. Native scans skip symlinks and support up to 10,000 structures; up to 100 thumbnails are cached in the current interface session.\\\addlinespace
+A04\quad Saved structures & Search by protein name or PDB ID in the structure switcher; view format, pocket count, and completed-docking count. Switching retains each document's preparation and run history.\\\addlinespace
+A05\quad Workspace layout & Light default and dark-mode toggle; draggable navigator and inspector dividers; persisted pane widths, keyboard resizing, and double-click reset. The central molecular view retains a minimum width. Theme choice is session state.\\\addlinespace
+A06\quad Molecular view & Rotate, pan, zoom, reset camera, and focus a pocket; double-click a pocket for tighter framing. Independent cartoon, protein surface, cavity geometry, lining-residue, and input-ligand controls. All-pocket overlay preserves selected-pocket emphasis.\\\addlinespace
+A07\quad Inspection visibility & Pocket envelopes become more transparent during docking, contact inspection, and atom-oriented anatomy inspection. Docked-pose visibility is controlled separately from input ligands. Contacts provides a section-depth clipping control and reset.\\\addlinespace
+A08\quad Pocket navigation & Sort by relative SLiPP, fpocket rank, or volume; keyboard selection; show pocket and residue counts. Overview exposes fpocket volume, score, druggability, mean sphere radius, structure source, and prediction state.\\\addlinespace
+A09\quad Features and residues & Raw feature values with supplied units; complete pocket-lining residue table with author chain, position, and insertion code. Hover or keyboard focus highlights a residue; clicking focuses it in 3D. Feature values are not attribution scores.\\\addlinespace
+A10\quad Anatomy & Select shape, hydrophobic lining, polar anchors, candidate openings, or neighboring chains. Inspect axis-aligned envelope dimensions, atom/residue counts, donor/acceptor legend, clear/tested rays, and probe radius. Filter neighboring chains and isolate a residue's markers.\\\addlinespace
+A11\quad Contacts & Choose an input ligand or current docked pose; use original or prepared receptor context accordingly. Toggle contact lines, filter by interaction type, inspect contact counts, atom names, distances and steric overlaps, hover residues, and focus contact endpoints. A selectable radial map shows up to 12 contacted residues; the full list remains available.\\\addlinespace
+A12\quad Atom measurements & Click atoms to inspect identity, element, formal charge, occupancy, and coordinates. Measurement mode reports pair distances for two/three picked atoms and the three-atom angle; clear picks resets the selection. These are coordinate measurements, not energy estimates.\\\addlinespace
+A13\quad Presentation & Presentation mode and camera reset; searchable command palette for navigation, reference loading, view toggles, pocket focus, and exports. Shortcuts include Ctrl/Cmd+K, Ctrl/Cmd+O, P, R, and Escape; inspector tabs and pocket lists support arrow keys.\\\bottomrule
+\end{tabularx}
+\endgroup
+
+\clearpage
+\section*{Appendix A\quad Computation and analysis records}
+\begingroup
+\small
+\setlength{\tabcolsep}{7pt}
+\renewcommand{\arraystretch}{1.18}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{1.23in}>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Feature group} & \textbf{Implemented behavior and scope}\\\midrule
+A14\quad Pocket inference & Local fpocket detection plus original binary SLiPP recipe; detect or recompute without a bound ligand. First-model protein preparation respects excluded chains and restores author residue identifiers. Geometry, descriptors, model version, training-data and executable hashes accompany the output.\\\addlinespace
+A15\quad Model controls & Separate docking, pocket-detector, and lipid-binding-model selectors. Vina/Vinardo selection is shared with Docking. fpocket and original SLiPP are the sole installed detector and predictor choices; the selectors do not imply additional integrated engines. Raw class outputs and calibration/provenance details remain inspectable.\\\addlinespace
+A16\quad Relative scores & Raw score divided by the full protein analysis's largest raw score; ties preserved, all-zero sets remain zero, missing predictions remain absent. List, overview, command hints, target list, and matrix use the relative scale. Raw values remain available; CSV includes both values.\\\addlinespace
+A17\quad Receptor editing & Include/exclude protein chains; search hetero residues, focus them in 3D, and retain supported waters/ions. Explicit HIS, ASP, GLU, and LYS template overrides; prepare-and-preview toggle; retained/removed residue and atom counts; undo and reset settings. Unsupported cofactors stay excluded; missing sequence segments are not rebuilt.\\\addlinespace
+A18\quad Lipid definitions & Five named starter lipids with source links; multi-selection; add a named custom isomeric SMILES to the tray. Chemical validation, seeded conformer generation, MMFF minimization, and Meeko preparation precede docking. Each run retains its lipid definition.\\\addlinespace
+A19\quad Screening setup & Choose current, top five, all, or custom pockets and selected lipids; queue up to 100 pairs. Vina or Vinardo scoring, three exhaustiveness presets, editable seed, automatic pocket-derived search box, and a direct route to receptor preparation.\\\addlinespace
+A20\quad Job control & Serial pair queue with native Vina threading; stop active search and pause remaining jobs; resume paused jobs; retry a failed or canceled run as a new record. Errors remain with failed runs while other queued pairs can continue. Scientific jobs have bounded runtimes and receptor preparation caching.\\\addlinespace
+A21\quad Results and poses & Expandable pocket--lipid matrix, scoring-function separation, mixed-protocol notice, completion/pending/failure counts, and run-history selection. Inspect up to ten poses, visibility, native scores, score differences, RMSD bounds, and intermolecular/intramolecular/unbound terms.\\\addlinespace
+A22\quad Run provenance & Inspect engine/scoring, seed, exhaustiveness, CPU count, elapsed/preparation/search times, search-box center and dimensions, cache status, preparation choices, and warnings. Queued requests snapshot settings; recomputing pockets after docking preserves the previous analysis.\\\addlinespace
+A23\quad Persistence & Local autosave, explicit save-error state, paused recovery of interrupted jobs, portable workspace export, and validated merge import. Visited coordinates/results are embedded; unvisited library files may need re-selection. A failed workspace restore pauses autosave to preserve existing stored data.\\\addlinespace
+A24\quad Exports & Molecular-view PNG; pocket CSV with raw/relative SLiPP, fpocket values and model version; standardized project JSON; docked-pose SDF with chemistry and run metadata; portable \texttt{.slipp} workspace. Native export writes through a temporary file before replacing the destination.\\\bottomrule
+\end{tabularx}
+\endgroup
+
+\subsection*{Capabilities not present in this version}
+\noindent The feature inventory does not claim SLIPP++ inference, alternative pocket detectors, predictor ensembling, arbitrary model installation, calibrated binding probabilities, automated lipid-category prediction, pH/tautomer enumeration, protein rebuilding, flexible-receptor or ensemble docking, membrane simulation, tunnel solving, quantitative headgroup/tail-fit analysis, synchronized dual-pose or apo/holo comparison, residue attribution heatmaps, per-pocket notes, in-app paper/report generation, cloud execution, or multi-user collaboration. File-picker import is implemented; direct drag-and-drop import is not. The downloadable software paper is a separate document artifact, not an application report-export feature.

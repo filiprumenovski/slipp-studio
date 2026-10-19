@@ -1,0 +1,8495 @@
+{
+  "schemaVersion": 1,
+  "id": "7t1m-bstb-reference",
+  "name": "BstB \u00b7 bacterial sterol-binding protein",
+  "description": "Dassama Lab \u00b7 Methylococcus capsulatus \u00b7 7T1M \u00b7 apo \u00b7 1.60 \u00c5 \u00b7 MSE\u2192MET prepared copy",
+  "structure": {
+    "id": "7T1M",
+    "path": "structure.pdb",
+    "format": "pdb",
+    "source": "https://files.rcsb.org/download/7T1M.pdb"
+  },
+  "pockets": [
+    {
+      "id": "pocket-01",
+      "rank": 1,
+      "center": [
+        32.63493103448276,
+        11.871396551724139,
+        56.020482758620695
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 47,
+          "insertionCode": "",
+          "name": "MET"
+        },
+        {
+          "chain": "A",
+          "seq": 257,
+          "insertionCode": "",
+          "name": "PHE"
+        },
+        {
+          "chain": "A",
+          "seq": 33,
+          "insertionCode": "",
+          "name": "TYR"
+        },
+        {
+          "chain": "A",
+          "seq": 50,
+          "insertionCode": "",
+          "name": "MET"
+        },
+        {
+          "chain": "A",
+          "seq": 89,
+          "insertionCode": "",
+          "name": "ILE"
+        },
+        {
+          "chain": "A",
+          "seq": 253,
+          "insertionCode": "",
+          "name": "LEU"
+        },
+        {
+          "chain": "A",
+          "seq": 46,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 254,
+          "insertionCode": "",
+          "name": "CYS"
+        },
+        {
+          "chain": "A",
+          "seq": 244,
+          "insertionCode": "",
+          "name": "LEU"
+        },
+        {
+          "chain": "A",
+          "seq": 222,
+          "insertionCode": "",
+          "name": "VAL"
+        },
+        {
+          "chain": "A",
+          "seq": 221,
+          "insertionCode": "",
+          "name": "GLY"
+        },
+        {
+          "chain": "A",
+          "seq": 259,
+          "insertionCode": "",
+          "name": "ILE"
+        },
+        {
+          "chain": "A",
+          "seq": 262,
+          "insertionCode": "",
+          "name": "PHE"
+        },
+        {
+          "chain": "A",
+          "seq": 220,
+          "insertionCode": "",
+          "name": "MET"
+        },
+        {
+          "chain": "A",
+          "seq": 110,
+          "insertionCode": "",
+          "name": "PRO"
+        }
+      ],
+      "fpocket": {
+        "Score": 0.126,
+        "Druggability Score": 0.623,
+        "Number of Alpha Spheres": 58.0,
+        "Total SASA": 84.236,
+        "Polar SASA": 8.572,
+        "Apolar SASA": 75.665,
+        "Volume": 383.272,
+        "Mean local hydrophobic density": 52.704,
+        "Mean alpha sphere radius": 3.898,
+        "Mean alp. sph. solvent access": 0.518,
+        "Apolar alpha sphere proportion": 0.931,
+        "Hydrophobicity score": 66.467,
+        "Volume score": 4.467,
+        "Polarity score": 1.0,
+        "Charge score": 0.0,
+        "Proportion of polar atoms": 14.286,
+        "Alpha sphere density": 3.765,
+        "Cent. of mass - Alpha Sphere max dist": 8.33,
+        "Flexibility": 0.212
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.46,
+        "probabilities": {
+          "non-lipid": 0.54,
+          "lipid": 0.46
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 383.272,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 58.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 3.898,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.518,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.931,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 52.704,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": 66.467,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 4.467,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.212,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 14.286,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 3.765,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 8.33,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 8.572,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 75.665,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 84.236,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              33.105,
+              15.145,
+              53.235
+            ],
+            "radius": 3.84
+          },
+          {
+            "center": [
+              31.428,
+              13.537,
+              56.33
+            ],
+            "radius": 3.7
+          },
+          {
+            "center": [
+              33.191,
+              16.305,
+              53.982
+            ],
+            "radius": 4.24
+          },
+          {
+            "center": [
+              31.701,
+              12.156,
+              55.342
+            ],
+            "radius": 3.93
+          },
+          {
+            "center": [
+              30.061,
+              10.636,
+              54.809
+            ],
+            "radius": 3.56
+          },
+          {
+            "center": [
+              30.288,
+              9.269,
+              54.55
+            ],
+            "radius": 3.49
+          },
+          {
+            "center": [
+              29.874,
+              10.564,
+              54.644
+            ],
+            "radius": 3.52
+          },
+          {
+            "center": [
+              32.508,
+              13.294,
+              53.908
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              32.819,
+              8.277,
+              56.174
+            ],
+            "radius": 3.49
+          },
+          {
+            "center": [
+              32.537,
+              13.312,
+              53.927
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              32.513,
+              13.295,
+              53.912
+            ],
+            "radius": 3.52
+          },
+          {
+            "center": [
+              31.877,
+              12.238,
+              55.408
+            ],
+            "radius": 4.02
+          },
+          {
+            "center": [
+              31.175,
+              9.54,
+              55.312
+            ],
+            "radius": 3.8
+          },
+          {
+            "center": [
+              31.345,
+              9.561,
+              55.399
+            ],
+            "radius": 3.85
+          },
+          {
+            "center": [
+              31.03,
+              9.861,
+              55.303
+            ],
+            "radius": 3.74
+          },
+          {
+            "center": [
+              31.374,
+              9.787,
+              55.457
+            ],
+            "radius": 3.84
+          },
+          {
+            "center": [
+              32.729,
+              8.869,
+              56.155
+            ],
+            "radius": 3.87
+          },
+          {
+            "center": [
+              32.431,
+              14.707,
+              58.39
+            ],
+            "radius": 3.61
+          },
+          {
+            "center": [
+              32.582,
+              15.016,
+              57.568
+            ],
+            "radius": 3.74
+          },
+          {
+            "center": [
+              33.463,
+              14.17,
+              54.743
+            ],
+            "radius": 4.37
+          },
+          {
+            "center": [
+              32.557,
+              13.321,
+              53.953
+            ],
+            "radius": 3.55
+          },
+          {
+            "center": [
+              32.995,
+              13.355,
+              55.049
+            ],
+            "radius": 4.21
+          },
+          {
+            "center": [
+              34.935,
+              13.971,
+              53.939
+            ],
+            "radius": 3.69
+          },
+          {
+            "center": [
+              32.861,
+              8.359,
+              56.183
+            ],
+            "radius": 3.54
+          },
+          {
+            "center": [
+              32.901,
+              8.845,
+              56.193
+            ],
+            "radius": 3.85
+          },
+          {
+            "center": [
+              32.902,
+              8.851,
+              56.194
+            ],
+            "radius": 3.85
+          },
+          {
+            "center": [
+              33.212,
+              8.67,
+              56.044
+            ],
+            "radius": 3.59
+          },
+          {
+            "center": [
+              32.394,
+              13.583,
+              56.399
+            ],
+            "radius": 4.36
+          },
+          {
+            "center": [
+              32.861,
+              14.163,
+              56.327
+            ],
+            "radius": 4.56
+          },
+          {
+            "center": [
+              32.968,
+              14.203,
+              56.245
+            ],
+            "radius": 4.59
+          },
+          {
+            "center": [
+              32.478,
+              12.683,
+              55.688
+            ],
+            "radius": 4.33
+          },
+          {
+            "center": [
+              32.418,
+              12.624,
+              55.708
+            ],
+            "radius": 4.32
+          },
+          {
+            "center": [
+              33.396,
+              9.528,
+              55.737
+            ],
+            "radius": 3.73
+          },
+          {
+            "center": [
+              32.181,
+              9.615,
+              56.022
+            ],
+            "radius": 4.11
+          },
+          {
+            "center": [
+              33.281,
+              8.955,
+              56.1
+            ],
+            "radius": 3.75
+          },
+          {
+            "center": [
+              32.382,
+              9.375,
+              55.994
+            ],
+            "radius": 4.09
+          },
+          {
+            "center": [
+              32.22,
+              9.463,
+              56.025
+            ],
+            "radius": 4.13
+          },
+          {
+            "center": [
+              32.654,
+              9.022,
+              56.162
+            ],
+            "radius": 3.97
+          },
+          {
+            "center": [
+              32.709,
+              8.993,
+              56.171
+            ],
+            "radius": 3.94
+          },
+          {
+            "center": [
+              32.253,
+              9.235,
+              56.244
+            ],
+            "radius": 4.05
+          },
+          {
+            "center": [
+              32.175,
+              9.285,
+              56.812
+            ],
+            "radius": 3.74
+          },
+          {
+            "center": [
+              33.431,
+              8.678,
+              55.976
+            ],
+            "radius": 3.5
+          },
+          {
+            "center": [
+              33.75,
+              9.165,
+              55.898
+            ],
+            "radius": 3.63
+          },
+          {
+            "center": [
+              34.136,
+              9.03,
+              56.115
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              33.54,
+              9.002,
+              56.03
+            ],
+            "radius": 3.68
+          },
+          {
+            "center": [
+              32.858,
+              14.516,
+              58.499
+            ],
+            "radius": 3.71
+          },
+          {
+            "center": [
+              33.367,
+              14.731,
+              58.216
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              35.544,
+              14.664,
+              57.152
+            ],
+            "radius": 3.61
+          },
+          {
+            "center": [
+              32.66,
+              14.449,
+              58.207
+            ],
+            "radius": 3.9
+          },
+          {
+            "center": [
+              33.833,
+              14.976,
+              56.824
+            ],
+            "radius": 4.33
+          },
+          {
+            "center": [
+              33.114,
+              14.322,
+              56.355
+            ],
+            "radius": 4.56
+          },
+          {
+            "center": [
+              32.954,
+              14.607,
+              57.26
+            ],
+            "radius": 4.24
+          },
+          {
+            "center": [
+              32.914,
+              14.273,
+              56.594
+            ],
+            "radius": 4.47
+          },
+          {
+            "center": [
+              32.138,
+              13.578,
+              58.383
+            ],
+            "radius": 3.78
+          },
+          {
+            "center": [
+              32.156,
+              13.579,
+              58.301
+            ],
+            "radius": 3.79
+          },
+          {
+            "center": [
+              32.122,
+              13.464,
+              58.509
+            ],
+            "radius": 3.71
+          },
+          {
+            "center": [
+              33.789,
+              14.916,
+              56.496
+            ],
+            "radius": 4.52
+          },
+          {
+            "center": [
+              33.756,
+              14.953,
+              56.636
+            ],
+            "radius": 4.47
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-02",
+      "rank": 2,
+      "center": [
+        28.70844,
+        24.3456,
+        51.28336
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 32,
+          "insertionCode": "",
+          "name": "CYS"
+        },
+        {
+          "chain": "A",
+          "seq": 34,
+          "insertionCode": "",
+          "name": "PRO"
+        },
+        {
+          "chain": "A",
+          "seq": 94,
+          "insertionCode": "",
+          "name": "LEU"
+        },
+        {
+          "chain": "A",
+          "seq": 73,
+          "insertionCode": "",
+          "name": "VAL"
+        },
+        {
+          "chain": "A",
+          "seq": 33,
+          "insertionCode": "",
+          "name": "TYR"
+        },
+        {
+          "chain": "A",
+          "seq": 72,
+          "insertionCode": "",
+          "name": "LYS"
+        },
+        {
+          "chain": "A",
+          "seq": 71,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 70,
+          "insertionCode": "",
+          "name": "THR"
+        }
+      ],
+      "fpocket": {
+        "Score": 0.042,
+        "Druggability Score": 0.001,
+        "Number of Alpha Spheres": 25.0,
+        "Total SASA": 13.284,
+        "Polar SASA": 0.0,
+        "Apolar SASA": 13.284,
+        "Volume": 57.065,
+        "Mean local hydrophobic density": 13.0,
+        "Mean alpha sphere radius": 3.491,
+        "Mean alp. sph. solvent access": 0.416,
+        "Apolar alpha sphere proportion": 0.56,
+        "Hydrophobicity score": 33.75,
+        "Volume score": 4.125,
+        "Polarity score": 3.0,
+        "Charge score": 1.0,
+        "Proportion of polar atoms": 40.0,
+        "Alpha sphere density": 0.834,
+        "Cent. of mass - Alpha Sphere max dist": 1.951,
+        "Flexibility": 0.426
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.08,
+        "probabilities": {
+          "non-lipid": 0.92,
+          "lipid": 0.08
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 57.065,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 25.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 3.491,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.416,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.56,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 13.0,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": 33.75,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 4.125,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 3.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.426,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 40.0,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 0.834,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 1.951,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 13.284,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 13.284,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              29.646,
+              24.477,
+              51.981
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              28.021,
+              24.172,
+              51.154
+            ],
+            "radius": 3.47
+          },
+          {
+            "center": [
+              28.447,
+              24.412,
+              51.375
+            ],
+            "radius": 3.49
+          },
+          {
+            "center": [
+              27.987,
+              24.244,
+              51.271
+            ],
+            "radius": 3.46
+          },
+          {
+            "center": [
+              28.201,
+              24.085,
+              50.882
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              28.533,
+              24.21,
+              51.051
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              29.696,
+              24.592,
+              51.854
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              29.508,
+              24.563,
+              51.842
+            ],
+            "radius": 3.52
+          },
+          {
+            "center": [
+              29.176,
+              24.804,
+              51.878
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              29.076,
+              24.573,
+              51.613
+            ],
+            "radius": 3.54
+          },
+          {
+            "center": [
+              29.425,
+              24.59,
+              51.845
+            ],
+            "radius": 3.52
+          },
+          {
+            "center": [
+              28.029,
+              24.155,
+              51.11
+            ],
+            "radius": 3.46
+          },
+          {
+            "center": [
+              28.055,
+              24.102,
+              50.92
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              28.108,
+              24.088,
+              50.924
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              28.008,
+              24.169,
+              51.158
+            ],
+            "radius": 3.47
+          },
+          {
+            "center": [
+              27.91,
+              24.206,
+              51.268
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              28.563,
+              24.186,
+              51.059
+            ],
+            "radius": 3.49
+          },
+          {
+            "center": [
+              28.576,
+              24.226,
+              51.061
+            ],
+            "radius": 3.52
+          },
+          {
+            "center": [
+              28.86,
+              24.379,
+              51.198
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              28.981,
+              24.387,
+              50.907
+            ],
+            "radius": 3.48
+          },
+          {
+            "center": [
+              28.939,
+              24.406,
+              51.145
+            ],
+            "radius": 3.55
+          },
+          {
+            "center": [
+              28.965,
+              24.411,
+              51.251
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              28.987,
+              24.411,
+              51.262
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              29.031,
+              24.401,
+              51.144
+            ],
+            "radius": 3.52
+          },
+          {
+            "center": [
+              28.983,
+              24.391,
+              50.931
+            ],
+            "radius": 3.48
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-03",
+      "rank": 3,
+      "center": [
+        29.060473684210525,
+        4.301473684210526,
+        71.62421052631578
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 239,
+          "insertionCode": "",
+          "name": "GLN"
+        },
+        {
+          "chain": "A",
+          "seq": 58,
+          "insertionCode": "",
+          "name": "GLY"
+        },
+        {
+          "chain": "A",
+          "seq": 57,
+          "insertionCode": "",
+          "name": "VAL"
+        },
+        {
+          "chain": "A",
+          "seq": 59,
+          "insertionCode": "",
+          "name": "GLN"
+        },
+        {
+          "chain": "A",
+          "seq": 240,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 236,
+          "insertionCode": "",
+          "name": "ARG"
+        },
+        {
+          "chain": "A",
+          "seq": 243,
+          "insertionCode": "",
+          "name": "THR"
+        }
+      ],
+      "fpocket": {
+        "Score": 0.027,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 19.0,
+        "Total SASA": 63.981,
+        "Polar SASA": 48.282,
+        "Apolar SASA": 15.699,
+        "Volume": 271.339,
+        "Mean local hydrophobic density": 0.0,
+        "Mean alpha sphere radius": 3.94,
+        "Mean alp. sph. solvent access": 0.518,
+        "Apolar alpha sphere proportion": 0.0,
+        "Hydrophobicity score": 13.714,
+        "Volume score": 3.571,
+        "Polarity score": 4.0,
+        "Charge score": 1.0,
+        "Proportion of polar atoms": 62.5,
+        "Alpha sphere density": 3.015,
+        "Cent. of mass - Alpha Sphere max dist": 8.016,
+        "Flexibility": 0.07
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.02,
+        "probabilities": {
+          "non-lipid": 0.98,
+          "lipid": 0.02
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 271.339,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 19.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 3.94,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.518,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": 13.714,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 3.571,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 4.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.07,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 62.5,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 3.015,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 8.016,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 48.282,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 15.699,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 63.981,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              29.535,
+              4.763,
+              71.088
+            ],
+            "radius": 3.93
+          },
+          {
+            "center": [
+              28.802,
+              4.134,
+              72.137
+            ],
+            "radius": 4.22
+          },
+          {
+            "center": [
+              30.494,
+              4.401,
+              70.219
+            ],
+            "radius": 3.67
+          },
+          {
+            "center": [
+              29.664,
+              4.898,
+              70.615
+            ],
+            "radius": 3.77
+          },
+          {
+            "center": [
+              28.155,
+              3.696,
+              71.702
+            ],
+            "radius": 3.59
+          },
+          {
+            "center": [
+              24.965,
+              4.006,
+              74.336
+            ],
+            "radius": 3.98
+          },
+          {
+            "center": [
+              27.189,
+              4.68,
+              74.018
+            ],
+            "radius": 4.3
+          },
+          {
+            "center": [
+              28.571,
+              4.922,
+              72.069
+            ],
+            "radius": 4.05
+          },
+          {
+            "center": [
+              28.085,
+              4.613,
+              73.311
+            ],
+            "radius": 4.32
+          },
+          {
+            "center": [
+              28.715,
+              4.206,
+              72.202
+            ],
+            "radius": 4.23
+          },
+          {
+            "center": [
+              24.433,
+              3.503,
+              73.83
+            ],
+            "radius": 3.62
+          },
+          {
+            "center": [
+              31.617,
+              3.078,
+              70.942
+            ],
+            "radius": 4.38
+          },
+          {
+            "center": [
+              29.268,
+              5.227,
+              71.189
+            ],
+            "radius": 3.86
+          },
+          {
+            "center": [
+              28.865,
+              5.347,
+              71.578
+            ],
+            "radius": 3.89
+          },
+          {
+            "center": [
+              29.444,
+              5.261,
+              70.721
+            ],
+            "radius": 3.7
+          },
+          {
+            "center": [
+              30.593,
+              4.328,
+              69.88
+            ],
+            "radius": 3.54
+          },
+          {
+            "center": [
+              30.699,
+              4.225,
+              70.225
+            ],
+            "radius": 3.71
+          },
+          {
+            "center": [
+              31.584,
+              3.181,
+              70.796
+            ],
+            "radius": 4.29
+          },
+          {
+            "center": [
+              31.471,
+              3.259,
+              70.002
+            ],
+            "radius": 3.82
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-04",
+      "rank": 4,
+      "center": [
+        19.046,
+        28.62170588235294,
+        66.76617647058823
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 84,
+          "insertionCode": "",
+          "name": "LYS"
+        },
+        {
+          "chain": "A",
+          "seq": 227,
+          "insertionCode": "",
+          "name": "ARG"
+        },
+        {
+          "chain": "A",
+          "seq": 228,
+          "insertionCode": "",
+          "name": "LEU"
+        },
+        {
+          "chain": "A",
+          "seq": 102,
+          "insertionCode": "",
+          "name": "TYR"
+        },
+        {
+          "chain": "A",
+          "seq": 81,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 225,
+          "insertionCode": "",
+          "name": "ASN"
+        }
+      ],
+      "fpocket": {
+        "Score": 0.024,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 17.0,
+        "Total SASA": 63.277,
+        "Polar SASA": 28.256,
+        "Apolar SASA": 35.021,
+        "Volume": 239.701,
+        "Mean local hydrophobic density": 6.0,
+        "Mean alpha sphere radius": 3.86,
+        "Mean alp. sph. solvent access": 0.485,
+        "Apolar alpha sphere proportion": 0.412,
+        "Hydrophobicity score": 22.667,
+        "Volume score": 5.0,
+        "Polarity score": 4.0,
+        "Charge score": 2.0,
+        "Proportion of polar atoms": 35.294,
+        "Alpha sphere density": 3.046,
+        "Cent. of mass - Alpha Sphere max dist": 6.248,
+        "Flexibility": 0.344
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.01,
+        "probabilities": {
+          "non-lipid": 0.99,
+          "lipid": 0.01
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 239.701,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 17.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 3.86,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.485,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.412,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 6.0,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": 22.667,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 5.0,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 4.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": 2.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.344,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 35.294,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 3.046,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 6.248,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 28.256,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 35.021,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 63.277,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              17.517,
+              29.948,
+              68.063
+            ],
+            "radius": 4.25
+          },
+          {
+            "center": [
+              18.101,
+              26.416,
+              68.527
+            ],
+            "radius": 3.41
+          },
+          {
+            "center": [
+              18.881,
+              31.351,
+              65.028
+            ],
+            "radius": 4.21
+          },
+          {
+            "center": [
+              18.805,
+              31.513,
+              64.983
+            ],
+            "radius": 4.26
+          },
+          {
+            "center": [
+              18.139,
+              26.446,
+              68.485
+            ],
+            "radius": 3.4
+          },
+          {
+            "center": [
+              20.685,
+              26.979,
+              66.178
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              18.442,
+              29.843,
+              66.666
+            ],
+            "radius": 4.17
+          },
+          {
+            "center": [
+              18.632,
+              30.161,
+              66.267
+            ],
+            "radius": 4.38
+          },
+          {
+            "center": [
+              18.726,
+              30.084,
+              66.206
+            ],
+            "radius": 4.33
+          },
+          {
+            "center": [
+              20.46,
+              27.24,
+              66.083
+            ],
+            "radius": 3.54
+          },
+          {
+            "center": [
+              20.261,
+              27.393,
+              66.068
+            ],
+            "radius": 3.56
+          },
+          {
+            "center": [
+              20.237,
+              27.35,
+              66.12
+            ],
+            "radius": 3.54
+          },
+          {
+            "center": [
+              18.577,
+              27.77,
+              67.729
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              20.592,
+              26.841,
+              66.353
+            ],
+            "radius": 3.46
+          },
+          {
+            "center": [
+              20.373,
+              26.872,
+              66.457
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              17.724,
+              29.988,
+              67.869
+            ],
+            "radius": 4.27
+          },
+          {
+            "center": [
+              17.63,
+              30.374,
+              67.943
+            ],
+            "radius": 4.47
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-05",
+      "rank": 5,
+      "center": [
+        22.2692,
+        13.7466,
+        71.03493333333333
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 65,
+          "insertionCode": "",
+          "name": "PHE"
+        },
+        {
+          "chain": "A",
+          "seq": 87,
+          "insertionCode": "",
+          "name": "PHE"
+        },
+        {
+          "chain": "A",
+          "seq": 86,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 233,
+          "insertionCode": "",
+          "name": "GLU"
+        },
+        {
+          "chain": "A",
+          "seq": 60,
+          "insertionCode": "",
+          "name": "TRP"
+        },
+        {
+          "chain": "A",
+          "seq": 236,
+          "insertionCode": "",
+          "name": "ARG"
+        },
+        {
+          "chain": "A",
+          "seq": 229,
+          "insertionCode": "",
+          "name": "THR"
+        },
+        {
+          "chain": "A",
+          "seq": 228,
+          "insertionCode": "",
+          "name": "LEU"
+        }
+      ],
+      "fpocket": {
+        "Score": 0.013,
+        "Druggability Score": 0.002,
+        "Number of Alpha Spheres": 15.0,
+        "Total SASA": 57.993,
+        "Polar SASA": 20.557,
+        "Apolar SASA": 37.436,
+        "Volume": 224.879,
+        "Mean local hydrophobic density": 12.0,
+        "Mean alpha sphere radius": 3.913,
+        "Mean alp. sph. solvent access": 0.481,
+        "Apolar alpha sphere proportion": 0.867,
+        "Hydrophobicity score": 50.375,
+        "Volume score": 5.125,
+        "Polarity score": 4.0,
+        "Charge score": 0.0,
+        "Proportion of polar atoms": 33.333,
+        "Alpha sphere density": 2.733,
+        "Cent. of mass - Alpha Sphere max dist": 6.218,
+        "Flexibility": 0.065
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.09,
+        "probabilities": {
+          "non-lipid": 0.91,
+          "lipid": 0.09
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 224.879,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 15.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 3.913,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.481,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.867,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 12.0,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": 50.375,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 5.125,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 4.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.065,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 33.333,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 2.733,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 6.218,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 20.557,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 37.436,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 57.993,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              20.669,
+              14.814,
+              70.232
+            ],
+            "radius": 4.69
+          },
+          {
+            "center": [
+              22.899,
+              11.303,
+              72.505
+            ],
+            "radius": 3.64
+          },
+          {
+            "center": [
+              22.551,
+              11.397,
+              72.376
+            ],
+            "radius": 3.69
+          },
+          {
+            "center": [
+              21.995,
+              13.185,
+              70.627
+            ],
+            "radius": 4.17
+          },
+          {
+            "center": [
+              22.217,
+              13.294,
+              70.549
+            ],
+            "radius": 4.14
+          },
+          {
+            "center": [
+              22.397,
+              13.279,
+              70.584
+            ],
+            "radius": 4.06
+          },
+          {
+            "center": [
+              21.948,
+              14.743,
+              70.695
+            ],
+            "radius": 3.96
+          },
+          {
+            "center": [
+              20.935,
+              14.332,
+              70.428
+            ],
+            "radius": 4.64
+          },
+          {
+            "center": [
+              21.019,
+              14.224,
+              70.43
+            ],
+            "radius": 4.6
+          },
+          {
+            "center": [
+              23.489,
+              13.13,
+              70.588
+            ],
+            "radius": 3.64
+          },
+          {
+            "center": [
+              22.18,
+              15.97,
+              70.515
+            ],
+            "radius": 3.69
+          },
+          {
+            "center": [
+              21.422,
+              17.127,
+              70.902
+            ],
+            "radius": 3.46
+          },
+          {
+            "center": [
+              22.913,
+              15.844,
+              70.798
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              23.699,
+              11.994,
+              71.944
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              23.705,
+              11.563,
+              72.351
+            ],
+            "radius": 3.48
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-06",
+      "rank": 6,
+      "center": [
+        33.73758333333333,
+        17.381416666666667,
+        72.69108333333334
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 235,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 231,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 238,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 234,
+          "insertionCode": "",
+          "name": "ARG"
+        },
+        {
+          "chain": "A",
+          "seq": 267,
+          "insertionCode": "",
+          "name": "PRO"
+        },
+        {
+          "chain": "A",
+          "seq": 105,
+          "insertionCode": "",
+          "name": "VAL"
+        },
+        {
+          "chain": "A",
+          "seq": 107,
+          "insertionCode": "",
+          "name": "VAL"
+        },
+        {
+          "chain": "A",
+          "seq": 106,
+          "insertionCode": "",
+          "name": "PRO"
+        },
+        {
+          "chain": "A",
+          "seq": 265,
+          "insertionCode": "",
+          "name": "VAL"
+        },
+        {
+          "chain": "A",
+          "seq": 264,
+          "insertionCode": "",
+          "name": "ALA"
+        }
+      ],
+      "fpocket": {
+        "Score": -0.025,
+        "Druggability Score": 0.001,
+        "Number of Alpha Spheres": 24.0,
+        "Total SASA": 79.12,
+        "Polar SASA": 35.646,
+        "Apolar SASA": 43.475,
+        "Volume": 264.225,
+        "Mean local hydrophobic density": 11.0,
+        "Mean alpha sphere radius": 4.134,
+        "Mean alp. sph. solvent access": 0.621,
+        "Apolar alpha sphere proportion": 0.5,
+        "Hydrophobicity score": 28.6,
+        "Volume score": 3.3,
+        "Polarity score": 1.0,
+        "Charge score": 1.0,
+        "Proportion of polar atoms": 40.0,
+        "Alpha sphere density": 3.003,
+        "Cent. of mass - Alpha Sphere max dist": 6.415,
+        "Flexibility": 0.032
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.01,
+        "probabilities": {
+          "non-lipid": 0.99,
+          "lipid": 0.01
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 264.225,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 24.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 4.134,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.621,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.5,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 11.0,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": 28.6,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 3.3,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.032,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 40.0,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 3.003,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 6.415,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 35.646,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 43.475,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 79.12,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              33.088,
+              15.339,
+              73.995
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              33.716,
+              15.649,
+              72.255
+            ],
+            "radius": 4.3
+          },
+          {
+            "center": [
+              33.657,
+              21.198,
+              74.011
+            ],
+            "radius": 4.1
+          },
+          {
+            "center": [
+              33.483,
+              21.231,
+              73.928
+            ],
+            "radius": 3.97
+          },
+          {
+            "center": [
+              33.583,
+              15.526,
+              72.182
+            ],
+            "radius": 4.14
+          },
+          {
+            "center": [
+              33.481,
+              15.398,
+              72.126
+            ],
+            "radius": 4.0
+          },
+          {
+            "center": [
+              33.644,
+              15.619,
+              72.203
+            ],
+            "radius": 4.23
+          },
+          {
+            "center": [
+              33.537,
+              15.622,
+              72.048
+            ],
+            "radius": 4.12
+          },
+          {
+            "center": [
+              33.406,
+              15.776,
+              71.611
+            ],
+            "radius": 3.99
+          },
+          {
+            "center": [
+              34.122,
+              19.802,
+              73.163
+            ],
+            "radius": 4.21
+          },
+          {
+            "center": [
+              34.247,
+              20.217,
+              72.669
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              33.734,
+              20.932,
+              73.932
+            ],
+            "radius": 4.16
+          },
+          {
+            "center": [
+              33.727,
+              20.971,
+              73.941
+            ],
+            "radius": 4.15
+          },
+          {
+            "center": [
+              33.726,
+              20.984,
+              73.946
+            ],
+            "radius": 4.15
+          },
+          {
+            "center": [
+              33.173,
+              16.19,
+              71.172
+            ],
+            "radius": 3.77
+          },
+          {
+            "center": [
+              33.004,
+              15.937,
+              71.013
+            ],
+            "radius": 3.69
+          },
+          {
+            "center": [
+              33.654,
+              16.171,
+              71.836
+            ],
+            "radius": 4.16
+          },
+          {
+            "center": [
+              34.528,
+              15.164,
+              72.727
+            ],
+            "radius": 4.48
+          },
+          {
+            "center": [
+              34.617,
+              15.199,
+              72.064
+            ],
+            "radius": 4.09
+          },
+          {
+            "center": [
+              33.675,
+              17.335,
+              72.879
+            ],
+            "radius": 4.31
+          },
+          {
+            "center": [
+              33.848,
+              15.717,
+              72.329
+            ],
+            "radius": 4.42
+          },
+          {
+            "center": [
+              33.793,
+              15.786,
+              72.138
+            ],
+            "radius": 4.34
+          },
+          {
+            "center": [
+              34.289,
+              19.419,
+              73.339
+            ],
+            "radius": 4.36
+          },
+          {
+            "center": [
+              33.97,
+              15.972,
+              73.079
+            ],
+            "radius": 4.6
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-07",
+      "rank": 7,
+      "center": [
+        37.86952380952381,
+        37.34547619047619,
+        42.42642857142857
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 145,
+          "insertionCode": "",
+          "name": "LEU"
+        },
+        {
+          "chain": "A",
+          "seq": 148,
+          "insertionCode": "",
+          "name": "PRO"
+        },
+        {
+          "chain": "A",
+          "seq": 163,
+          "insertionCode": "",
+          "name": "GLU"
+        },
+        {
+          "chain": "A",
+          "seq": 146,
+          "insertionCode": "",
+          "name": "ASP"
+        },
+        {
+          "chain": "A",
+          "seq": 170,
+          "insertionCode": "",
+          "name": "PRO"
+        },
+        {
+          "chain": "A",
+          "seq": 168,
+          "insertionCode": "",
+          "name": "LEU"
+        },
+        {
+          "chain": "A",
+          "seq": 167,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 166,
+          "insertionCode": "",
+          "name": "PHE"
+        }
+      ],
+      "fpocket": {
+        "Score": -0.035,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 21.0,
+        "Total SASA": 79.276,
+        "Polar SASA": 61.162,
+        "Apolar SASA": 18.114,
+        "Volume": 298.677,
+        "Mean local hydrophobic density": 6.0,
+        "Mean alpha sphere radius": 3.914,
+        "Mean alp. sph. solvent access": 0.639,
+        "Apolar alpha sphere proportion": 0.333,
+        "Hydrophobicity score": 19.625,
+        "Volume score": 3.875,
+        "Polarity score": 2.0,
+        "Charge score": -2.0,
+        "Proportion of polar atoms": 42.105,
+        "Alpha sphere density": 2.964,
+        "Cent. of mass - Alpha Sphere max dist": 7.717,
+        "Flexibility": 0.556
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.0,
+        "probabilities": {
+          "non-lipid": 1.0,
+          "lipid": 0.0
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 298.677,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 21.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 3.914,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.639,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.333,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 6.0,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": 19.625,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 3.875,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 2.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": -2.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.556,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 42.105,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 2.964,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 7.717,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 61.162,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 18.114,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 79.276,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              36.58,
+              35.843,
+              44.603
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              35.929,
+              35.785,
+              44.449
+            ],
+            "radius": 3.62
+          },
+          {
+            "center": [
+              35.158,
+              35.893,
+              42.646
+            ],
+            "radius": 4.63
+          },
+          {
+            "center": [
+              34.882,
+              34.409,
+              42.786
+            ],
+            "radius": 3.74
+          },
+          {
+            "center": [
+              35.014,
+              34.433,
+              42.834
+            ],
+            "radius": 3.73
+          },
+          {
+            "center": [
+              38.346,
+              38.548,
+              41.38
+            ],
+            "radius": 4.4
+          },
+          {
+            "center": [
+              36.421,
+              36.151,
+              42.22
+            ],
+            "radius": 4.44
+          },
+          {
+            "center": [
+              36.434,
+              36.076,
+              42.321
+            ],
+            "radius": 4.42
+          },
+          {
+            "center": [
+              39.489,
+              39.869,
+              39.867
+            ],
+            "radius": 4.4
+          },
+          {
+            "center": [
+              39.111,
+              37.907,
+              42.659
+            ],
+            "radius": 3.56
+          },
+          {
+            "center": [
+              37.077,
+              36.079,
+              42.978
+            ],
+            "radius": 3.96
+          },
+          {
+            "center": [
+              38.624,
+              37.661,
+              42.708
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              39.235,
+              37.923,
+              42.736
+            ],
+            "radius": 3.48
+          },
+          {
+            "center": [
+              39.145,
+              37.983,
+              42.603
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              38.779,
+              38.918,
+              41.983
+            ],
+            "radius": 4.0
+          },
+          {
+            "center": [
+              39.695,
+              38.267,
+              42.086
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              40.047,
+              38.521,
+              41.95
+            ],
+            "radius": 3.49
+          },
+          {
+            "center": [
+              38.864,
+              38.459,
+              42.424
+            ],
+            "radius": 3.72
+          },
+          {
+            "center": [
+              38.869,
+              38.251,
+              42.265
+            ],
+            "radius": 3.9
+          },
+          {
+            "center": [
+              38.778,
+              38.655,
+              41.718
+            ],
+            "radius": 4.26
+          },
+          {
+            "center": [
+              38.783,
+              38.624,
+              41.739
+            ],
+            "radius": 4.24
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-08",
+      "rank": 8,
+      "center": [
+        33.772,
+        28.02713333333333,
+        37.86333333333334
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 170,
+          "insertionCode": "",
+          "name": "PRO"
+        },
+        {
+          "chain": "A",
+          "seq": 146,
+          "insertionCode": "",
+          "name": "ASP"
+        },
+        {
+          "chain": "A",
+          "seq": 172,
+          "insertionCode": "",
+          "name": "ARG"
+        },
+        {
+          "chain": "A",
+          "seq": 171,
+          "insertionCode": "",
+          "name": "SER"
+        },
+        {
+          "chain": "A",
+          "seq": 176,
+          "insertionCode": "",
+          "name": "ARG"
+        }
+      ],
+      "fpocket": {
+        "Score": -0.062,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 15.0,
+        "Total SASA": 64.677,
+        "Polar SASA": 34.486,
+        "Apolar SASA": 30.191,
+        "Volume": 200.067,
+        "Mean local hydrophobic density": 6.0,
+        "Mean alpha sphere radius": 3.864,
+        "Mean alp. sph. solvent access": 0.554,
+        "Apolar alpha sphere proportion": 0.467,
+        "Hydrophobicity score": -26.8,
+        "Volume score": 4.4,
+        "Polarity score": 4.0,
+        "Charge score": 1.0,
+        "Proportion of polar atoms": 46.154,
+        "Alpha sphere density": 2.219,
+        "Cent. of mass - Alpha Sphere max dist": 5.303,
+        "Flexibility": 0.764
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.0,
+        "probabilities": {
+          "non-lipid": 1.0,
+          "lipid": 0.0
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 200.067,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 15.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 3.864,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.554,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.467,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 6.0,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": -26.8,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 4.4,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 4.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.764,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 46.154,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 2.219,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 5.303,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 34.486,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 30.191,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 64.677,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              32.86,
+              28.953,
+              38.727
+            ],
+            "radius": 4.2
+          },
+          {
+            "center": [
+              33.11,
+              28.685,
+              38.833
+            ],
+            "radius": 4.08
+          },
+          {
+            "center": [
+              33.983,
+              27.332,
+              36.297
+            ],
+            "radius": 3.74
+          },
+          {
+            "center": [
+              32.48,
+              29.534,
+              38.158
+            ],
+            "radius": 4.58
+          },
+          {
+            "center": [
+              33.201,
+              28.644,
+              38.742
+            ],
+            "radius": 4.06
+          },
+          {
+            "center": [
+              33.756,
+              27.822,
+              37.982
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              33.535,
+              28.379,
+              38.941
+            ],
+            "radius": 3.87
+          },
+          {
+            "center": [
+              33.598,
+              28.303,
+              38.907
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              33.757,
+              27.822,
+              37.982
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              33.59,
+              28.303,
+              39.128
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              33.588,
+              28.326,
+              39.021
+            ],
+            "radius": 3.84
+          },
+          {
+            "center": [
+              34.057,
+              28.247,
+              39.36
+            ],
+            "radius": 3.46
+          },
+          {
+            "center": [
+              34.504,
+              27.051,
+              35.83
+            ],
+            "radius": 3.69
+          },
+          {
+            "center": [
+              35.341,
+              26.219,
+              35.167
+            ],
+            "radius": 3.67
+          },
+          {
+            "center": [
+              35.22,
+              26.787,
+              34.875
+            ],
+            "radius": 3.97
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-09",
+      "rank": 9,
+      "center": [
+        52.163875000000004,
+        29.8768125,
+        32.4890625
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 187,
+          "insertionCode": "",
+          "name": "ASP"
+        },
+        {
+          "chain": "A",
+          "seq": 128,
+          "insertionCode": "",
+          "name": "ARG"
+        },
+        {
+          "chain": "A",
+          "seq": 125,
+          "insertionCode": "",
+          "name": "LYS"
+        },
+        {
+          "chain": "A",
+          "seq": 129,
+          "insertionCode": "",
+          "name": "PHE"
+        },
+        {
+          "chain": "A",
+          "seq": 184,
+          "insertionCode": "",
+          "name": "GLY"
+        },
+        {
+          "chain": "A",
+          "seq": 186,
+          "insertionCode": "",
+          "name": "LEU"
+        },
+        {
+          "chain": "A",
+          "seq": 181,
+          "insertionCode": "",
+          "name": "LEU"
+        }
+      ],
+      "fpocket": {
+        "Score": -0.068,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 16.0,
+        "Total SASA": 52.008,
+        "Polar SASA": 39.932,
+        "Apolar SASA": 12.076,
+        "Volume": 108.866,
+        "Mean local hydrophobic density": 0.0,
+        "Mean alpha sphere radius": 3.595,
+        "Mean alp. sph. solvent access": 0.381,
+        "Apolar alpha sphere proportion": 0.062,
+        "Hydrophobicity score": 28.857,
+        "Volume score": 4.714,
+        "Polarity score": 3.0,
+        "Charge score": 1.0,
+        "Proportion of polar atoms": 35.714,
+        "Alpha sphere density": 1.565,
+        "Cent. of mass - Alpha Sphere max dist": 3.751,
+        "Flexibility": 0.507
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.04,
+        "probabilities": {
+          "non-lipid": 0.96,
+          "lipid": 0.04
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 108.866,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 16.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 3.595,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.381,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.062,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": 28.857,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 4.714,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 3.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.507,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 35.714,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 1.565,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 3.751,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 39.932,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 12.076,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 52.008,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              53.004,
+              29.637,
+              33.342
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              52.341,
+              29.227,
+              32.767
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              53.07,
+              30.25,
+              33.402
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              51.391,
+              31.437,
+              30.473
+            ],
+            "radius": 3.66
+          },
+          {
+            "center": [
+              52.325,
+              30.438,
+              32.946
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              52.712,
+              30.704,
+              33.195
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              52.176,
+              30.379,
+              32.801
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              51.345,
+              30.933,
+              30.982
+            ],
+            "radius": 3.62
+          },
+          {
+            "center": [
+              51.52,
+              29.386,
+              31.226
+            ],
+            "radius": 3.5
+          },
+          {
+            "center": [
+              52.212,
+              30.263,
+              32.871
+            ],
+            "radius": 3.62
+          },
+          {
+            "center": [
+              51.586,
+              29.333,
+              31.37
+            ],
+            "radius": 3.49
+          },
+          {
+            "center": [
+              52.219,
+              29.271,
+              32.79
+            ],
+            "radius": 3.67
+          },
+          {
+            "center": [
+              51.996,
+              28.917,
+              33.072
+            ],
+            "radius": 3.52
+          },
+          {
+            "center": [
+              52.25,
+              29.3,
+              32.863
+            ],
+            "radius": 3.69
+          },
+          {
+            "center": [
+              52.243,
+              29.288,
+              32.847
+            ],
+            "radius": 3.68
+          },
+          {
+            "center": [
+              52.232,
+              29.266,
+              32.878
+            ],
+            "radius": 3.67
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-10",
+      "rank": 10,
+      "center": [
+        54.488125,
+        19.9371875,
+        40.36
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 209,
+          "insertionCode": "",
+          "name": "GLU"
+        },
+        {
+          "chain": "A",
+          "seq": 208,
+          "insertionCode": "",
+          "name": "VAL"
+        },
+        {
+          "chain": "A",
+          "seq": 210,
+          "insertionCode": "",
+          "name": "THR"
+        },
+        {
+          "chain": "A",
+          "seq": 196,
+          "insertionCode": "",
+          "name": "PHE"
+        },
+        {
+          "chain": "A",
+          "seq": 123,
+          "insertionCode": "",
+          "name": "VAL"
+        },
+        {
+          "chain": "A",
+          "seq": 199,
+          "insertionCode": "",
+          "name": "LEU"
+        }
+      ],
+      "fpocket": {
+        "Score": -0.08,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 16.0,
+        "Total SASA": 40.677,
+        "Polar SASA": 12.902,
+        "Apolar SASA": 27.775,
+        "Volume": 123.368,
+        "Mean local hydrophobic density": 8.0,
+        "Mean alpha sphere radius": 3.774,
+        "Mean alp. sph. solvent access": 0.582,
+        "Apolar alpha sphere proportion": 0.562,
+        "Hydrophobicity score": 55.167,
+        "Volume score": 4.333,
+        "Polarity score": 2.0,
+        "Charge score": -1.0,
+        "Proportion of polar atoms": 33.333,
+        "Alpha sphere density": 0.944,
+        "Cent. of mass - Alpha Sphere max dist": 3.317,
+        "Flexibility": 0.402
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.12,
+        "probabilities": {
+          "non-lipid": 0.88,
+          "lipid": 0.12
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 123.368,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 16.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 3.774,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.582,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.562,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 8.0,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": 55.167,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 4.333,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 2.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": -1.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.402,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 33.333,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 0.944,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 3.317,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 12.902,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 27.775,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 40.677,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              54.349,
+              20.267,
+              40.088
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              54.381,
+              20.342,
+              39.914
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              54.246,
+              20.327,
+              40.148
+            ],
+            "radius": 3.62
+          },
+          {
+            "center": [
+              56.724,
+              19.232,
+              41.25
+            ],
+            "radius": 4.1
+          },
+          {
+            "center": [
+              54.809,
+              19.396,
+              40.596
+            ],
+            "radius": 3.95
+          },
+          {
+            "center": [
+              54.825,
+              20.253,
+              40.656
+            ],
+            "radius": 3.46
+          },
+          {
+            "center": [
+              54.328,
+              20.005,
+              40.357
+            ],
+            "radius": 3.85
+          },
+          {
+            "center": [
+              54.334,
+              19.964,
+              40.365
+            ],
+            "radius": 3.86
+          },
+          {
+            "center": [
+              54.295,
+              20.049,
+              40.354
+            ],
+            "radius": 3.84
+          },
+          {
+            "center": [
+              54.21,
+              20.106,
+              40.357
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              54.157,
+              20.15,
+              40.352
+            ],
+            "radius": 3.8
+          },
+          {
+            "center": [
+              53.977,
+              20.645,
+              40.042
+            ],
+            "radius": 3.49
+          },
+          {
+            "center": [
+              54.159,
+              20.162,
+              40.371
+            ],
+            "radius": 3.79
+          },
+          {
+            "center": [
+              53.928,
+              20.076,
+              40.301
+            ],
+            "radius": 3.72
+          },
+          {
+            "center": [
+              54.532,
+              19.039,
+              40.302
+            ],
+            "radius": 4.03
+          },
+          {
+            "center": [
+              54.556,
+              18.982,
+              40.307
+            ],
+            "radius": 4.05
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-11",
+      "rank": 11,
+      "center": [
+        46.53364705882353,
+        21.86129411764706,
+        63.72511764705882
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 273,
+          "insertionCode": "",
+          "name": "MET"
+        },
+        {
+          "chain": "A",
+          "seq": 218,
+          "insertionCode": "",
+          "name": "PRO"
+        },
+        {
+          "chain": "A",
+          "seq": 272,
+          "insertionCode": "",
+          "name": "PRO"
+        },
+        {
+          "chain": "A",
+          "seq": 216,
+          "insertionCode": "",
+          "name": "GLU"
+        },
+        {
+          "chain": "A",
+          "seq": 269,
+          "insertionCode": "",
+          "name": "VAL"
+        },
+        {
+          "chain": "A",
+          "seq": 109,
+          "insertionCode": "",
+          "name": "GLN"
+        },
+        {
+          "chain": "A",
+          "seq": 116,
+          "insertionCode": "",
+          "name": "THR"
+        },
+        {
+          "chain": "A",
+          "seq": 117,
+          "insertionCode": "",
+          "name": "SER"
+        }
+      ],
+      "fpocket": {
+        "Score": -0.101,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 17.0,
+        "Total SASA": 100.943,
+        "Polar SASA": 51.43,
+        "Apolar SASA": 49.513,
+        "Volume": 323.047,
+        "Mean local hydrophobic density": 7.0,
+        "Mean alpha sphere radius": 4.002,
+        "Mean alp. sph. solvent access": 0.647,
+        "Apolar alpha sphere proportion": 0.471,
+        "Hydrophobicity score": 3.125,
+        "Volume score": 3.5,
+        "Polarity score": 4.0,
+        "Charge score": -1.0,
+        "Proportion of polar atoms": 45.0,
+        "Alpha sphere density": 3.27,
+        "Cent. of mass - Alpha Sphere max dist": 5.542,
+        "Flexibility": 0.077
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.01,
+        "probabilities": {
+          "non-lipid": 0.99,
+          "lipid": 0.01
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 323.047,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 17.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 4.002,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.647,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.471,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 7.0,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": 3.125,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 3.5,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 4.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": -1.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.077,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 45.0,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 3.27,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 5.542,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 51.43,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 49.513,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 100.943,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              46.301,
+              24.573,
+              63.401
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              47.908,
+              24.177,
+              63.16
+            ],
+            "radius": 4.27
+          },
+          {
+            "center": [
+              47.704,
+              24.001,
+              63.167
+            ],
+            "radius": 4.32
+          },
+          {
+            "center": [
+              45.304,
+              20.264,
+              64.345
+            ],
+            "radius": 4.01
+          },
+          {
+            "center": [
+              45.971,
+              23.104,
+              63.318
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              46.049,
+              24.677,
+              63.434
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              46.101,
+              24.636,
+              63.443
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              45.028,
+              20.056,
+              63.98
+            ],
+            "radius": 3.72
+          },
+          {
+            "center": [
+              45.562,
+              20.093,
+              65.058
+            ],
+            "radius": 4.15
+          },
+          {
+            "center": [
+              45.61,
+              19.725,
+              65.53
+            ],
+            "radius": 4.11
+          },
+          {
+            "center": [
+              46.326,
+              20.086,
+              65.723
+            ],
+            "radius": 4.6
+          },
+          {
+            "center": [
+              46.94,
+              21.733,
+              62.099
+            ],
+            "radius": 3.74
+          },
+          {
+            "center": [
+              46.242,
+              20.167,
+              62.78
+            ],
+            "radius": 3.8
+          },
+          {
+            "center": [
+              48.333,
+              19.828,
+              63.409
+            ],
+            "radius": 4.48
+          },
+          {
+            "center": [
+              47.383,
+              22.138,
+              61.556
+            ],
+            "radius": 3.64
+          },
+          {
+            "center": [
+              48.13,
+              21.98,
+              62.799
+            ],
+            "radius": 4.59
+          },
+          {
+            "center": [
+              46.18,
+              20.404,
+              66.125
+            ],
+            "radius": 4.31
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-12",
+      "rank": 12,
+      "center": [
+        30.560352941176475,
+        18.624882352941174,
+        42.56882352941176
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 37,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 39,
+          "insertionCode": "",
+          "name": "ASN"
+        },
+        {
+          "chain": "A",
+          "seq": 36,
+          "insertionCode": "",
+          "name": "GLY"
+        },
+        {
+          "chain": "A",
+          "seq": 35,
+          "insertionCode": "",
+          "name": "GLY"
+        },
+        {
+          "chain": "A",
+          "seq": 38,
+          "insertionCode": "",
+          "name": "VAL"
+        },
+        {
+          "chain": "A",
+          "seq": 172,
+          "insertionCode": "",
+          "name": "ARG"
+        },
+        {
+          "chain": "A",
+          "seq": 40,
+          "insertionCode": "",
+          "name": "GLU"
+        },
+        {
+          "chain": "A",
+          "seq": 33,
+          "insertionCode": "",
+          "name": "TYR"
+        },
+        {
+          "chain": "A",
+          "seq": 71,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 173,
+          "insertionCode": "",
+          "name": "GLN"
+        }
+      ],
+      "fpocket": {
+        "Score": -0.112,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 17.0,
+        "Total SASA": 111.212,
+        "Polar SASA": 59.284,
+        "Apolar SASA": 51.928,
+        "Volume": 589.609,
+        "Mean local hydrophobic density": 5.0,
+        "Mean alpha sphere radius": 4.385,
+        "Mean alp. sph. solvent access": 0.532,
+        "Apolar alpha sphere proportion": 0.353,
+        "Hydrophobicity score": 13.8,
+        "Volume score": 3.5,
+        "Polarity score": 5.0,
+        "Charge score": 0.0,
+        "Proportion of polar atoms": 50.0,
+        "Alpha sphere density": 3.57,
+        "Cent. of mass - Alpha Sphere max dist": 7.235,
+        "Flexibility": 0.623
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.02,
+        "probabilities": {
+          "non-lipid": 0.98,
+          "lipid": 0.02
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 589.609,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 17.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 4.385,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.532,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.353,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 5.0,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": 13.8,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 3.5,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 5.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.623,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 50.0,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 3.57,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 7.235,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 59.284,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 51.928,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 111.212,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              32.429,
+              14.992,
+              40.188
+            ],
+            "radius": 3.84
+          },
+          {
+            "center": [
+              32.594,
+              15.864,
+              41.131
+            ],
+            "radius": 3.66
+          },
+          {
+            "center": [
+              30.78,
+              19.195,
+              43.125
+            ],
+            "radius": 4.39
+          },
+          {
+            "center": [
+              31.541,
+              20.185,
+              42.464
+            ],
+            "radius": 4.6
+          },
+          {
+            "center": [
+              30.609,
+              19.354,
+              42.82
+            ],
+            "radius": 4.69
+          },
+          {
+            "center": [
+              30.774,
+              18.739,
+              42.052
+            ],
+            "radius": 4.55
+          },
+          {
+            "center": [
+              28.523,
+              19.487,
+              39.643
+            ],
+            "radius": 5.61
+          },
+          {
+            "center": [
+              29.805,
+              20.269,
+              41.233
+            ],
+            "radius": 5.57
+          },
+          {
+            "center": [
+              30.071,
+              20.382,
+              41.711
+            ],
+            "radius": 5.58
+          },
+          {
+            "center": [
+              29.345,
+              19.335,
+              45.084
+            ],
+            "radius": 3.86
+          },
+          {
+            "center": [
+              32.408,
+              18.341,
+              40.365
+            ],
+            "radius": 4.43
+          },
+          {
+            "center": [
+              32.585,
+              16.222,
+              39.445
+            ],
+            "radius": 4.81
+          },
+          {
+            "center": [
+              29.938,
+              18.768,
+              44.653
+            ],
+            "radius": 3.85
+          },
+          {
+            "center": [
+              29.524,
+              18.759,
+              44.933
+            ],
+            "radius": 3.72
+          },
+          {
+            "center": [
+              29.389,
+              18.74,
+              45.098
+            ],
+            "radius": 3.63
+          },
+          {
+            "center": [
+              29.661,
+              18.947,
+              44.788
+            ],
+            "radius": 3.9
+          },
+          {
+            "center": [
+              29.55,
+              19.044,
+              44.937
+            ],
+            "radius": 3.86
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-13",
+      "rank": 13,
+      "center": [
+        20.58063157894737,
+        0.22742105263157894,
+        62.27915789473685
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 56,
+          "insertionCode": "",
+          "name": "ARG"
+        },
+        {
+          "chain": "A",
+          "seq": 62,
+          "insertionCode": "",
+          "name": "GLU"
+        },
+        {
+          "chain": "A",
+          "seq": 60,
+          "insertionCode": "",
+          "name": "TRP"
+        },
+        {
+          "chain": "A",
+          "seq": 52,
+          "insertionCode": "",
+          "name": "ARG"
+        },
+        {
+          "chain": "A",
+          "seq": 61,
+          "insertionCode": "",
+          "name": "PRO"
+        }
+      ],
+      "fpocket": {
+        "Score": -0.116,
+        "Druggability Score": 0.0,
+        "Number of Alpha Spheres": 19.0,
+        "Total SASA": 110.891,
+        "Polar SASA": 51.718,
+        "Apolar SASA": 59.174,
+        "Volume": 310.576,
+        "Mean local hydrophobic density": 7.0,
+        "Mean alpha sphere radius": 3.854,
+        "Mean alp. sph. solvent access": 0.472,
+        "Apolar alpha sphere proportion": 0.421,
+        "Hydrophobicity score": -1.6,
+        "Volume score": 5.8,
+        "Polarity score": 4.0,
+        "Charge score": 1.0,
+        "Proportion of polar atoms": 43.75,
+        "Alpha sphere density": 3.502,
+        "Cent. of mass - Alpha Sphere max dist": 7.802,
+        "Flexibility": 0.275
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.0,
+        "probabilities": {
+          "non-lipid": 1.0,
+          "lipid": 0.0
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 310.576,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 19.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 3.854,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.472,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.421,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 7.0,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": -1.6,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 5.8,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 4.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.275,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 43.75,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 3.502,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 7.802,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 51.718,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 59.174,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 110.891,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              21.382,
+              -1.444,
+              62.729
+            ],
+            "radius": 3.9
+          },
+          {
+            "center": [
+              21.351,
+              -1.881,
+              63.967
+            ],
+            "radius": 4.18
+          },
+          {
+            "center": [
+              21.196,
+              -1.687,
+              65.037
+            ],
+            "radius": 4.49
+          },
+          {
+            "center": [
+              20.734,
+              -0.188,
+              64.779
+            ],
+            "radius": 3.98
+          },
+          {
+            "center": [
+              20.985,
+              -0.239,
+              63.973
+            ],
+            "radius": 3.81
+          },
+          {
+            "center": [
+              20.594,
+              -0.239,
+              60.771
+            ],
+            "radius": 3.63
+          },
+          {
+            "center": [
+              21.164,
+              -0.294,
+              62.362
+            ],
+            "radius": 3.71
+          },
+          {
+            "center": [
+              21.341,
+              0.844,
+              61.942
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              20.684,
+              1.21,
+              59.866
+            ],
+            "radius": 3.88
+          },
+          {
+            "center": [
+              21.251,
+              1.172,
+              63.052
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              21.325,
+              1.362,
+              62.593
+            ],
+            "radius": 3.46
+          },
+          {
+            "center": [
+              20.955,
+              1.383,
+              63.998
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              18.376,
+              -0.098,
+              66.189
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              18.676,
+              0.131,
+              65.774
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              19.602,
+              0.943,
+              59.067
+            ],
+            "radius": 3.9
+          },
+          {
+            "center": [
+              20.061,
+              0.265,
+              58.58
+            ],
+            "radius": 4.48
+          },
+          {
+            "center": [
+              20.227,
+              0.603,
+              59.106
+            ],
+            "radius": 4.23
+          },
+          {
+            "center": [
+              20.51,
+              1.007,
+              59.554
+            ],
+            "radius": 4.0
+          },
+          {
+            "center": [
+              20.618,
+              1.471,
+              59.965
+            ],
+            "radius": 3.76
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-14",
+      "rank": 14,
+      "center": [
+        37.81771428571428,
+        13.569464285714286,
+        49.37667857142857
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 37,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 194,
+          "insertionCode": "",
+          "name": "GLN"
+        },
+        {
+          "chain": "A",
+          "seq": 33,
+          "insertionCode": "",
+          "name": "TYR"
+        },
+        {
+          "chain": "A",
+          "seq": 257,
+          "insertionCode": "",
+          "name": "PHE"
+        },
+        {
+          "chain": "A",
+          "seq": 35,
+          "insertionCode": "",
+          "name": "GLY"
+        },
+        {
+          "chain": "A",
+          "seq": 256,
+          "insertionCode": "",
+          "name": "LEU"
+        },
+        {
+          "chain": "A",
+          "seq": 38,
+          "insertionCode": "",
+          "name": "VAL"
+        },
+        {
+          "chain": "A",
+          "seq": 258,
+          "insertionCode": "",
+          "name": "GLY"
+        },
+        {
+          "chain": "A",
+          "seq": 255,
+          "insertionCode": "",
+          "name": "ASP"
+        },
+        {
+          "chain": "A",
+          "seq": 36,
+          "insertionCode": "",
+          "name": "GLY"
+        },
+        {
+          "chain": "A",
+          "seq": 112,
+          "insertionCode": "",
+          "name": "ILE"
+        },
+        {
+          "chain": "A",
+          "seq": 259,
+          "insertionCode": "",
+          "name": "ILE"
+        },
+        {
+          "chain": "A",
+          "seq": 220,
+          "insertionCode": "",
+          "name": "MET"
+        },
+        {
+          "chain": "A",
+          "seq": 110,
+          "insertionCode": "",
+          "name": "PRO"
+        },
+        {
+          "chain": "A",
+          "seq": 219,
+          "insertionCode": "",
+          "name": "LEU"
+        }
+      ],
+      "fpocket": {
+        "Score": -0.155,
+        "Druggability Score": 0.001,
+        "Number of Alpha Spheres": 28.0,
+        "Total SASA": 149.658,
+        "Polar SASA": 69.955,
+        "Apolar SASA": 79.703,
+        "Volume": 594.829,
+        "Mean local hydrophobic density": 9.538,
+        "Mean alpha sphere radius": 4.109,
+        "Mean alp. sph. solvent access": 0.538,
+        "Apolar alpha sphere proportion": 0.464,
+        "Hydrophobicity score": 42.333,
+        "Volume score": 3.8,
+        "Polarity score": 3.0,
+        "Charge score": -1.0,
+        "Proportion of polar atoms": 36.0,
+        "Alpha sphere density": 4.374,
+        "Cent. of mass - Alpha Sphere max dist": 11.904,
+        "Flexibility": 0.399
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.17,
+        "probabilities": {
+          "non-lipid": 0.83,
+          "lipid": 0.17
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 594.829,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 28.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 4.109,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.538,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.464,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 9.538,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": 42.333,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 3.8,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 3.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": -1.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.399,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 36.0,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 4.374,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 11.904,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 69.955,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 79.703,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 149.658,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              39.774,
+              12.671,
+              46.701
+            ],
+            "radius": 3.46
+          },
+          {
+            "center": [
+              36.465,
+              16.073,
+              50.606
+            ],
+            "radius": 4.61
+          },
+          {
+            "center": [
+              36.554,
+              16.04,
+              50.53
+            ],
+            "radius": 4.64
+          },
+          {
+            "center": [
+              36.53,
+              12.875,
+              48.248
+            ],
+            "radius": 3.75
+          },
+          {
+            "center": [
+              40.181,
+              9.188,
+              46.999
+            ],
+            "radius": 4.59
+          },
+          {
+            "center": [
+              36.968,
+              13.343,
+              48.585
+            ],
+            "radius": 3.97
+          },
+          {
+            "center": [
+              36.619,
+              12.891,
+              48.298
+            ],
+            "radius": 3.78
+          },
+          {
+            "center": [
+              40.237,
+              10.908,
+              47.448
+            ],
+            "radius": 4.61
+          },
+          {
+            "center": [
+              39.948,
+              10.999,
+              47.262
+            ],
+            "radius": 4.65
+          },
+          {
+            "center": [
+              36.204,
+              13.475,
+              48.213
+            ],
+            "radius": 3.71
+          },
+          {
+            "center": [
+              35.726,
+              13.796,
+              48.241
+            ],
+            "radius": 3.54
+          },
+          {
+            "center": [
+              36.651,
+              13.674,
+              48.493
+            ],
+            "radius": 3.89
+          },
+          {
+            "center": [
+              36.331,
+              14.638,
+              48.975
+            ],
+            "radius": 3.89
+          },
+          {
+            "center": [
+              36.383,
+              16.157,
+              49.749
+            ],
+            "radius": 4.13
+          },
+          {
+            "center": [
+              36.247,
+              15.611,
+              48.909
+            ],
+            "radius": 3.67
+          },
+          {
+            "center": [
+              40.282,
+              11.0,
+              47.582
+            ],
+            "radius": 4.53
+          },
+          {
+            "center": [
+              39.542,
+              11.995,
+              47.728
+            ],
+            "radius": 4.23
+          },
+          {
+            "center": [
+              39.806,
+              11.316,
+              47.443
+            ],
+            "radius": 4.5
+          },
+          {
+            "center": [
+              37.693,
+              13.956,
+              53.79
+            ],
+            "radius": 3.54
+          },
+          {
+            "center": [
+              37.458,
+              13.04,
+              48.476
+            ],
+            "radius": 3.9
+          },
+          {
+            "center": [
+              37.084,
+              13.503,
+              48.875
+            ],
+            "radius": 3.95
+          },
+          {
+            "center": [
+              37.872,
+              12.413,
+              48.181
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              39.049,
+              11.642,
+              47.696
+            ],
+            "radius": 4.11
+          },
+          {
+            "center": [
+              38.027,
+              11.974,
+              48.32
+            ],
+            "radius": 3.54
+          },
+          {
+            "center": [
+              36.998,
+              15.683,
+              54.234
+            ],
+            "radius": 4.64
+          },
+          {
+            "center": [
+              36.969,
+              17.023,
+              52.665
+            ],
+            "radius": 5.71
+          },
+          {
+            "center": [
+              38.431,
+              16.834,
+              54.621
+            ],
+            "radius": 4.21
+          },
+          {
+            "center": [
+              38.867,
+              17.227,
+              55.679
+            ],
+            "radius": 3.48
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-15",
+      "rank": 15,
+      "center": [
+        42.065616438356166,
+        39.46617808219178,
+        53.377369863013705
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 280,
+          "insertionCode": "",
+          "name": "ARG"
+        },
+        {
+          "chain": "A",
+          "seq": 164,
+          "insertionCode": "",
+          "name": "LYS"
+        },
+        {
+          "chain": "A",
+          "seq": 161,
+          "insertionCode": "",
+          "name": "ASP"
+        },
+        {
+          "chain": "A",
+          "seq": 163,
+          "insertionCode": "",
+          "name": "GLU"
+        },
+        {
+          "chain": "A",
+          "seq": 281,
+          "insertionCode": "",
+          "name": "ASN"
+        },
+        {
+          "chain": "A",
+          "seq": 158,
+          "insertionCode": "",
+          "name": "GLY"
+        },
+        {
+          "chain": "A",
+          "seq": 149,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 153,
+          "insertionCode": "",
+          "name": "LYS"
+        },
+        {
+          "chain": "A",
+          "seq": 148,
+          "insertionCode": "",
+          "name": "PRO"
+        },
+        {
+          "chain": "A",
+          "seq": 152,
+          "insertionCode": "",
+          "name": "GLY"
+        },
+        {
+          "chain": "A",
+          "seq": 279,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 147,
+          "insertionCode": "",
+          "name": "GLU"
+        },
+        {
+          "chain": "A",
+          "seq": 162,
+          "insertionCode": "",
+          "name": "PRO"
+        },
+        {
+          "chain": "A",
+          "seq": 160,
+          "insertionCode": "",
+          "name": "TYR"
+        }
+      ],
+      "fpocket": {
+        "Score": -0.234,
+        "Druggability Score": 0.004,
+        "Number of Alpha Spheres": 73.0,
+        "Total SASA": 202.113,
+        "Polar SASA": 119.994,
+        "Apolar SASA": 82.119,
+        "Volume": 596.727,
+        "Mean local hydrophobic density": 14.235,
+        "Mean alpha sphere radius": 3.991,
+        "Mean alp. sph. solvent access": 0.505,
+        "Apolar alpha sphere proportion": 0.233,
+        "Hydrophobicity score": -10.857,
+        "Volume score": 3.714,
+        "Polarity score": 8.0,
+        "Charge score": 0.0,
+        "Proportion of polar atoms": 40.0,
+        "Alpha sphere density": 4.383,
+        "Cent. of mass - Alpha Sphere max dist": 13.828,
+        "Flexibility": 0.503
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.02,
+        "probabilities": {
+          "non-lipid": 0.98,
+          "lipid": 0.02
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 596.727,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 73.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 3.991,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.505,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.233,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 14.235,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": -10.857,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 3.714,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 8.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.503,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 40.0,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 4.383,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 13.828,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 119.994,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 82.119,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 202.113,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              38.384,
+              41.401,
+              51.273
+            ],
+            "radius": 4.41
+          },
+          {
+            "center": [
+              45.711,
+              40.021,
+              56.065
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              44.555,
+              41.435,
+              53.571
+            ],
+            "radius": 3.55
+          },
+          {
+            "center": [
+              42.427,
+              42.347,
+              54.26
+            ],
+            "radius": 3.62
+          },
+          {
+            "center": [
+              39.713,
+              39.054,
+              52.808
+            ],
+            "radius": 4.31
+          },
+          {
+            "center": [
+              38.072,
+              38.181,
+              51.173
+            ],
+            "radius": 3.75
+          },
+          {
+            "center": [
+              36.717,
+              37.645,
+              50.943
+            ],
+            "radius": 3.69
+          },
+          {
+            "center": [
+              35.49,
+              36.694,
+              50.876
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              34.611,
+              37.425,
+              51.011
+            ],
+            "radius": 4.67
+          },
+          {
+            "center": [
+              41.68,
+              37.168,
+              52.562
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              41.646,
+              37.71,
+              52.388
+            ],
+            "radius": 3.89
+          },
+          {
+            "center": [
+              39.072,
+              38.196,
+              50.825
+            ],
+            "radius": 3.76
+          },
+          {
+            "center": [
+              38.91,
+              37.844,
+              50.407
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              43.041,
+              38.065,
+              52.967
+            ],
+            "radius": 3.7
+          },
+          {
+            "center": [
+              46.563,
+              39.606,
+              57.343
+            ],
+            "radius": 3.46
+          },
+          {
+            "center": [
+              38.594,
+              42.433,
+              51.398
+            ],
+            "radius": 4.16
+          },
+          {
+            "center": [
+              38.701,
+              42.66,
+              51.358
+            ],
+            "radius": 4.07
+          },
+          {
+            "center": [
+              42.472,
+              43.038,
+              54.104
+            ],
+            "radius": 3.56
+          },
+          {
+            "center": [
+              42.768,
+              44.053,
+              53.781
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              45.867,
+              40.013,
+              56.33
+            ],
+            "radius": 3.41
+          },
+          {
+            "center": [
+              45.777,
+              40.013,
+              56.207
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              42.631,
+              40.94,
+              54.456
+            ],
+            "radius": 4.0
+          },
+          {
+            "center": [
+              42.603,
+              40.426,
+              54.451
+            ],
+            "radius": 4.18
+          },
+          {
+            "center": [
+              42.6,
+              41.057,
+              54.526
+            ],
+            "radius": 3.91
+          },
+          {
+            "center": [
+              34.948,
+              35.453,
+              51.096
+            ],
+            "radius": 3.78
+          },
+          {
+            "center": [
+              41.652,
+              37.777,
+              52.372
+            ],
+            "radius": 3.93
+          },
+          {
+            "center": [
+              41.616,
+              37.826,
+              52.37
+            ],
+            "radius": 3.96
+          },
+          {
+            "center": [
+              46.393,
+              39.288,
+              57.243
+            ],
+            "radius": 3.43
+          },
+          {
+            "center": [
+              46.401,
+              39.326,
+              57.249
+            ],
+            "radius": 3.44
+          },
+          {
+            "center": [
+              42.604,
+              40.248,
+              54.448
+            ],
+            "radius": 4.26
+          },
+          {
+            "center": [
+              45.372,
+              39.878,
+              55.776
+            ],
+            "radius": 3.56
+          },
+          {
+            "center": [
+              46.284,
+              39.721,
+              57.039
+            ],
+            "radius": 3.44
+          },
+          {
+            "center": [
+              45.999,
+              39.885,
+              56.63
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              42.538,
+              40.068,
+              54.388
+            ],
+            "radius": 4.29
+          },
+          {
+            "center": [
+              42.508,
+              39.848,
+              54.67
+            ],
+            "radius": 3.99
+          },
+          {
+            "center": [
+              43.362,
+              40.069,
+              54.331
+            ],
+            "radius": 4.3
+          },
+          {
+            "center": [
+              42.586,
+              40.235,
+              54.444
+            ],
+            "radius": 4.26
+          },
+          {
+            "center": [
+              42.424,
+              40.139,
+              54.573
+            ],
+            "radius": 4.15
+          },
+          {
+            "center": [
+              44.334,
+              39.544,
+              54.402
+            ],
+            "radius": 4.31
+          },
+          {
+            "center": [
+              45.087,
+              39.816,
+              55.395
+            ],
+            "radius": 3.7
+          },
+          {
+            "center": [
+              42.518,
+              40.093,
+              54.398
+            ],
+            "radius": 4.29
+          },
+          {
+            "center": [
+              42.456,
+              40.106,
+              54.496
+            ],
+            "radius": 4.21
+          },
+          {
+            "center": [
+              44.651,
+              40.222,
+              53.29
+            ],
+            "radius": 3.83
+          },
+          {
+            "center": [
+              44.374,
+              39.983,
+              53.015
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              44.312,
+              39.526,
+              54.296
+            ],
+            "radius": 4.34
+          },
+          {
+            "center": [
+              44.33,
+              38.261,
+              54.011
+            ],
+            "radius": 3.73
+          },
+          {
+            "center": [
+              44.078,
+              39.797,
+              54.092
+            ],
+            "radius": 4.41
+          },
+          {
+            "center": [
+              44.22,
+              39.471,
+              54.31
+            ],
+            "radius": 4.37
+          },
+          {
+            "center": [
+              44.259,
+              39.534,
+              54.313
+            ],
+            "radius": 4.38
+          },
+          {
+            "center": [
+              42.986,
+              38.856,
+              53.047
+            ],
+            "radius": 4.11
+          },
+          {
+            "center": [
+              43.678,
+              39.408,
+              52.846
+            ],
+            "radius": 3.67
+          },
+          {
+            "center": [
+              43.12,
+              38.229,
+              52.958
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              44.113,
+              39.669,
+              54.226
+            ],
+            "radius": 4.44
+          },
+          {
+            "center": [
+              43.955,
+              39.701,
+              54.157
+            ],
+            "radius": 4.48
+          },
+          {
+            "center": [
+              43.96,
+              39.705,
+              54.158
+            ],
+            "radius": 4.48
+          },
+          {
+            "center": [
+              42.76,
+              38.569,
+              52.758
+            ],
+            "radius": 4.09
+          },
+          {
+            "center": [
+              42.956,
+              38.649,
+              52.446
+            ],
+            "radius": 3.8
+          },
+          {
+            "center": [
+              42.803,
+              38.421,
+              52.747
+            ],
+            "radius": 4.02
+          },
+          {
+            "center": [
+              40.074,
+              38.103,
+              49.345
+            ],
+            "radius": 3.41
+          },
+          {
+            "center": [
+              38.63,
+              41.281,
+              50.956
+            ],
+            "radius": 4.16
+          },
+          {
+            "center": [
+              39.428,
+              38.578,
+              51.041
+            ],
+            "radius": 4.05
+          },
+          {
+            "center": [
+              41.272,
+              38.201,
+              52.161
+            ],
+            "radius": 4.06
+          },
+          {
+            "center": [
+              41.412,
+              38.249,
+              52.382
+            ],
+            "radius": 4.17
+          },
+          {
+            "center": [
+              42.133,
+              38.515,
+              52.597
+            ],
+            "radius": 4.11
+          },
+          {
+            "center": [
+              38.64,
+              40.737,
+              51.485
+            ],
+            "radius": 4.37
+          },
+          {
+            "center": [
+              41.891,
+              38.684,
+              52.698
+            ],
+            "radius": 4.13
+          },
+          {
+            "center": [
+              38.979,
+              39.279,
+              51.836
+            ],
+            "radius": 4.52
+          },
+          {
+            "center": [
+              38.897,
+              39.435,
+              51.952
+            ],
+            "radius": 4.61
+          },
+          {
+            "center": [
+              39.27,
+              39.312,
+              52.174
+            ],
+            "radius": 4.52
+          },
+          {
+            "center": [
+              40.181,
+              39.123,
+              52.685
+            ],
+            "radius": 4.44
+          },
+          {
+            "center": [
+              40.148,
+              39.112,
+              52.671
+            ],
+            "radius": 4.45
+          },
+          {
+            "center": [
+              40.835,
+              38.872,
+              52.771
+            ],
+            "radius": 4.34
+          },
+          {
+            "center": [
+              40.758,
+              38.804,
+              52.721
+            ],
+            "radius": 4.35
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-16",
+      "rank": 16,
+      "center": [
+        47.02129310344828,
+        18.087155172413794,
+        33.82887931034483
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 199,
+          "insertionCode": "",
+          "name": "LEU"
+        },
+        {
+          "chain": "A",
+          "seq": 179,
+          "insertionCode": "",
+          "name": "ARG"
+        },
+        {
+          "chain": "A",
+          "seq": 205,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 201,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 206,
+          "insertionCode": "",
+          "name": "SER"
+        },
+        {
+          "chain": "A",
+          "seq": 208,
+          "insertionCode": "",
+          "name": "VAL"
+        },
+        {
+          "chain": "A",
+          "seq": 175,
+          "insertionCode": "",
+          "name": "ILE"
+        },
+        {
+          "chain": "A",
+          "seq": 178,
+          "insertionCode": "",
+          "name": "LEU"
+        },
+        {
+          "chain": "A",
+          "seq": 198,
+          "insertionCode": "",
+          "name": "GLY"
+        },
+        {
+          "chain": "A",
+          "seq": 200,
+          "insertionCode": "",
+          "name": "SER"
+        },
+        {
+          "chain": "A",
+          "seq": 182,
+          "insertionCode": "",
+          "name": "ASP"
+        },
+        {
+          "chain": "A",
+          "seq": 181,
+          "insertionCode": "",
+          "name": "LEU"
+        }
+      ],
+      "fpocket": {
+        "Score": -0.295,
+        "Druggability Score": 0.009,
+        "Number of Alpha Spheres": 58.0,
+        "Total SASA": 201.041,
+        "Polar SASA": 108.053,
+        "Apolar SASA": 92.987,
+        "Volume": 494.818,
+        "Mean local hydrophobic density": 20.667,
+        "Mean alpha sphere radius": 4.023,
+        "Mean alp. sph. solvent access": 0.499,
+        "Apolar alpha sphere proportion": 0.414,
+        "Hydrophobicity score": 39.083,
+        "Volume score": 3.583,
+        "Polarity score": 4.0,
+        "Charge score": 0.0,
+        "Proportion of polar atoms": 41.176,
+        "Alpha sphere density": 4.304,
+        "Cent. of mass - Alpha Sphere max dist": 11.977,
+        "Flexibility": 0.685
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.06,
+        "probabilities": {
+          "non-lipid": 0.94,
+          "lipid": 0.06
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 494.818,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 58.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 4.023,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.499,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.414,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 20.667,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": 39.083,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 3.583,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 4.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": 0.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.685,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 41.176,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 4.304,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 11.977,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 108.053,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 92.987,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 201.041,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              48.412,
+              15.571,
+              32.121
+            ],
+            "radius": 4.26
+          },
+          {
+            "center": [
+              45.027,
+              15.311,
+              33.512
+            ],
+            "radius": 3.69
+          },
+          {
+            "center": [
+              46.671,
+              15.693,
+              33.267
+            ],
+            "radius": 3.74
+          },
+          {
+            "center": [
+              50.155,
+              18.576,
+              33.98
+            ],
+            "radius": 4.55
+          },
+          {
+            "center": [
+              45.003,
+              16.543,
+              35.602
+            ],
+            "radius": 4.07
+          },
+          {
+            "center": [
+              44.887,
+              15.879,
+              35.063
+            ],
+            "radius": 4.11
+          },
+          {
+            "center": [
+              45.177,
+              16.913,
+              34.664
+            ],
+            "radius": 4.34
+          },
+          {
+            "center": [
+              45.004,
+              16.147,
+              34.49
+            ],
+            "radius": 4.28
+          },
+          {
+            "center": [
+              43.135,
+              13.955,
+              33.988
+            ],
+            "radius": 4.01
+          },
+          {
+            "center": [
+              49.902,
+              18.804,
+              33.962
+            ],
+            "radius": 4.67
+          },
+          {
+            "center": [
+              48.416,
+              15.568,
+              32.122
+            ],
+            "radius": 4.26
+          },
+          {
+            "center": [
+              48.505,
+              16.823,
+              32.526
+            ],
+            "radius": 4.24
+          },
+          {
+            "center": [
+              50.022,
+              18.663,
+              33.926
+            ],
+            "radius": 4.6
+          },
+          {
+            "center": [
+              49.899,
+              18.805,
+              33.96
+            ],
+            "radius": 4.67
+          },
+          {
+            "center": [
+              44.126,
+              17.642,
+              34.073
+            ],
+            "radius": 3.63
+          },
+          {
+            "center": [
+              44.795,
+              15.769,
+              34.14
+            ],
+            "radius": 4.06
+          },
+          {
+            "center": [
+              44.699,
+              15.819,
+              34.272
+            ],
+            "radius": 4.13
+          },
+          {
+            "center": [
+              44.815,
+              15.948,
+              34.338
+            ],
+            "radius": 4.19
+          },
+          {
+            "center": [
+              50.443,
+              20.227,
+              32.365
+            ],
+            "radius": 3.47
+          },
+          {
+            "center": [
+              43.052,
+              13.867,
+              33.97
+            ],
+            "radius": 4.04
+          },
+          {
+            "center": [
+              43.245,
+              13.667,
+              35.929
+            ],
+            "radius": 3.96
+          },
+          {
+            "center": [
+              42.979,
+              13.094,
+              36.164
+            ],
+            "radius": 4.11
+          },
+          {
+            "center": [
+              43.061,
+              13.858,
+              34.016
+            ],
+            "radius": 4.03
+          },
+          {
+            "center": [
+              49.841,
+              18.922,
+              33.941
+            ],
+            "radius": 4.67
+          },
+          {
+            "center": [
+              49.769,
+              19.939,
+              33.304
+            ],
+            "radius": 4.31
+          },
+          {
+            "center": [
+              49.873,
+              18.906,
+              33.962
+            ],
+            "radius": 4.66
+          },
+          {
+            "center": [
+              49.956,
+              20.688,
+              33.122
+            ],
+            "radius": 3.91
+          },
+          {
+            "center": [
+              50.036,
+              20.435,
+              33.103
+            ],
+            "radius": 3.98
+          },
+          {
+            "center": [
+              48.285,
+              18.392,
+              33.245
+            ],
+            "radius": 4.62
+          },
+          {
+            "center": [
+              49.326,
+              20.094,
+              34.552
+            ],
+            "radius": 4.16
+          },
+          {
+            "center": [
+              47.706,
+              18.328,
+              35.133
+            ],
+            "radius": 3.7
+          },
+          {
+            "center": [
+              45.378,
+              17.057,
+              34.59
+            ],
+            "radius": 4.28
+          },
+          {
+            "center": [
+              44.571,
+              17.619,
+              34.988
+            ],
+            "radius": 3.76
+          },
+          {
+            "center": [
+              45.101,
+              17.061,
+              34.616
+            ],
+            "radius": 4.29
+          },
+          {
+            "center": [
+              44.586,
+              17.588,
+              34.306
+            ],
+            "radius": 3.94
+          },
+          {
+            "center": [
+              44.772,
+              17.397,
+              34.391
+            ],
+            "radius": 4.06
+          },
+          {
+            "center": [
+              49.944,
+              22.213,
+              33.209
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              44.671,
+              18.124,
+              33.839
+            ],
+            "radius": 3.63
+          },
+          {
+            "center": [
+              44.432,
+              17.932,
+              34.084
+            ],
+            "radius": 3.75
+          },
+          {
+            "center": [
+              44.37,
+              18.071,
+              34.032
+            ],
+            "radius": 3.67
+          },
+          {
+            "center": [
+              44.108,
+              17.732,
+              34.024
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              49.395,
+              19.499,
+              34.016
+            ],
+            "radius": 4.57
+          },
+          {
+            "center": [
+              49.718,
+              20.273,
+              33.298
+            ],
+            "radius": 4.18
+          },
+          {
+            "center": [
+              49.67,
+              19.897,
+              33.363
+            ],
+            "radius": 4.38
+          },
+          {
+            "center": [
+              49.01,
+              19.833,
+              32.793
+            ],
+            "radius": 3.91
+          },
+          {
+            "center": [
+              49.204,
+              19.688,
+              33.008
+            ],
+            "radius": 4.15
+          },
+          {
+            "center": [
+              48.139,
+              18.736,
+              32.778
+            ],
+            "radius": 4.34
+          },
+          {
+            "center": [
+              48.232,
+              18.553,
+              33.126
+            ],
+            "radius": 4.56
+          },
+          {
+            "center": [
+              49.833,
+              22.14,
+              33.297
+            ],
+            "radius": 3.57
+          },
+          {
+            "center": [
+              49.28,
+              20.389,
+              34.459
+            ],
+            "radius": 4.07
+          },
+          {
+            "center": [
+              46.125,
+              19.247,
+              32.814
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              46.115,
+              19.247,
+              32.815
+            ],
+            "radius": 3.44
+          },
+          {
+            "center": [
+              46.121,
+              19.252,
+              32.806
+            ],
+            "radius": 3.44
+          },
+          {
+            "center": [
+              44.724,
+              18.264,
+              33.725
+            ],
+            "radius": 3.56
+          },
+          {
+            "center": [
+              44.458,
+              18.373,
+              33.8
+            ],
+            "radius": 3.5
+          },
+          {
+            "center": [
+              49.288,
+              21.449,
+              34.61
+            ],
+            "radius": 3.65
+          },
+          {
+            "center": [
+              49.796,
+              22.265,
+              33.413
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              49.972,
+              22.31,
+              33.063
+            ],
+            "radius": 3.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pocket-17",
+      "rank": 17,
+      "center": [
+        38.162507389162556,
+        21.212916256157634,
+        48.53226108374385
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "seq": 198,
+          "insertionCode": "",
+          "name": "GLY"
+        },
+        {
+          "chain": "A",
+          "seq": 195,
+          "insertionCode": "",
+          "name": "GLN"
+        },
+        {
+          "chain": "A",
+          "seq": 146,
+          "insertionCode": "",
+          "name": "ASP"
+        },
+        {
+          "chain": "A",
+          "seq": 143,
+          "insertionCode": "",
+          "name": "THR"
+        },
+        {
+          "chain": "A",
+          "seq": 34,
+          "insertionCode": "",
+          "name": "PRO"
+        },
+        {
+          "chain": "A",
+          "seq": 147,
+          "insertionCode": "",
+          "name": "GLU"
+        },
+        {
+          "chain": "A",
+          "seq": 175,
+          "insertionCode": "",
+          "name": "ILE"
+        },
+        {
+          "chain": "A",
+          "seq": 178,
+          "insertionCode": "",
+          "name": "LEU"
+        },
+        {
+          "chain": "A",
+          "seq": 35,
+          "insertionCode": "",
+          "name": "GLY"
+        },
+        {
+          "chain": "A",
+          "seq": 144,
+          "insertionCode": "",
+          "name": "MET"
+        },
+        {
+          "chain": "A",
+          "seq": 172,
+          "insertionCode": "",
+          "name": "ARG"
+        },
+        {
+          "chain": "A",
+          "seq": 36,
+          "insertionCode": "",
+          "name": "GLY"
+        },
+        {
+          "chain": "A",
+          "seq": 118,
+          "insertionCode": "",
+          "name": "GLU"
+        },
+        {
+          "chain": "A",
+          "seq": 192,
+          "insertionCode": "",
+          "name": "ASN"
+        },
+        {
+          "chain": "A",
+          "seq": 194,
+          "insertionCode": "",
+          "name": "GLN"
+        },
+        {
+          "chain": "A",
+          "seq": 174,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 90,
+          "insertionCode": "",
+          "name": "THR"
+        },
+        {
+          "chain": "A",
+          "seq": 220,
+          "insertionCode": "",
+          "name": "MET"
+        },
+        {
+          "chain": "A",
+          "seq": 91,
+          "insertionCode": "",
+          "name": "SER"
+        },
+        {
+          "chain": "A",
+          "seq": 150,
+          "insertionCode": "",
+          "name": "PHE"
+        },
+        {
+          "chain": "A",
+          "seq": 92,
+          "insertionCode": "",
+          "name": "LEU"
+        },
+        {
+          "chain": "A",
+          "seq": 171,
+          "insertionCode": "",
+          "name": "SER"
+        },
+        {
+          "chain": "A",
+          "seq": 193,
+          "insertionCode": "",
+          "name": "GLU"
+        },
+        {
+          "chain": "A",
+          "seq": 73,
+          "insertionCode": "",
+          "name": "VAL"
+        },
+        {
+          "chain": "A",
+          "seq": 94,
+          "insertionCode": "",
+          "name": "LEU"
+        },
+        {
+          "chain": "A",
+          "seq": 97,
+          "insertionCode": "",
+          "name": "ASP"
+        },
+        {
+          "chain": "A",
+          "seq": 71,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 112,
+          "insertionCode": "",
+          "name": "ILE"
+        },
+        {
+          "chain": "A",
+          "seq": 219,
+          "insertionCode": "",
+          "name": "LEU"
+        },
+        {
+          "chain": "A",
+          "seq": 218,
+          "insertionCode": "",
+          "name": "PRO"
+        },
+        {
+          "chain": "A",
+          "seq": 217,
+          "insertionCode": "",
+          "name": "ILE"
+        },
+        {
+          "chain": "A",
+          "seq": 93,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 120,
+          "insertionCode": "",
+          "name": "TYR"
+        },
+        {
+          "chain": "A",
+          "seq": 37,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 173,
+          "insertionCode": "",
+          "name": "GLN"
+        },
+        {
+          "chain": "A",
+          "seq": 257,
+          "insertionCode": "",
+          "name": "PHE"
+        },
+        {
+          "chain": "A",
+          "seq": 258,
+          "insertionCode": "",
+          "name": "GLY"
+        },
+        {
+          "chain": "A",
+          "seq": 117,
+          "insertionCode": "",
+          "name": "SER"
+        },
+        {
+          "chain": "A",
+          "seq": 115,
+          "insertionCode": "",
+          "name": "ARG"
+        },
+        {
+          "chain": "A",
+          "seq": 113,
+          "insertionCode": "",
+          "name": "ASP"
+        },
+        {
+          "chain": "A",
+          "seq": 197,
+          "insertionCode": "",
+          "name": "ALA"
+        },
+        {
+          "chain": "A",
+          "seq": 89,
+          "insertionCode": "",
+          "name": "ILE"
+        }
+      ],
+      "fpocket": {
+        "Score": -0.369,
+        "Druggability Score": 0.003,
+        "Number of Alpha Spheres": 203.0,
+        "Total SASA": 590.845,
+        "Polar SASA": 272.031,
+        "Apolar SASA": 318.814,
+        "Volume": 2106.302,
+        "Mean local hydrophobic density": 22.533,
+        "Mean alpha sphere radius": 4.034,
+        "Mean alp. sph. solvent access": 0.476,
+        "Apolar alpha sphere proportion": 0.369,
+        "Hydrophobicity score": 25.024,
+        "Volume score": 3.69,
+        "Polarity score": 18.0,
+        "Charge score": -4.0,
+        "Proportion of polar atoms": 42.241,
+        "Alpha sphere density": 10.166,
+        "Cent. of mass - Alpha Sphere max dist": 24.605,
+        "Flexibility": 0.436
+      },
+      "prediction": {
+        "label": "lipid",
+        "probability": 0.02,
+        "probabilities": {
+          "non-lipid": 0.98,
+          "lipid": 0.02
+        }
+      },
+      "features": [
+        {
+          "name": "pock_vol",
+          "value": 2106.302,
+          "unit": null
+        },
+        {
+          "name": "nb_AS",
+          "value": 203.0,
+          "unit": null
+        },
+        {
+          "name": "mean_as_ray",
+          "value": 4.034,
+          "unit": null
+        },
+        {
+          "name": "mean_as_solv_acc",
+          "value": 0.476,
+          "unit": null
+        },
+        {
+          "name": "apol_as_prop",
+          "value": 0.369,
+          "unit": null
+        },
+        {
+          "name": "mean_loc_hyd_dens",
+          "value": 22.533,
+          "unit": null
+        },
+        {
+          "name": "hydrophobicity_score",
+          "value": 25.024,
+          "unit": null
+        },
+        {
+          "name": "volume_score",
+          "value": 3.69,
+          "unit": null
+        },
+        {
+          "name": "polarity_score",
+          "value": 18.0,
+          "unit": null
+        },
+        {
+          "name": "charge_score",
+          "value": -4.0,
+          "unit": null
+        },
+        {
+          "name": "flex",
+          "value": 0.436,
+          "unit": null
+        },
+        {
+          "name": "prop_polar_atm",
+          "value": 42.241,
+          "unit": null
+        },
+        {
+          "name": "as_density",
+          "value": 10.166,
+          "unit": null
+        },
+        {
+          "name": "as_max_dst",
+          "value": 24.605,
+          "unit": null
+        },
+        {
+          "name": "surf_pol_vdw14",
+          "value": 272.031,
+          "unit": null
+        },
+        {
+          "name": "surf_apol_vdw14",
+          "value": 318.814,
+          "unit": null
+        },
+        {
+          "name": "surf_vdw14",
+          "value": 590.845,
+          "unit": null
+        }
+      ],
+      "geometry": {
+        "alphaSpheres": [
+          {
+            "center": [
+              43.584,
+              15.775,
+              39.346
+            ],
+            "radius": 3.64
+          },
+          {
+            "center": [
+              33.521,
+              26.696,
+              46.279
+            ],
+            "radius": 3.98
+          },
+          {
+            "center": [
+              34.556,
+              27.308,
+              47.725
+            ],
+            "radius": 4.34
+          },
+          {
+            "center": [
+              42.866,
+              15.79,
+              39.24
+            ],
+            "radius": 4.21
+          },
+          {
+            "center": [
+              43.64,
+              16.613,
+              38.573
+            ],
+            "radius": 3.98
+          },
+          {
+            "center": [
+              36.123,
+              22.756,
+              47.026
+            ],
+            "radius": 4.1
+          },
+          {
+            "center": [
+              35.748,
+              27.913,
+              48.185
+            ],
+            "radius": 3.72
+          },
+          {
+            "center": [
+              34.832,
+              27.332,
+              47.815
+            ],
+            "radius": 4.27
+          },
+          {
+            "center": [
+              35.21,
+              27.779,
+              47.119
+            ],
+            "radius": 3.76
+          },
+          {
+            "center": [
+              35.396,
+              27.92,
+              46.832
+            ],
+            "radius": 3.55
+          },
+          {
+            "center": [
+              35.384,
+              27.952,
+              46.936
+            ],
+            "radius": 3.59
+          },
+          {
+            "center": [
+              42.321,
+              15.627,
+              39.698
+            ],
+            "radius": 4.45
+          },
+          {
+            "center": [
+              35.579,
+              22.633,
+              46.084
+            ],
+            "radius": 3.84
+          },
+          {
+            "center": [
+              34.133,
+              22.854,
+              44.033
+            ],
+            "radius": 4.1
+          },
+          {
+            "center": [
+              34.843,
+              22.148,
+              44.199
+            ],
+            "radius": 3.97
+          },
+          {
+            "center": [
+              34.626,
+              22.515,
+              44.176
+            ],
+            "radius": 4.04
+          },
+          {
+            "center": [
+              35.377,
+              22.196,
+              45.01
+            ],
+            "radius": 3.86
+          },
+          {
+            "center": [
+              36.441,
+              20.398,
+              43.671
+            ],
+            "radius": 3.8
+          },
+          {
+            "center": [
+              35.486,
+              22.145,
+              45.081
+            ],
+            "radius": 3.83
+          },
+          {
+            "center": [
+              36.186,
+              22.706,
+              46.985
+            ],
+            "radius": 4.1
+          },
+          {
+            "center": [
+              35.466,
+              22.352,
+              45.293
+            ],
+            "radius": 3.86
+          },
+          {
+            "center": [
+              35.432,
+              22.337,
+              45.202
+            ],
+            "radius": 3.87
+          },
+          {
+            "center": [
+              35.439,
+              22.299,
+              45.181
+            ],
+            "radius": 3.87
+          },
+          {
+            "center": [
+              40.884,
+              17.914,
+              49.892
+            ],
+            "radius": 3.72
+          },
+          {
+            "center": [
+              40.899,
+              18.009,
+              49.893
+            ],
+            "radius": 3.66
+          },
+          {
+            "center": [
+              40.233,
+              17.744,
+              50.155
+            ],
+            "radius": 4.04
+          },
+          {
+            "center": [
+              35.859,
+              28.136,
+              47.609
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              35.595,
+              28.1,
+              46.964
+            ],
+            "radius": 3.44
+          },
+          {
+            "center": [
+              32.869,
+              24.448,
+              43.405
+            ],
+            "radius": 4.41
+          },
+          {
+            "center": [
+              33.076,
+              23.974,
+              43.332
+            ],
+            "radius": 4.41
+          },
+          {
+            "center": [
+              33.151,
+              24.017,
+              43.26
+            ],
+            "radius": 4.34
+          },
+          {
+            "center": [
+              31.876,
+              22.701,
+              43.066
+            ],
+            "radius": 4.53
+          },
+          {
+            "center": [
+              41.646,
+              14.823,
+              40.408
+            ],
+            "radius": 4.66
+          },
+          {
+            "center": [
+              42.299,
+              14.532,
+              38.956
+            ],
+            "radius": 4.27
+          },
+          {
+            "center": [
+              43.358,
+              16.892,
+              38.798
+            ],
+            "radius": 3.96
+          },
+          {
+            "center": [
+              42.357,
+              15.987,
+              39.656
+            ],
+            "radius": 4.34
+          },
+          {
+            "center": [
+              41.261,
+              15.575,
+              40.154
+            ],
+            "radius": 4.7
+          },
+          {
+            "center": [
+              41.145,
+              15.609,
+              40.148
+            ],
+            "radius": 4.68
+          },
+          {
+            "center": [
+              36.154,
+              20.406,
+              54.443
+            ],
+            "radius": 4.29
+          },
+          {
+            "center": [
+              38.082,
+              25.644,
+              54.216
+            ],
+            "radius": 3.49
+          },
+          {
+            "center": [
+              33.387,
+              24.815,
+              42.892
+            ],
+            "radius": 3.99
+          },
+          {
+            "center": [
+              33.428,
+              24.67,
+              42.889
+            ],
+            "radius": 3.99
+          },
+          {
+            "center": [
+              34.293,
+              24.048,
+              42.778
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              35.09,
+              26.218,
+              48.306
+            ],
+            "radius": 4.32
+          },
+          {
+            "center": [
+              36.264,
+              24.526,
+              48.245
+            ],
+            "radius": 4.1
+          },
+          {
+            "center": [
+              34.801,
+              26.775,
+              48.449
+            ],
+            "radius": 4.57
+          },
+          {
+            "center": [
+              35.229,
+              26.756,
+              48.971
+            ],
+            "radius": 4.51
+          },
+          {
+            "center": [
+              36.381,
+              23.001,
+              47.629
+            ],
+            "radius": 4.31
+          },
+          {
+            "center": [
+              35.65,
+              22.643,
+              47.891
+            ],
+            "radius": 3.63
+          },
+          {
+            "center": [
+              37.351,
+              22.348,
+              49.055
+            ],
+            "radius": 4.43
+          },
+          {
+            "center": [
+              36.656,
+              22.976,
+              47.781
+            ],
+            "radius": 4.41
+          },
+          {
+            "center": [
+              36.872,
+              23.122,
+              47.976
+            ],
+            "radius": 4.47
+          },
+          {
+            "center": [
+              37.113,
+              22.837,
+              48.187
+            ],
+            "radius": 4.55
+          },
+          {
+            "center": [
+              37.126,
+              22.856,
+              48.199
+            ],
+            "radius": 4.56
+          },
+          {
+            "center": [
+              39.821,
+              19.793,
+              50.484
+            ],
+            "radius": 3.63
+          },
+          {
+            "center": [
+              37.352,
+              22.863,
+              48.652
+            ],
+            "radius": 4.54
+          },
+          {
+            "center": [
+              37.439,
+              22.431,
+              49.168
+            ],
+            "radius": 4.47
+          },
+          {
+            "center": [
+              37.953,
+              22.987,
+              47.887
+            ],
+            "radius": 3.97
+          },
+          {
+            "center": [
+              42.387,
+              17.333,
+              49.906
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              42.611,
+              17.427,
+              49.909
+            ],
+            "radius": 3.44
+          },
+          {
+            "center": [
+              38.502,
+              24.427,
+              54.013
+            ],
+            "radius": 3.83
+          },
+          {
+            "center": [
+              32.168,
+              31.116,
+              53.91
+            ],
+            "radius": 3.81
+          },
+          {
+            "center": [
+              32.362,
+              30.697,
+              53.854
+            ],
+            "radius": 3.73
+          },
+          {
+            "center": [
+              41.232,
+              16.038,
+              40.581
+            ],
+            "radius": 4.27
+          },
+          {
+            "center": [
+              37.236,
+              26.14,
+              52.259
+            ],
+            "radius": 3.99
+          },
+          {
+            "center": [
+              37.915,
+              25.351,
+              53.148
+            ],
+            "radius": 4.01
+          },
+          {
+            "center": [
+              37.925,
+              25.332,
+              53.152
+            ],
+            "radius": 4.01
+          },
+          {
+            "center": [
+              37.898,
+              25.385,
+              53.55
+            ],
+            "radius": 3.89
+          },
+          {
+            "center": [
+              37.928,
+              25.326,
+              53.158
+            ],
+            "radius": 4.01
+          },
+          {
+            "center": [
+              38.042,
+              24.931,
+              53.445
+            ],
+            "radius": 4.01
+          },
+          {
+            "center": [
+              37.943,
+              25.276,
+              53.166
+            ],
+            "radius": 4.02
+          },
+          {
+            "center": [
+              33.043,
+              28.336,
+              52.08
+            ],
+            "radius": 3.44
+          },
+          {
+            "center": [
+              34.191,
+              26.786,
+              50.851
+            ],
+            "radius": 3.87
+          },
+          {
+            "center": [
+              34.683,
+              26.9,
+              49.349
+            ],
+            "radius": 4.3
+          },
+          {
+            "center": [
+              34.703,
+              26.797,
+              48.488
+            ],
+            "radius": 4.54
+          },
+          {
+            "center": [
+              30.546,
+              26.845,
+              45.664
+            ],
+            "radius": 4.38
+          },
+          {
+            "center": [
+              29.594,
+              28.854,
+              45.677
+            ],
+            "radius": 4.65
+          },
+          {
+            "center": [
+              29.75,
+              27.634,
+              45.499
+            ],
+            "radius": 4.57
+          },
+          {
+            "center": [
+              29.64,
+              28.894,
+              45.703
+            ],
+            "radius": 4.63
+          },
+          {
+            "center": [
+              32.237,
+              27.073,
+              46.389
+            ],
+            "radius": 4.04
+          },
+          {
+            "center": [
+              34.5,
+              26.985,
+              48.032
+            ],
+            "radius": 4.51
+          },
+          {
+            "center": [
+              34.217,
+              27.084,
+              47.676
+            ],
+            "radius": 4.43
+          },
+          {
+            "center": [
+              34.331,
+              27.154,
+              47.789
+            ],
+            "radius": 4.46
+          },
+          {
+            "center": [
+              44.022,
+              12.976,
+              49.84
+            ],
+            "radius": 4.05
+          },
+          {
+            "center": [
+              40.27,
+              16.34,
+              51.038
+            ],
+            "radius": 4.54
+          },
+          {
+            "center": [
+              42.148,
+              15.772,
+              50.954
+            ],
+            "radius": 4.32
+          },
+          {
+            "center": [
+              42.172,
+              15.422,
+              50.842
+            ],
+            "radius": 4.26
+          },
+          {
+            "center": [
+              42.581,
+              14.774,
+              50.806
+            ],
+            "radius": 4.18
+          },
+          {
+            "center": [
+              37.004,
+              21.01,
+              46.378
+            ],
+            "radius": 3.74
+          },
+          {
+            "center": [
+              36.861,
+              20.951,
+              46.361
+            ],
+            "radius": 3.62
+          },
+          {
+            "center": [
+              36.94,
+              21.038,
+              46.327
+            ],
+            "radius": 3.73
+          },
+          {
+            "center": [
+              36.942,
+              21.037,
+              46.331
+            ],
+            "radius": 3.73
+          },
+          {
+            "center": [
+              43.183,
+              17.404,
+              38.435
+            ],
+            "radius": 3.61
+          },
+          {
+            "center": [
+              39.355,
+              17.507,
+              41.37
+            ],
+            "radius": 3.83
+          },
+          {
+            "center": [
+              37.38,
+              20.412,
+              45.564
+            ],
+            "radius": 3.52
+          },
+          {
+            "center": [
+              36.475,
+              20.35,
+              43.655
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              36.566,
+              20.35,
+              43.882
+            ],
+            "radius": 3.74
+          },
+          {
+            "center": [
+              36.484,
+              20.24,
+              43.601
+            ],
+            "radius": 3.81
+          },
+          {
+            "center": [
+              36.49,
+              20.233,
+              43.608
+            ],
+            "radius": 3.81
+          },
+          {
+            "center": [
+              36.662,
+              20.428,
+              43.4
+            ],
+            "radius": 3.63
+          },
+          {
+            "center": [
+              36.506,
+              20.372,
+              43.616
+            ],
+            "radius": 3.78
+          },
+          {
+            "center": [
+              43.436,
+              16.156,
+              53.112
+            ],
+            "radius": 3.73
+          },
+          {
+            "center": [
+              37.623,
+              21.407,
+              54.256
+            ],
+            "radius": 4.6
+          },
+          {
+            "center": [
+              37.582,
+              21.815,
+              53.57
+            ],
+            "radius": 4.62
+          },
+          {
+            "center": [
+              37.689,
+              22.036,
+              53.723
+            ],
+            "radius": 4.54
+          },
+          {
+            "center": [
+              38.654,
+              22.207,
+              55.369
+            ],
+            "radius": 4.01
+          },
+          {
+            "center": [
+              40.455,
+              23.589,
+              55.736
+            ],
+            "radius": 3.49
+          },
+          {
+            "center": [
+              40.455,
+              23.748,
+              55.577
+            ],
+            "radius": 3.5
+          },
+          {
+            "center": [
+              40.184,
+              23.749,
+              55.313
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              40.779,
+              23.689,
+              55.744
+            ],
+            "radius": 3.41
+          },
+          {
+            "center": [
+              40.765,
+              23.787,
+              55.642
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              37.589,
+              25.971,
+              53.775
+            ],
+            "radius": 3.69
+          },
+          {
+            "center": [
+              37.431,
+              26.271,
+              53.552
+            ],
+            "radius": 3.7
+          },
+          {
+            "center": [
+              37.141,
+              26.662,
+              53.33
+            ],
+            "radius": 3.69
+          },
+          {
+            "center": [
+              37.405,
+              24.919,
+              51.143
+            ],
+            "radius": 4.6
+          },
+          {
+            "center": [
+              37.659,
+              24.892,
+              51.826
+            ],
+            "radius": 4.35
+          },
+          {
+            "center": [
+              37.424,
+              24.944,
+              50.966
+            ],
+            "radius": 4.6
+          },
+          {
+            "center": [
+              38.463,
+              25.19,
+              50.654
+            ],
+            "radius": 3.82
+          },
+          {
+            "center": [
+              37.396,
+              23.773,
+              51.673
+            ],
+            "radius": 4.35
+          },
+          {
+            "center": [
+              37.688,
+              22.137,
+              53.234
+            ],
+            "radius": 4.57
+          },
+          {
+            "center": [
+              37.654,
+              23.138,
+              49.532
+            ],
+            "radius": 4.53
+          },
+          {
+            "center": [
+              37.65,
+              22.774,
+              49.707
+            ],
+            "radius": 4.5
+          },
+          {
+            "center": [
+              38.041,
+              24.659,
+              52.944
+            ],
+            "radius": 4.15
+          },
+          {
+            "center": [
+              38.147,
+              24.357,
+              53.371
+            ],
+            "radius": 4.15
+          },
+          {
+            "center": [
+              37.89,
+              22.543,
+              53.571
+            ],
+            "radius": 4.44
+          },
+          {
+            "center": [
+              37.973,
+              21.077,
+              50.523
+            ],
+            "radius": 4.52
+          },
+          {
+            "center": [
+              38.653,
+              23.882,
+              54.028
+            ],
+            "radius": 4.01
+          },
+          {
+            "center": [
+              38.717,
+              23.421,
+              54.217
+            ],
+            "radius": 4.05
+          },
+          {
+            "center": [
+              39.084,
+              23.645,
+              54.349
+            ],
+            "radius": 3.89
+          },
+          {
+            "center": [
+              38.792,
+              20.19,
+              50.948
+            ],
+            "radius": 4.38
+          },
+          {
+            "center": [
+              43.913,
+              15.6,
+              53.902
+            ],
+            "radius": 3.48
+          },
+          {
+            "center": [
+              43.966,
+              15.832,
+              53.637
+            ],
+            "radius": 3.72
+          },
+          {
+            "center": [
+              43.836,
+              15.924,
+              53.62
+            ],
+            "radius": 3.68
+          },
+          {
+            "center": [
+              37.724,
+              17.363,
+              42.762
+            ],
+            "radius": 3.5
+          },
+          {
+            "center": [
+              37.724,
+              17.318,
+              42.877
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              37.825,
+              17.893,
+              42.821
+            ],
+            "radius": 3.66
+          },
+          {
+            "center": [
+              36.968,
+              19.452,
+              43.749
+            ],
+            "radius": 3.48
+          },
+          {
+            "center": [
+              37.235,
+              15.751,
+              39.669
+            ],
+            "radius": 4.83
+          },
+          {
+            "center": [
+              36.397,
+              16.27,
+              40.118
+            ],
+            "radius": 4.43
+          },
+          {
+            "center": [
+              37.226,
+              16.849,
+              40.434
+            ],
+            "radius": 4.54
+          },
+          {
+            "center": [
+              38.738,
+              17.447,
+              38.405
+            ],
+            "radius": 3.44
+          },
+          {
+            "center": [
+              39.14,
+              17.49,
+              41.286
+            ],
+            "radius": 3.95
+          },
+          {
+            "center": [
+              39.371,
+              16.261,
+              40.2
+            ],
+            "radius": 4.62
+          },
+          {
+            "center": [
+              39.852,
+              16.834,
+              39.428
+            ],
+            "radius": 3.93
+          },
+          {
+            "center": [
+              39.783,
+              16.9,
+              39.323
+            ],
+            "radius": 3.85
+          },
+          {
+            "center": [
+              39.876,
+              16.871,
+              39.395
+            ],
+            "radius": 3.89
+          },
+          {
+            "center": [
+              37.914,
+              17.566,
+              41.504
+            ],
+            "radius": 4.3
+          },
+          {
+            "center": [
+              37.357,
+              18.517,
+              41.652
+            ],
+            "radius": 4.02
+          },
+          {
+            "center": [
+              37.893,
+              17.365,
+              41.335
+            ],
+            "radius": 4.37
+          },
+          {
+            "center": [
+              32.39,
+              30.707,
+              54.626
+            ],
+            "radius": 3.49
+          },
+          {
+            "center": [
+              38.299,
+              21.913,
+              55.172
+            ],
+            "radius": 4.07
+          },
+          {
+            "center": [
+              38.26,
+              21.834,
+              55.013
+            ],
+            "radius": 4.17
+          },
+          {
+            "center": [
+              38.502,
+              22.049,
+              55.247
+            ],
+            "radius": 4.06
+          },
+          {
+            "center": [
+              39.18,
+              22.405,
+              56.434
+            ],
+            "radius": 3.42
+          },
+          {
+            "center": [
+              39.227,
+              22.302,
+              55.831
+            ],
+            "radius": 3.78
+          },
+          {
+            "center": [
+              38.752,
+              22.203,
+              55.468
+            ],
+            "radius": 3.96
+          },
+          {
+            "center": [
+              41.994,
+              11.868,
+              50.484
+            ],
+            "radius": 3.79
+          },
+          {
+            "center": [
+              42.211,
+              12.055,
+              49.834
+            ],
+            "radius": 4.28
+          },
+          {
+            "center": [
+              41.732,
+              13.422,
+              50.45
+            ],
+            "radius": 4.15
+          },
+          {
+            "center": [
+              40.356,
+              14.203,
+              49.951
+            ],
+            "radius": 3.98
+          },
+          {
+            "center": [
+              40.327,
+              14.834,
+              50.554
+            ],
+            "radius": 4.26
+          },
+          {
+            "center": [
+              40.768,
+              14.464,
+              50.458
+            ],
+            "radius": 4.2
+          },
+          {
+            "center": [
+              45.823,
+              14.942,
+              54.083
+            ],
+            "radius": 3.48
+          },
+          {
+            "center": [
+              44.492,
+              15.641,
+              54.067
+            ],
+            "radius": 3.6
+          },
+          {
+            "center": [
+              44.452,
+              15.73,
+              53.942
+            ],
+            "radius": 3.67
+          },
+          {
+            "center": [
+              45.106,
+              15.607,
+              53.556
+            ],
+            "radius": 3.73
+          },
+          {
+            "center": [
+              45.68,
+              15.289,
+              53.593
+            ],
+            "radius": 3.68
+          },
+          {
+            "center": [
+              45.959,
+              14.599,
+              52.581
+            ],
+            "radius": 3.5
+          },
+          {
+            "center": [
+              46.74,
+              12.678,
+              50.787
+            ],
+            "radius": 4.23
+          },
+          {
+            "center": [
+              47.078,
+              12.531,
+              50.436
+            ],
+            "radius": 4.37
+          },
+          {
+            "center": [
+              47.049,
+              12.52,
+              50.452
+            ],
+            "radius": 4.38
+          },
+          {
+            "center": [
+              47.236,
+              12.478,
+              49.283
+            ],
+            "radius": 4.45
+          },
+          {
+            "center": [
+              46.014,
+              12.501,
+              49.173
+            ],
+            "radius": 4.34
+          },
+          {
+            "center": [
+              45.36,
+              12.425,
+              49.641
+            ],
+            "radius": 4.44
+          },
+          {
+            "center": [
+              42.651,
+              14.868,
+              50.872
+            ],
+            "radius": 4.18
+          },
+          {
+            "center": [
+              46.154,
+              12.23,
+              49.211
+            ],
+            "radius": 4.59
+          },
+          {
+            "center": [
+              46.117,
+              12.355,
+              49.176
+            ],
+            "radius": 4.48
+          },
+          {
+            "center": [
+              42.178,
+              15.768,
+              50.967
+            ],
+            "radius": 4.32
+          },
+          {
+            "center": [
+              42.863,
+              17.243,
+              50.122
+            ],
+            "radius": 3.41
+          },
+          {
+            "center": [
+              44.254,
+              15.787,
+              52.941
+            ],
+            "radius": 3.79
+          },
+          {
+            "center": [
+              43.663,
+              15.946,
+              52.698
+            ],
+            "radius": 3.91
+          },
+          {
+            "center": [
+              43.749,
+              15.89,
+              52.754
+            ],
+            "radius": 3.91
+          },
+          {
+            "center": [
+              37.276,
+              18.388,
+              41.475
+            ],
+            "radius": 4.03
+          },
+          {
+            "center": [
+              36.312,
+              17.944,
+              40.715
+            ],
+            "radius": 3.91
+          },
+          {
+            "center": [
+              37.168,
+              17.022,
+              40.489
+            ],
+            "radius": 4.45
+          },
+          {
+            "center": [
+              37.337,
+              16.929,
+              40.505
+            ],
+            "radius": 4.55
+          },
+          {
+            "center": [
+              37.431,
+              16.999,
+              40.598
+            ],
+            "radius": 4.53
+          },
+          {
+            "center": [
+              37.455,
+              16.896,
+              40.491
+            ],
+            "radius": 4.58
+          },
+          {
+            "center": [
+              37.144,
+              26.672,
+              53.335
+            ],
+            "radius": 3.68
+          },
+          {
+            "center": [
+              36.84,
+              26.77,
+              53.32
+            ],
+            "radius": 3.51
+          },
+          {
+            "center": [
+              37.129,
+              26.668,
+              53.334
+            ],
+            "radius": 3.68
+          },
+          {
+            "center": [
+              36.843,
+              26.74,
+              53.487
+            ],
+            "radius": 3.45
+          },
+          {
+            "center": [
+              32.808,
+              29.66,
+              53.319
+            ],
+            "radius": 3.52
+          },
+          {
+            "center": [
+              32.788,
+              29.721,
+              53.349
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              32.807,
+              29.677,
+              53.321
+            ],
+            "radius": 3.53
+          },
+          {
+            "center": [
+              32.483,
+              30.712,
+              54.462
+            ],
+            "radius": 3.58
+          },
+          {
+            "center": [
+              32.449,
+              30.782,
+              54.26
+            ],
+            "radius": 3.68
+          },
+          {
+            "center": [
+              32.429,
+              30.868,
+              54.048
+            ],
+            "radius": 3.79
+          },
+          {
+            "center": [
+              32.438,
+              30.778,
+              53.998
+            ],
+            "radius": 3.77
+          },
+          {
+            "center": [
+              34.38,
+              18.456,
+              54.513
+            ],
+            "radius": 4.46
+          },
+          {
+            "center": [
+              34.89,
+              18.873,
+              54.38
+            ],
+            "radius": 4.42
+          },
+          {
+            "center": [
+              36.03,
+              19.905,
+              54.44
+            ],
+            "radius": 4.4
+          },
+          {
+            "center": [
+              38.015,
+              19.387,
+              54.112
+            ],
+            "radius": 4.64
+          }
+        ]
+      }
+    }
+  ],
+  "model": {
+    "name": "SLiPP",
+    "version": "944b3700ace6-sklearn1.8.0-seed2026",
+    "classes": [
+      "non-lipid",
+      "lipid"
+    ],
+    "calibration": "Original 17-feature random forest recipe, refitted from published training data; seed 2026, sklearn 1.8.0. Uncalibrated P(lipid), not lipid identity."
+  },
+  "provenance": "Bundled BstB reference. Zhai et al., Novel sterol binding domains in bacteria, https://doi.org/10.7554/eLife.90696. Deposited coordinates: https://files.rcsb.org/download/7T1M.pdb; SHA256 474ae55cec6b16e34cf51b28dd4415f7c8e25f5cdce38a00c7ffb6cac86c74cc; retained in deposited-7T1M.pdb. Prepared copy SHA256 2d7f17dec764dcadcc2d68e578647965cd3a24d5010354c8e40fbb1a73201444. Nine selenomethionines converted to methionine (MSE\u2192MET, Se\u2192S, atom SE\u2192SD): ['A:23', 'A:47', 'A:50', 'A:80', 'A:83', 'A:98', 'A:132', 'A:220', 'A:273']. Atom coordinates unchanged; no minimization or missing-loop reconstruction. Waters and chloride retained in the input, excluded from default inference and docking. The paper reports C-4 methylsterol binding, with no detectable BstB binding to cholesterol or lanosterol under its assay conditions. This example is not a held-out validation or a reproduction of the published docking. Dassama Lab SLiPP_2024 944b3700ace6921629e1c3a2d9fd2cb44f98f5ed; training SHA256 4d27636b4381dc3c1b9e27451db5b788e6b16f13919c4ed36f8c2ba108097711; fpocket 4.0 (4bb0d8447f62), executable SHA256 1fd6c2e705dc2bc785990e1d5d67fe3211ac0dca6be844c6d0cb1cb01b273edb. First-model protein heavy atoms; alternate conformations reduced; nonprotein residues excluded. Excluded chains: []. fpocket Monte Carlo descriptors may vary between runs."
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pubchem-985",
+    "name": "Palmitic acid",
+    "smiles": "CCCCCCCCCCCCCCCC(=O)O",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/985"
+  },
+  {
+    "id": "pubchem-445639",
+    "name": "Oleic acid",
+    "smiles": "CCCCCCCC/C=C\\CCCCCCCC(=O)O",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/445639"
+  },
+  {
+    "id": "pubchem-5281",
+    "name": "Stearic acid",
+    "smiles": "CCCCCCCCCCCCCCCCCC(=O)O",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5281"
+  },
+  {
+    "id": "pubchem-5280450",
+    "name": "Linoleic acid",
+    "smiles": "CCCCC/C=C\\C/C=C\\CCCCCCCC(=O)O",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5280450"
+  },
+  {
+    "id": "pubchem-5997",
+    "name": "Cholesterol",
+    "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5997"
+  }
+]
